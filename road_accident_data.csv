@@ -1,0 +1,2001 @@
+Accident_ID,Date,Time,Location,Weather_Condition,Road_Surface,Light_Condition,Vehicle_Type,Driver_Age,Driver_Gender,Speed_kmph,Alcohol_Involved,Number_of_Vehicles,Number_of_Casualties,Accident_Severity,Day_of_Week,Month
+1,2023-04-13,05:23,Mumbai,Clear,Dry,Daylight,Truck,47,Male,36,No,3,0,Minor,Thursday,April
+2,2024-03-11,18:04,Pune,Clear,Dry,Daylight,Bicycle,53,Male,101,No,1,3,Fatal,Monday,March
+3,2023-09-28,22:37,Hyderabad,Snow,Dry,Darkness,Car,66,Male,26,No,1,1,Minor,Thursday,September
+4,2023-04-17,18:16,Chennai,Fog,Snowy,Daylight,Car,51,Female,75,Yes,2,5,Minor,Monday,April
+5,2023-03-13,03:55,Pune,Windy,Dry,Daylight,Motorcycle,33,Female,83,No,4,1,Minor,Monday,March
+6,2024-12-01,04:16,Chennai,Rain,Dry,Darkness,Auto Rickshaw,41,Male,39,No,4,4,Serious,Sunday,December
+7,2023-01-21,21:44,Mumbai,Clear,Wet,Daylight,Car,31,Male,57,No,1,3,Minor,Saturday,January
+8,2024-09-06,06:32,Lucknow,Clear,Dry,Darkness,Car,43,Male,94,No,1,5,Minor,Friday,September
+9,2023-05-02,12:55,Pune,Clear,Wet,Daylight,Car,25,Male,77,No,2,5,Minor,Tuesday,May
+10,2024-04-11,23:23,Ahmedabad,Clear,Wet,Daylight,Truck,31,Female,35,No,1,5,Minor,Thursday,April
+11,2023-08-03,05:55,Mumbai,Clear,Wet,Daylight,Car,48,Male,70,No,2,0,Minor,Thursday,August
+12,2023-11-27,10:12,Kolkata,Clear,Dry,Darkness,Bus,19,Female,46,No,3,5,Minor,Monday,November
+13,2024-04-03,21:21,Delhi,Clear,Dry,Darkness,Bicycle,65,Male,70,Yes,1,5,Serious,Wednesday,April
+14,2023-03-29,14:04,Pune,Snow,Dry,Daylight,Car,21,Male,94,No,3,3,Minor,Wednesday,March
+15,2024-01-08,06:39,Ahmedabad,Clear,Dry,Daylight,Auto Rickshaw,18,Male,35,No,1,1,Minor,Monday,January
+16,2023-04-10,06:21,Hyderabad,Fog,Wet,Twilight,Auto Rickshaw,37,Male,106,Yes,1,1,Minor,Monday,April
+17,2024-10-25,01:52,Kolkata,Rain,Wet,Daylight,Car,31,Male,79,No,3,2,Minor,Friday,October
+18,2023-05-11,23:10,Hyderabad,Clear,Wet,Darkness,Car,57,Male,95,No,3,2,Serious,Thursday,May
+19,2024-10-23,17:37,Mumbai,Clear,Snowy,Daylight,Bus,42,Male,59,Yes,2,4,Minor,Wednesday,October
+20,2023-11-05,14:04,Delhi,Clear,Wet,Darkness,Car,42,Male,86,No,2,3,Minor,Sunday,November
+21,2023-12-10,01:27,Pune,Clear,Dry,Daylight,Car,20,Male,21,Yes,3,2,Serious,Sunday,December
+22,2024-05-06,10:33,Pune,Rain,Dry,Darkness,Bicycle,22,Male,67,No,1,2,Serious,Monday,May
+23,2024-02-18,21:50,Lucknow,Clear,Wet,Darkness,Auto Rickshaw,55,Female,71,No,2,3,Minor,Sunday,February
+24,2024-01-21,08:47,Lucknow,Clear,Dry,Daylight,Bus,43,Male,43,No,1,1,Serious,Sunday,January
+25,2023-07-11,05:18,Mumbai,Clear,Dry,Daylight,Auto Rickshaw,57,Male,112,No,4,4,Fatal,Tuesday,July
+26,2023-10-04,13:10,Mumbai,Windy,Dry,Darkness,Bus,55,Female,117,No,2,4,Serious,Wednesday,October
+27,2023-06-10,13:55,Delhi,Fog,Wet,Darkness,Auto Rickshaw,55,Male,103,Yes,2,4,Minor,Saturday,June
+28,2024-04-04,06:00,Lucknow,Rain,Dry,Daylight,Car,21,Male,101,No,2,2,Fatal,Thursday,April
+29,2023-11-10,00:40,Ahmedabad,Clear,Wet,Daylight,Auto Rickshaw,24,Female,97,No,4,1,Minor,Friday,November
+30,2023-01-22,04:56,Ahmedabad,Fog,Wet,Darkness,Auto Rickshaw,47,Male,101,Yes,3,4,Minor,Sunday,January
+31,2023-09-10,10:09,Delhi,Fog,Dry,Daylight,Bus,47,Male,21,No,1,3,Minor,Sunday,September
+32,2024-07-14,01:12,Ahmedabad,Rain,Dry,Darkness,Motorcycle,36,Male,84,No,4,4,Minor,Sunday,July
+33,2024-04-19,18:57,Jaipur,Windy,Dry,Daylight,Bus,56,Male,39,No,3,0,Minor,Friday,April
+34,2023-02-28,21:24,Chennai,Clear,Wet,Darkness,Bus,52,Male,53,No,2,1,Minor,Tuesday,February
+35,2024-05-25,14:06,Delhi,Snow,Wet,Twilight,Bus,57,Female,60,No,3,0,Fatal,Saturday,May
+36,2024-11-12,17:39,Delhi,Snow,Snowy,Twilight,Truck,50,Male,60,No,3,1,Minor,Tuesday,November
+37,2024-04-20,13:02,Bangalore,Clear,Dry,Daylight,Truck,50,Male,94,No,3,5,Minor,Saturday,April
+38,2024-11-30,03:41,Kolkata,Clear,Dry,Darkness,Truck,31,Male,110,Yes,1,3,Serious,Saturday,November
+39,2023-07-09,17:36,Kolkata,Windy,Dry,Daylight,Bus,55,Male,42,No,3,5,Minor,Sunday,July
+40,2024-11-17,03:35,Jaipur,Clear,Wet,Daylight,Motorcycle,27,Female,57,No,3,2,Serious,Sunday,November
+41,2024-07-16,11:05,Lucknow,Rain,Dry,Daylight,Bus,45,Male,63,No,3,2,Minor,Tuesday,July
+42,2024-07-20,07:10,Mumbai,Windy,Dry,Daylight,Car,31,Female,86,No,3,5,Serious,Saturday,July
+43,2023-09-01,12:45,Mumbai,Rain,Dry,Twilight,Motorcycle,53,Male,81,Yes,4,1,Minor,Friday,September
+44,2024-05-19,07:20,Hyderabad,Clear,Dry,Daylight,Truck,55,Male,31,No,4,4,Serious,Sunday,May
+45,2023-05-11,18:48,Jaipur,Rain,Dry,Darkness,Auto Rickshaw,33,Female,49,Yes,3,0,Serious,Thursday,May
+46,2024-04-29,20:28,Delhi,Clear,Dry,Darkness,Auto Rickshaw,38,Female,114,Yes,3,3,Minor,Monday,April
+47,2024-10-08,09:57,Jaipur,Rain,Dry,Darkness,Bicycle,45,Female,106,No,3,4,Minor,Tuesday,October
+48,2023-01-21,04:27,Jaipur,Clear,Dry,Daylight,Motorcycle,50,Male,84,Yes,2,2,Minor,Saturday,January
+49,2023-06-16,06:01,Jaipur,Rain,Wet,Daylight,Truck,23,Male,60,Yes,3,4,Serious,Friday,June
+50,2023-10-01,03:10,Kolkata,Rain,Wet,Darkness,Motorcycle,58,Male,39,No,3,5,Serious,Sunday,October
+51,2024-01-23,18:00,Jaipur,Rain,Dry,Daylight,Motorcycle,32,Female,25,Yes,4,5,Minor,Tuesday,January
+52,2024-08-23,21:33,Chennai,Rain,Wet,Daylight,Auto Rickshaw,61,Male,94,Yes,4,0,Minor,Friday,August
+53,2023-11-12,04:49,Mumbai,Rain,Dry,Daylight,Bus,20,Male,118,Yes,4,2,Serious,Sunday,November
+54,2023-01-14,16:50,Hyderabad,Rain,Dry,Daylight,Car,60,Male,23,No,1,1,Minor,Saturday,January
+55,2023-08-30,06:09,Chennai,Clear,Snowy,Darkness,Bicycle,64,Male,112,No,2,3,Serious,Wednesday,August
+56,2023-12-12,23:40,Hyderabad,Rain,Wet,Daylight,Truck,52,Female,29,No,3,5,Serious,Tuesday,December
+57,2024-07-18,09:44,Bangalore,Clear,Wet,Daylight,Motorcycle,31,Male,70,No,4,3,Serious,Thursday,July
+58,2023-12-06,11:46,Hyderabad,Snow,Dry,Daylight,Bicycle,19,Male,112,No,1,2,Minor,Wednesday,December
+59,2023-04-02,05:09,Mumbai,Clear,Dry,Daylight,Motorcycle,46,Male,57,Yes,3,1,Minor,Sunday,April
+60,2024-01-02,13:15,Mumbai,Clear,Snowy,Daylight,Auto Rickshaw,21,Male,20,Yes,3,5,Minor,Tuesday,January
+61,2024-03-30,23:52,Jaipur,Rain,Dry,Daylight,Car,43,Male,27,No,4,0,Minor,Saturday,March
+62,2024-03-03,19:58,Pune,Clear,Dry,Daylight,Auto Rickshaw,68,Male,100,No,3,3,Serious,Sunday,March
+63,2024-05-23,06:10,Bangalore,Clear,Wet,Darkness,Bicycle,29,Male,102,No,3,2,Minor,Thursday,May
+64,2023-02-04,18:58,Delhi,Rain,Wet,Daylight,Truck,19,Male,82,No,3,3,Minor,Saturday,February
+65,2023-07-25,04:53,Ahmedabad,Rain,Snowy,Daylight,Motorcycle,34,Male,52,No,4,1,Minor,Tuesday,July
+66,2023-03-22,16:03,Hyderabad,Rain,Dry,Daylight,Car,52,Male,34,Yes,1,0,Fatal,Wednesday,March
+67,2024-07-15,16:36,Pune,Clear,Snowy,Daylight,Auto Rickshaw,27,Male,50,No,3,1,Minor,Monday,July
+68,2024-01-23,04:50,Jaipur,Rain,Dry,Twilight,Bicycle,65,Male,40,No,1,5,Minor,Tuesday,January
+69,2023-01-02,05:03,Kolkata,Clear,Dry,Daylight,Auto Rickshaw,39,Male,22,No,3,4,Minor,Monday,January
+70,2024-01-25,14:16,Delhi,Rain,Wet,Daylight,Motorcycle,58,Male,85,No,4,1,Minor,Thursday,January
+71,2024-07-19,06:51,Lucknow,Rain,Dry,Daylight,Motorcycle,60,Female,54,No,1,1,Minor,Friday,July
+72,2023-04-16,09:41,Pune,Rain,Dry,Twilight,Truck,38,Male,60,No,4,3,Fatal,Sunday,April
+73,2024-04-21,11:24,Kolkata,Clear,Wet,Daylight,Car,32,Male,78,No,2,1,Minor,Sunday,April
+74,2024-12-03,00:41,Bangalore,Clear,Dry,Darkness,Bus,52,Female,35,No,3,2,Minor,Tuesday,December
+75,2024-02-06,00:19,Jaipur,Clear,Dry,Daylight,Auto Rickshaw,65,Male,75,No,2,5,Minor,Tuesday,February
+76,2024-12-30,17:14,Delhi,Clear,Dry,Twilight,Motorcycle,38,Female,64,No,2,3,Minor,Monday,December
+77,2024-07-09,08:02,Delhi,Clear,Dry,Darkness,Bicycle,38,Male,78,No,2,3,Serious,Tuesday,July
+78,2023-06-11,02:14,Delhi,Rain,Dry,Daylight,Auto Rickshaw,38,Female,69,No,3,4,Minor,Sunday,June
+79,2023-07-21,00:34,Bangalore,Clear,Wet,Daylight,Truck,61,Female,104,Yes,4,5,Serious,Friday,July
+80,2023-09-27,19:21,Hyderabad,Snow,Wet,Daylight,Truck,49,Male,31,No,2,2,Serious,Wednesday,September
+81,2023-09-28,09:18,Lucknow,Clear,Dry,Daylight,Motorcycle,22,Male,111,Yes,1,5,Minor,Thursday,September
+82,2024-03-31,18:33,Bangalore,Fog,Wet,Daylight,Motorcycle,56,Male,31,No,3,1,Fatal,Sunday,March
+83,2024-04-06,16:23,Ahmedabad,Rain,Dry,Daylight,Motorcycle,26,Male,52,No,4,4,Serious,Saturday,April
+84,2024-12-27,00:52,Lucknow,Clear,Dry,Daylight,Bus,35,Male,103,No,4,2,Serious,Friday,December
+85,2023-09-09,02:02,Mumbai,Clear,Wet,Daylight,Motorcycle,38,Male,68,Yes,2,4,Minor,Saturday,September
+86,2024-12-02,07:39,Jaipur,Rain,Dry,Daylight,Auto Rickshaw,25,Male,40,No,3,5,Minor,Monday,December
+87,2023-10-23,14:59,Bangalore,Clear,Icy,Daylight,Auto Rickshaw,61,Male,79,No,2,0,Serious,Monday,October
+88,2024-12-25,15:14,Kolkata,Snow,Dry,Daylight,Car,69,Female,71,No,1,5,Serious,Wednesday,December
+89,2024-12-20,18:38,Lucknow,Rain,Wet,Twilight,Bicycle,51,Male,73,No,4,1,Minor,Friday,December
+90,2023-12-04,16:02,Ahmedabad,Snow,Dry,Daylight,Motorcycle,27,Male,58,No,4,4,Minor,Monday,December
+91,2023-02-22,12:49,Mumbai,Clear,Dry,Darkness,Auto Rickshaw,68,Male,68,No,3,0,Fatal,Wednesday,February
+92,2023-08-05,20:14,Hyderabad,Rain,Dry,Daylight,Auto Rickshaw,58,Male,83,No,4,1,Minor,Saturday,August
+93,2023-07-07,12:40,Kolkata,Rain,Wet,Daylight,Auto Rickshaw,41,Male,119,Yes,3,4,Minor,Friday,July
+94,2024-01-15,22:47,Lucknow,Rain,Dry,Daylight,Bus,57,Female,105,No,2,4,Minor,Monday,January
+95,2024-05-07,01:59,Jaipur,Clear,Snowy,Daylight,Bicycle,41,Male,45,Yes,1,5,Minor,Tuesday,May
+96,2023-02-10,20:04,Kolkata,Rain,Dry,Darkness,Truck,49,Male,90,No,3,4,Minor,Friday,February
+97,2023-06-06,08:42,Mumbai,Clear,Dry,Darkness,Auto Rickshaw,50,Female,26,Yes,2,4,Fatal,Tuesday,June
+98,2023-01-15,21:05,Kolkata,Rain,Dry,Daylight,Motorcycle,55,Female,91,No,1,3,Serious,Sunday,January
+99,2023-03-06,23:18,Chennai,Clear,Wet,Twilight,Auto Rickshaw,61,Male,81,No,4,4,Serious,Monday,March
+100,2024-06-04,12:59,Pune,Fog,Snowy,Daylight,Bicycle,68,Male,109,No,1,5,Minor,Tuesday,June
+101,2023-12-10,02:32,Hyderabad,Clear,Dry,Twilight,Truck,66,Male,107,No,1,3,Minor,Sunday,December
+102,2023-05-09,09:02,Mumbai,Fog,Wet,Twilight,Bus,51,Male,43,Yes,1,3,Minor,Tuesday,May
+103,2024-10-09,22:21,Kolkata,Fog,Dry,Daylight,Car,28,Female,59,No,4,0,Fatal,Wednesday,October
+104,2024-04-16,07:49,Pune,Fog,Wet,Daylight,Motorcycle,48,Male,95,No,3,1,Minor,Tuesday,April
+105,2023-03-04,08:49,Pune,Rain,Snowy,Daylight,Car,35,Male,66,No,3,3,Minor,Saturday,March
+106,2023-05-19,17:48,Kolkata,Clear,Dry,Darkness,Bus,40,Female,27,No,1,2,Minor,Friday,May
+107,2024-05-13,12:21,Jaipur,Windy,Dry,Daylight,Bicycle,39,Male,73,No,2,3,Minor,Monday,May
+108,2024-08-15,07:17,Chennai,Clear,Icy,Twilight,Bicycle,60,Female,28,No,2,2,Minor,Thursday,August
+109,2024-01-27,07:15,Bangalore,Rain,Snowy,Darkness,Bus,35,Male,22,No,1,0,Minor,Saturday,January
+110,2024-11-05,08:07,Chennai,Rain,Dry,Daylight,Auto Rickshaw,57,Male,73,No,1,2,Minor,Tuesday,November
+111,2024-02-23,18:29,Kolkata,Rain,Dry,Daylight,Bus,64,Male,40,No,2,0,Minor,Friday,February
+112,2023-10-16,19:18,Hyderabad,Clear,Dry,Darkness,Motorcycle,58,Male,114,No,1,0,Serious,Monday,October
+113,2024-01-14,08:23,Bangalore,Rain,Dry,Daylight,Truck,64,Male,67,No,1,0,Minor,Sunday,January
+114,2024-05-04,15:51,Mumbai,Fog,Wet,Darkness,Car,56,Male,66,Yes,3,2,Minor,Saturday,May
+115,2023-08-19,13:07,Chennai,Clear,Wet,Daylight,Car,37,Male,107,No,3,2,Minor,Saturday,August
+116,2023-02-10,07:38,Kolkata,Snow,Dry,Daylight,Bicycle,30,Female,87,No,1,0,Minor,Friday,February
+117,2023-01-28,22:44,Chennai,Clear,Dry,Daylight,Auto Rickshaw,62,Male,103,No,1,0,Minor,Saturday,January
+118,2023-05-15,16:03,Bangalore,Clear,Dry,Darkness,Bicycle,18,Male,82,No,4,1,Minor,Monday,May
+119,2023-07-20,16:22,Ahmedabad,Clear,Dry,Daylight,Motorcycle,69,Male,35,No,3,0,Minor,Thursday,July
+120,2023-02-02,22:20,Lucknow,Clear,Dry,Darkness,Bus,21,Female,93,No,1,4,Serious,Thursday,February
+121,2023-02-17,09:16,Chennai,Snow,Dry,Daylight,Car,41,Male,109,No,4,1,Minor,Friday,February
+122,2024-05-17,07:55,Mumbai,Clear,Dry,Darkness,Motorcycle,53,Male,112,No,4,1,Minor,Friday,May
+123,2024-02-11,07:10,Mumbai,Clear,Dry,Daylight,Bicycle,53,Male,24,No,4,1,Serious,Sunday,February
+124,2024-07-27,09:25,Delhi,Clear,Dry,Daylight,Bicycle,62,Male,30,Yes,4,4,Minor,Saturday,July
+125,2024-12-28,15:52,Chennai,Rain,Dry,Darkness,Car,19,Male,48,Yes,3,1,Minor,Saturday,December
+126,2023-04-09,23:34,Lucknow,Rain,Dry,Daylight,Bicycle,45,Male,98,No,4,1,Minor,Sunday,April
+127,2024-11-14,15:55,Jaipur,Clear,Dry,Daylight,Auto Rickshaw,43,Male,89,No,3,2,Minor,Thursday,November
+128,2024-12-26,18:00,Pune,Clear,Dry,Daylight,Bicycle,40,Female,67,No,4,5,Serious,Thursday,December
+129,2024-06-30,02:33,Lucknow,Fog,Dry,Darkness,Truck,32,Female,34,No,4,2,Minor,Sunday,June
+130,2024-09-04,03:49,Pune,Clear,Dry,Twilight,Bus,53,Male,103,No,2,0,Minor,Wednesday,September
+131,2024-04-06,15:40,Pune,Clear,Wet,Daylight,Bicycle,44,Male,53,No,3,0,Serious,Saturday,April
+132,2024-10-04,21:27,Ahmedabad,Clear,Snowy,Daylight,Truck,23,Male,79,No,2,3,Serious,Friday,October
+133,2023-01-05,20:39,Delhi,Fog,Wet,Darkness,Motorcycle,52,Male,81,No,2,5,Minor,Thursday,January
+134,2023-08-06,18:02,Lucknow,Clear,Dry,Daylight,Bicycle,56,Female,21,No,4,4,Minor,Sunday,August
+135,2024-05-17,04:36,Lucknow,Rain,Snowy,Twilight,Auto Rickshaw,55,Male,99,No,3,2,Minor,Friday,May
+136,2024-02-02,11:56,Ahmedabad,Clear,Wet,Daylight,Motorcycle,52,Male,38,No,1,0,Minor,Friday,February
+137,2024-01-28,12:30,Chennai,Windy,Dry,Twilight,Bicycle,53,Female,117,No,4,4,Serious,Sunday,January
+138,2023-07-26,18:39,Chennai,Clear,Dry,Darkness,Car,27,Male,68,No,3,1,Serious,Wednesday,July
+139,2023-01-15,09:19,Chennai,Fog,Snowy,Darkness,Truck,47,Male,97,No,2,4,Serious,Sunday,January
+140,2024-07-07,11:56,Hyderabad,Clear,Dry,Darkness,Truck,58,Male,107,No,3,2,Minor,Sunday,July
+141,2024-04-05,09:52,Pune,Clear,Dry,Daylight,Car,55,Male,47,No,4,5,Fatal,Friday,April
+142,2024-11-21,02:15,Hyderabad,Fog,Wet,Daylight,Bus,46,Male,67,No,3,3,Minor,Thursday,November
+143,2024-07-28,08:40,Delhi,Clear,Wet,Daylight,Auto Rickshaw,69,Male,115,No,2,2,Minor,Sunday,July
+144,2023-08-29,10:50,Ahmedabad,Fog,Dry,Darkness,Truck,60,Male,56,No,3,5,Minor,Tuesday,August
+145,2024-07-17,10:49,Lucknow,Snow,Dry,Darkness,Motorcycle,56,Male,93,No,3,0,Minor,Wednesday,July
+146,2023-04-06,08:27,Pune,Fog,Dry,Darkness,Auto Rickshaw,67,Male,68,No,2,0,Minor,Thursday,April
+147,2024-04-29,00:24,Hyderabad,Clear,Wet,Daylight,Truck,21,Male,67,Yes,4,4,Serious,Monday,April
+148,2024-02-11,02:41,Hyderabad,Fog,Dry,Daylight,Bus,22,Male,92,Yes,1,2,Fatal,Sunday,February
+149,2023-08-19,09:21,Kolkata,Clear,Dry,Daylight,Motorcycle,21,Male,107,No,2,0,Serious,Saturday,August
+150,2024-10-16,08:01,Hyderabad,Fog,Wet,Darkness,Auto Rickshaw,53,Male,119,No,2,1,Minor,Wednesday,October
+151,2023-06-20,05:12,Jaipur,Rain,Dry,Daylight,Motorcycle,62,Male,48,No,4,1,Fatal,Tuesday,June
+152,2024-06-24,08:08,Lucknow,Fog,Wet,Daylight,Car,33,Male,79,No,4,3,Minor,Monday,June
+153,2023-02-05,06:15,Jaipur,Clear,Dry,Darkness,Bicycle,42,Male,48,No,3,4,Fatal,Sunday,February
+154,2024-06-08,07:00,Lucknow,Rain,Dry,Daylight,Car,31,Male,77,Yes,2,0,Serious,Saturday,June
+155,2023-06-09,21:01,Ahmedabad,Clear,Wet,Daylight,Auto Rickshaw,28,Male,67,Yes,3,3,Fatal,Friday,June
+156,2024-11-29,06:41,Lucknow,Fog,Dry,Daylight,Bicycle,46,Male,42,No,3,1,Minor,Friday,November
+157,2023-08-31,06:03,Jaipur,Clear,Dry,Darkness,Car,51,Male,46,No,4,3,Minor,Thursday,August
+158,2023-03-27,21:22,Lucknow,Rain,Dry,Daylight,Bicycle,39,Male,114,No,4,3,Minor,Monday,March
+159,2024-07-31,04:58,Ahmedabad,Fog,Wet,Darkness,Truck,31,Male,26,No,3,0,Minor,Wednesday,July
+160,2024-11-12,21:06,Ahmedabad,Rain,Snowy,Daylight,Motorcycle,41,Female,68,No,2,0,Minor,Tuesday,November
+161,2024-07-10,19:00,Delhi,Clear,Icy,Darkness,Bicycle,56,Male,73,Yes,2,0,Minor,Wednesday,July
+162,2024-07-27,15:05,Lucknow,Rain,Dry,Daylight,Truck,43,Female,87,Yes,3,4,Minor,Saturday,July
+163,2024-10-07,19:29,Kolkata,Clear,Dry,Daylight,Bus,60,Male,97,No,1,3,Minor,Monday,October
+164,2023-01-28,02:51,Chennai,Clear,Dry,Darkness,Car,53,Male,61,No,1,3,Minor,Saturday,January
+165,2024-09-11,04:47,Mumbai,Clear,Wet,Darkness,Bus,56,Male,93,No,4,4,Minor,Wednesday,September
+166,2024-07-09,17:52,Ahmedabad,Clear,Dry,Daylight,Auto Rickshaw,33,Male,78,No,2,1,Minor,Tuesday,July
+167,2023-12-06,02:53,Bangalore,Clear,Icy,Darkness,Truck,55,Male,63,No,3,2,Minor,Wednesday,December
+168,2023-11-27,22:48,Chennai,Rain,Dry,Daylight,Bus,49,Male,117,No,3,1,Minor,Monday,November
+169,2024-10-01,22:29,Pune,Clear,Icy,Twilight,Bus,23,Female,45,Yes,2,4,Serious,Tuesday,October
+170,2024-05-20,18:18,Lucknow,Clear,Wet,Darkness,Truck,51,Female,42,No,4,3,Minor,Monday,May
+171,2023-12-14,13:59,Jaipur,Snow,Wet,Daylight,Motorcycle,25,Male,92,No,4,3,Serious,Thursday,December
+172,2024-04-17,08:53,Mumbai,Clear,Dry,Darkness,Bicycle,47,Female,27,No,1,0,Minor,Wednesday,April
+173,2023-08-19,21:58,Bangalore,Rain,Dry,Daylight,Auto Rickshaw,44,Female,72,Yes,2,0,Minor,Saturday,August
+174,2023-07-09,07:06,Chennai,Fog,Dry,Daylight,Auto Rickshaw,24,Female,33,No,2,3,Minor,Sunday,July
+175,2023-08-13,01:08,Lucknow,Snow,Dry,Twilight,Car,44,Male,90,Yes,3,3,Fatal,Sunday,August
+176,2024-01-20,18:33,Delhi,Rain,Dry,Darkness,Bicycle,42,Male,26,No,2,5,Fatal,Saturday,January
+177,2024-01-12,13:11,Pune,Rain,Dry,Daylight,Car,63,Male,28,No,1,0,Fatal,Friday,January
+178,2023-10-10,09:09,Mumbai,Fog,Dry,Daylight,Auto Rickshaw,58,Male,22,No,2,0,Serious,Tuesday,October
+179,2024-09-24,04:50,Kolkata,Clear,Wet,Daylight,Bicycle,32,Female,97,No,3,1,Minor,Tuesday,September
+180,2024-09-19,22:50,Delhi,Fog,Wet,Twilight,Bus,42,Male,36,No,1,3,Minor,Thursday,September
+181,2023-09-16,19:55,Bangalore,Clear,Dry,Daylight,Motorcycle,39,Male,63,No,3,3,Minor,Saturday,September
+182,2023-12-25,06:11,Mumbai,Snow,Icy,Daylight,Bus,35,Female,105,No,2,4,Minor,Monday,December
+183,2024-12-10,00:41,Delhi,Clear,Dry,Daylight,Motorcycle,29,Male,65,Yes,4,1,Serious,Tuesday,December
+184,2024-03-31,05:38,Pune,Rain,Dry,Daylight,Truck,40,Female,109,No,2,2,Fatal,Sunday,March
+185,2024-02-15,10:13,Kolkata,Clear,Dry,Daylight,Car,68,Male,77,No,2,2,Fatal,Thursday,February
+186,2024-10-10,21:13,Delhi,Rain,Wet,Daylight,Car,62,Male,47,No,3,2,Minor,Thursday,October
+187,2023-11-14,06:06,Hyderabad,Clear,Dry,Daylight,Truck,56,Male,33,No,4,5,Minor,Tuesday,November
+188,2024-11-07,01:00,Kolkata,Fog,Dry,Daylight,Bicycle,42,Male,28,No,2,0,Minor,Thursday,November
+189,2023-08-13,03:54,Bangalore,Fog,Wet,Twilight,Truck,27,Male,45,No,1,2,Serious,Sunday,August
+190,2023-08-22,14:04,Pune,Clear,Dry,Daylight,Auto Rickshaw,47,Female,21,No,1,4,Serious,Tuesday,August
+191,2024-11-14,21:10,Lucknow,Fog,Wet,Darkness,Truck,27,Female,94,No,3,0,Minor,Thursday,November
+192,2024-10-25,13:51,Jaipur,Fog,Snowy,Darkness,Motorcycle,51,Male,100,Yes,3,0,Fatal,Friday,October
+193,2024-01-09,11:48,Jaipur,Rain,Icy,Darkness,Auto Rickshaw,63,Male,53,Yes,4,2,Minor,Tuesday,January
+194,2024-11-02,05:09,Jaipur,Clear,Dry,Darkness,Truck,30,Female,38,No,3,0,Serious,Saturday,November
+195,2024-08-30,22:14,Mumbai,Clear,Dry,Daylight,Car,46,Male,58,No,4,1,Fatal,Friday,August
+196,2024-04-16,09:44,Bangalore,Clear,Dry,Daylight,Bus,55,Male,101,No,2,1,Minor,Tuesday,April
+197,2023-08-21,12:23,Pune,Clear,Dry,Daylight,Motorcycle,58,Female,32,Yes,1,2,Serious,Monday,August
+198,2024-11-22,20:21,Kolkata,Snow,Dry,Daylight,Motorcycle,62,Female,24,No,1,4,Minor,Friday,November
+199,2023-04-23,07:48,Mumbai,Clear,Dry,Darkness,Bicycle,26,Male,69,No,1,0,Minor,Sunday,April
+200,2024-05-11,12:42,Bangalore,Fog,Icy,Darkness,Bus,30,Male,42,No,3,3,Minor,Saturday,May
+201,2024-03-17,14:04,Lucknow,Clear,Snowy,Darkness,Motorcycle,54,Male,107,No,3,2,Minor,Sunday,March
+202,2024-07-17,14:23,Hyderabad,Rain,Dry,Daylight,Truck,31,Male,48,No,2,5,Minor,Wednesday,July
+203,2023-09-25,05:11,Pune,Fog,Dry,Twilight,Motorcycle,54,Female,91,Yes,3,0,Serious,Monday,September
+204,2024-05-24,09:42,Jaipur,Fog,Dry,Daylight,Motorcycle,26,Female,45,No,4,2,Minor,Friday,May
+205,2024-01-21,22:06,Delhi,Clear,Dry,Daylight,Motorcycle,25,Male,98,No,1,2,Minor,Sunday,January
+206,2024-01-22,15:54,Pune,Clear,Wet,Daylight,Bicycle,56,Male,76,No,2,4,Fatal,Monday,January
+207,2023-04-23,22:34,Ahmedabad,Clear,Wet,Darkness,Motorcycle,57,Female,20,Yes,4,3,Minor,Sunday,April
+208,2024-09-04,00:39,Bangalore,Clear,Snowy,Daylight,Motorcycle,20,Male,47,No,4,0,Minor,Wednesday,September
+209,2024-09-16,02:37,Chennai,Clear,Wet,Twilight,Bicycle,64,Male,81,No,3,2,Minor,Monday,September
+210,2023-03-22,21:45,Lucknow,Clear,Dry,Twilight,Auto Rickshaw,57,Female,66,No,3,2,Minor,Wednesday,March
+211,2024-11-29,07:49,Hyderabad,Clear,Wet,Darkness,Bus,50,Male,97,Yes,1,0,Minor,Friday,November
+212,2023-04-23,13:00,Lucknow,Rain,Dry,Daylight,Auto Rickshaw,49,Male,117,Yes,2,2,Minor,Sunday,April
+213,2023-01-02,22:37,Pune,Clear,Dry,Darkness,Car,24,Male,78,Yes,4,2,Minor,Monday,January
+214,2024-10-03,01:27,Chennai,Clear,Dry,Darkness,Bicycle,36,Male,50,No,3,2,Minor,Thursday,October
+215,2023-08-08,12:29,Ahmedabad,Clear,Dry,Daylight,Bicycle,51,Male,89,Yes,3,1,Minor,Tuesday,August
+216,2024-07-19,06:45,Kolkata,Rain,Dry,Daylight,Motorcycle,31,Male,68,No,2,1,Minor,Friday,July
+217,2023-08-13,00:48,Delhi,Fog,Dry,Daylight,Motorcycle,67,Female,24,Yes,2,3,Serious,Sunday,August
+218,2024-01-20,09:35,Chennai,Rain,Snowy,Daylight,Car,64,Male,50,No,3,4,Minor,Saturday,January
+219,2024-02-07,19:48,Bangalore,Fog,Dry,Daylight,Motorcycle,63,Male,56,Yes,3,0,Minor,Wednesday,February
+220,2024-09-29,20:27,Jaipur,Clear,Dry,Twilight,Truck,36,Male,98,No,1,4,Minor,Sunday,September
+221,2023-05-10,15:52,Ahmedabad,Rain,Dry,Daylight,Motorcycle,68,Male,34,No,2,4,Minor,Wednesday,May
+222,2023-02-22,19:38,Delhi,Clear,Wet,Daylight,Motorcycle,43,Male,71,No,4,1,Minor,Wednesday,February
+223,2024-11-14,00:55,Hyderabad,Clear,Dry,Twilight,Truck,34,Male,88,No,3,3,Serious,Thursday,November
+224,2024-12-30,15:05,Jaipur,Rain,Icy,Daylight,Car,45,Male,111,Yes,3,4,Serious,Monday,December
+225,2024-11-02,11:08,Pune,Fog,Snowy,Darkness,Truck,36,Male,116,No,3,4,Minor,Saturday,November
+226,2024-12-10,13:46,Chennai,Clear,Dry,Daylight,Bicycle,44,Female,30,No,3,2,Minor,Tuesday,December
+227,2024-02-20,03:20,Delhi,Rain,Wet,Daylight,Truck,65,Male,62,Yes,1,0,Minor,Tuesday,February
+228,2023-09-04,11:54,Mumbai,Rain,Dry,Daylight,Bus,69,Male,89,No,2,3,Minor,Monday,September
+229,2024-03-14,04:21,Kolkata,Clear,Dry,Daylight,Bicycle,36,Male,42,Yes,3,0,Minor,Thursday,March
+230,2023-07-22,14:58,Kolkata,Clear,Wet,Daylight,Motorcycle,50,Male,59,No,2,1,Serious,Saturday,July
+231,2023-07-03,11:57,Ahmedabad,Clear,Dry,Darkness,Bicycle,68,Male,82,No,4,4,Serious,Monday,July
+232,2023-05-03,06:30,Hyderabad,Clear,Dry,Daylight,Car,24,Male,21,No,4,4,Serious,Wednesday,May
+233,2024-02-05,18:33,Ahmedabad,Clear,Dry,Darkness,Car,46,Male,98,No,4,5,Minor,Monday,February
+234,2023-10-21,17:19,Mumbai,Clear,Dry,Daylight,Truck,60,Female,106,Yes,4,0,Serious,Saturday,October
+235,2023-10-07,07:52,Bangalore,Clear,Snowy,Daylight,Bicycle,22,Male,105,No,2,1,Minor,Saturday,October
+236,2024-09-01,13:10,Hyderabad,Rain,Dry,Darkness,Motorcycle,47,Male,92,Yes,4,5,Fatal,Sunday,September
+237,2023-07-17,03:40,Lucknow,Rain,Wet,Daylight,Car,66,Male,66,No,4,5,Minor,Monday,July
+238,2024-05-25,21:40,Bangalore,Windy,Dry,Darkness,Auto Rickshaw,60,Male,49,Yes,3,2,Serious,Saturday,May
+239,2023-05-24,06:09,Hyderabad,Clear,Wet,Twilight,Motorcycle,25,Female,35,No,3,5,Minor,Wednesday,May
+240,2024-08-31,11:18,Hyderabad,Fog,Dry,Darkness,Auto Rickshaw,59,Male,78,No,3,5,Minor,Saturday,August
+241,2023-07-20,18:21,Mumbai,Fog,Dry,Daylight,Bus,29,Male,66,No,1,2,Serious,Thursday,July
+242,2023-05-04,11:37,Pune,Rain,Snowy,Daylight,Auto Rickshaw,59,Male,49,No,3,4,Minor,Thursday,May
+243,2023-07-06,05:10,Mumbai,Clear,Dry,Darkness,Car,30,Male,28,No,4,4,Serious,Thursday,July
+244,2023-11-22,01:30,Hyderabad,Fog,Dry,Darkness,Truck,43,Male,84,No,2,3,Minor,Wednesday,November
+245,2024-04-08,04:14,Delhi,Clear,Dry,Daylight,Bus,35,Female,78,No,4,5,Minor,Monday,April
+246,2023-12-15,10:52,Bangalore,Clear,Wet,Daylight,Bicycle,59,Male,83,No,2,0,Minor,Friday,December
+247,2024-10-21,04:09,Mumbai,Rain,Dry,Daylight,Motorcycle,68,Male,27,No,4,4,Minor,Monday,October
+248,2024-02-07,20:52,Pune,Rain,Snowy,Daylight,Car,69,Male,71,No,1,1,Serious,Wednesday,February
+249,2023-12-12,11:33,Chennai,Clear,Dry,Daylight,Bus,66,Male,37,No,3,0,Minor,Tuesday,December
+250,2024-05-25,01:22,Ahmedabad,Snow,Dry,Daylight,Bus,37,Female,110,Yes,4,3,Minor,Saturday,May
+251,2023-05-27,04:22,Hyderabad,Rain,Wet,Darkness,Car,33,Male,101,No,3,5,Fatal,Saturday,May
+252,2023-05-28,08:03,Lucknow,Clear,Wet,Twilight,Bicycle,54,Male,115,Yes,1,2,Minor,Sunday,May
+253,2024-12-11,10:47,Chennai,Snow,Snowy,Darkness,Bicycle,20,Male,77,Yes,1,3,Serious,Wednesday,December
+254,2024-05-03,09:37,Kolkata,Clear,Icy,Daylight,Truck,44,Male,68,No,3,0,Minor,Friday,May
+255,2024-10-01,19:02,Jaipur,Windy,Dry,Daylight,Auto Rickshaw,32,Male,51,No,3,2,Minor,Tuesday,October
+256,2024-07-04,02:17,Pune,Rain,Dry,Twilight,Bicycle,51,Male,67,No,2,1,Fatal,Thursday,July
+257,2023-12-04,07:10,Lucknow,Clear,Dry,Twilight,Truck,62,Male,64,Yes,3,2,Serious,Monday,December
+258,2024-10-02,22:18,Jaipur,Fog,Wet,Twilight,Auto Rickshaw,39,Female,73,No,3,2,Minor,Wednesday,October
+259,2024-04-17,07:18,Pune,Rain,Snowy,Darkness,Bus,57,Male,119,No,2,1,Minor,Wednesday,April
+260,2023-05-31,17:50,Delhi,Fog,Dry,Daylight,Car,40,Female,119,Yes,4,4,Minor,Wednesday,May
+261,2024-02-19,04:22,Ahmedabad,Windy,Dry,Darkness,Bicycle,66,Male,104,No,2,4,Minor,Monday,February
+262,2023-10-25,20:42,Chennai,Fog,Dry,Daylight,Truck,21,Male,65,No,4,2,Fatal,Wednesday,October
+263,2024-09-02,01:19,Bangalore,Rain,Wet,Daylight,Bus,68,Male,115,No,4,2,Minor,Monday,September
+264,2023-09-20,17:47,Pune,Fog,Dry,Darkness,Bicycle,58,Female,50,Yes,4,3,Minor,Wednesday,September
+265,2023-05-24,23:01,Bangalore,Rain,Dry,Daylight,Motorcycle,40,Male,56,No,2,4,Minor,Wednesday,May
+266,2023-12-12,07:42,Ahmedabad,Clear,Dry,Daylight,Bus,64,Male,35,No,2,1,Minor,Tuesday,December
+267,2024-09-15,13:51,Hyderabad,Fog,Wet,Daylight,Bicycle,26,Male,65,No,1,5,Serious,Sunday,September
+268,2024-07-25,09:43,Kolkata,Clear,Wet,Daylight,Bus,41,Female,65,No,4,5,Serious,Thursday,July
+269,2023-01-02,14:24,Chennai,Rain,Wet,Darkness,Car,38,Female,97,Yes,2,2,Serious,Monday,January
+270,2023-10-31,14:43,Ahmedabad,Fog,Dry,Daylight,Car,58,Male,107,No,1,2,Minor,Tuesday,October
+271,2023-09-11,18:37,Ahmedabad,Rain,Dry,Daylight,Car,63,Female,108,No,4,5,Minor,Monday,September
+272,2024-10-13,22:59,Delhi,Rain,Wet,Daylight,Auto Rickshaw,33,Male,80,Yes,2,3,Minor,Sunday,October
+273,2024-03-28,23:31,Jaipur,Fog,Icy,Daylight,Motorcycle,42,Female,65,No,2,3,Serious,Thursday,March
+274,2023-02-06,15:18,Kolkata,Clear,Dry,Daylight,Car,43,Male,70,No,2,3,Serious,Monday,February
+275,2023-06-09,18:05,Chennai,Fog,Dry,Darkness,Motorcycle,66,Male,81,Yes,3,0,Serious,Friday,June
+276,2023-01-09,18:44,Hyderabad,Clear,Dry,Daylight,Car,62,Male,54,No,1,1,Minor,Monday,January
+277,2023-08-21,14:22,Hyderabad,Clear,Dry,Darkness,Auto Rickshaw,26,Male,100,No,2,0,Minor,Monday,August
+278,2023-04-09,03:25,Mumbai,Clear,Wet,Twilight,Bus,32,Male,61,No,3,2,Serious,Sunday,April
+279,2024-10-20,20:44,Ahmedabad,Rain,Dry,Darkness,Bicycle,56,Male,64,No,1,3,Minor,Sunday,October
+280,2023-07-27,22:31,Pune,Rain,Dry,Daylight,Bicycle,50,Male,87,No,1,3,Serious,Thursday,July
+281,2023-05-11,21:15,Delhi,Fog,Dry,Daylight,Car,18,Male,94,No,3,5,Fatal,Thursday,May
+282,2024-02-08,23:41,Kolkata,Clear,Dry,Darkness,Bicycle,22,Male,66,No,1,5,Fatal,Thursday,February
+283,2023-06-01,11:17,Hyderabad,Clear,Dry,Daylight,Car,26,Female,98,No,3,3,Serious,Thursday,June
+284,2023-02-23,13:50,Chennai,Clear,Dry,Darkness,Car,61,Female,49,Yes,4,4,Fatal,Thursday,February
+285,2023-04-30,04:25,Mumbai,Clear,Dry,Darkness,Truck,23,Female,43,No,2,5,Serious,Sunday,April
+286,2024-11-03,14:51,Chennai,Rain,Wet,Twilight,Truck,45,Male,85,Yes,3,1,Minor,Sunday,November
+287,2024-09-19,19:27,Delhi,Clear,Dry,Twilight,Truck,62,Male,62,Yes,1,0,Minor,Thursday,September
+288,2024-08-09,20:02,Pune,Clear,Dry,Daylight,Motorcycle,43,Female,53,No,1,1,Minor,Friday,August
+289,2024-09-16,14:23,Mumbai,Clear,Icy,Daylight,Truck,45,Female,42,No,4,5,Minor,Monday,September
+290,2024-02-24,06:48,Mumbai,Clear,Wet,Twilight,Car,57,Male,80,No,4,3,Serious,Saturday,February
+291,2024-02-26,08:21,Jaipur,Clear,Wet,Daylight,Auto Rickshaw,32,Male,114,No,4,2,Minor,Monday,February
+292,2023-04-14,01:19,Kolkata,Clear,Dry,Daylight,Auto Rickshaw,23,Male,56,No,4,4,Serious,Friday,April
+293,2023-09-11,00:46,Mumbai,Rain,Dry,Darkness,Bus,44,Male,32,No,4,5,Minor,Monday,September
+294,2023-08-15,04:18,Jaipur,Fog,Dry,Daylight,Truck,55,Male,116,No,2,1,Minor,Tuesday,August
+295,2023-04-22,19:26,Jaipur,Rain,Dry,Darkness,Auto Rickshaw,21,Male,90,No,3,2,Fatal,Saturday,April
+296,2024-05-24,02:20,Delhi,Windy,Dry,Darkness,Truck,28,Female,115,No,4,5,Minor,Friday,May
+297,2024-04-17,18:13,Bangalore,Clear,Snowy,Daylight,Bus,38,Male,26,No,4,3,Serious,Wednesday,April
+298,2023-04-09,06:05,Chennai,Rain,Dry,Twilight,Auto Rickshaw,47,Male,61,No,2,3,Serious,Sunday,April
+299,2023-06-02,20:56,Pune,Windy,Dry,Darkness,Car,35,Male,57,No,3,3,Serious,Friday,June
+300,2023-12-04,20:41,Lucknow,Clear,Dry,Darkness,Motorcycle,52,Female,71,Yes,4,3,Fatal,Monday,December
+301,2024-12-06,22:38,Chennai,Snow,Dry,Daylight,Truck,20,Male,63,No,3,5,Serious,Friday,December
+302,2023-06-12,21:20,Mumbai,Clear,Wet,Daylight,Auto Rickshaw,29,Male,83,No,3,4,Fatal,Monday,June
+303,2024-12-20,00:25,Pune,Clear,Dry,Darkness,Auto Rickshaw,44,Male,32,No,2,4,Serious,Friday,December
+304,2024-11-11,15:26,Hyderabad,Clear,Wet,Daylight,Bus,47,Male,107,No,2,1,Minor,Monday,November
+305,2023-06-10,14:00,Bangalore,Rain,Icy,Daylight,Car,38,Male,47,No,4,5,Serious,Saturday,June
+306,2024-08-02,19:10,Hyderabad,Rain,Dry,Darkness,Bicycle,55,Male,115,No,1,3,Serious,Friday,August
+307,2024-02-02,22:50,Hyderabad,Rain,Dry,Daylight,Auto Rickshaw,38,Male,101,No,2,4,Minor,Friday,February
+308,2023-10-04,02:15,Kolkata,Clear,Snowy,Daylight,Motorcycle,55,Male,117,No,3,5,Minor,Wednesday,October
+309,2024-05-18,11:25,Chennai,Clear,Wet,Daylight,Bus,57,Male,117,No,3,2,Serious,Saturday,May
+310,2024-01-27,11:13,Lucknow,Clear,Dry,Daylight,Auto Rickshaw,32,Male,20,No,4,4,Serious,Saturday,January
+311,2023-05-15,21:30,Delhi,Clear,Snowy,Darkness,Auto Rickshaw,35,Male,62,No,4,4,Minor,Monday,May
+312,2023-07-14,17:06,Lucknow,Snow,Dry,Daylight,Bus,69,Female,61,No,4,1,Serious,Friday,July
+313,2024-02-05,03:49,Hyderabad,Clear,Snowy,Daylight,Bus,46,Male,114,No,3,4,Minor,Monday,February
+314,2024-10-01,14:28,Mumbai,Fog,Dry,Darkness,Truck,65,Male,69,No,2,2,Serious,Tuesday,October
+315,2023-02-02,00:16,Bangalore,Fog,Dry,Twilight,Auto Rickshaw,55,Male,79,No,1,3,Minor,Thursday,February
+316,2024-11-18,06:32,Ahmedabad,Clear,Snowy,Darkness,Bicycle,38,Male,20,Yes,2,0,Minor,Monday,November
+317,2024-04-04,15:52,Lucknow,Rain,Dry,Daylight,Motorcycle,34,Male,70,Yes,1,1,Minor,Thursday,April
+318,2024-04-14,07:59,Hyderabad,Clear,Dry,Daylight,Car,58,Male,35,Yes,2,2,Serious,Sunday,April
+319,2024-01-10,15:16,Bangalore,Clear,Dry,Darkness,Car,68,Male,58,No,4,1,Minor,Wednesday,January
+320,2023-01-22,17:20,Pune,Clear,Icy,Daylight,Bicycle,35,Female,34,No,3,5,Serious,Sunday,January
+321,2024-10-31,22:01,Chennai,Rain,Wet,Darkness,Bus,54,Female,52,Yes,1,3,Minor,Thursday,October
+322,2023-02-07,18:25,Jaipur,Clear,Wet,Daylight,Bus,55,Female,106,Yes,2,4,Minor,Tuesday,February
+323,2023-08-18,16:10,Kolkata,Rain,Dry,Daylight,Bus,29,Male,72,No,3,5,Minor,Friday,August
+324,2023-12-31,08:34,Bangalore,Rain,Wet,Darkness,Auto Rickshaw,28,Male,117,No,1,4,Minor,Sunday,December
+325,2024-07-16,10:41,Mumbai,Clear,Dry,Darkness,Bus,65,Male,36,No,1,2,Serious,Tuesday,July
+326,2024-03-13,11:36,Mumbai,Rain,Dry,Darkness,Bus,69,Male,108,No,3,3,Minor,Wednesday,March
+327,2023-10-10,11:23,Bangalore,Fog,Wet,Daylight,Auto Rickshaw,66,Male,25,No,4,0,Minor,Tuesday,October
+328,2023-01-27,05:45,Mumbai,Clear,Dry,Daylight,Auto Rickshaw,37,Male,50,No,3,0,Serious,Friday,January
+329,2023-08-14,15:10,Chennai,Clear,Dry,Daylight,Bicycle,26,Male,88,No,4,4,Serious,Monday,August
+330,2023-10-04,16:30,Mumbai,Rain,Dry,Daylight,Truck,18,Male,59,Yes,2,5,Fatal,Wednesday,October
+331,2024-08-31,09:25,Lucknow,Clear,Dry,Daylight,Auto Rickshaw,20,Male,49,Yes,2,3,Minor,Saturday,August
+332,2023-10-11,14:01,Jaipur,Rain,Snowy,Daylight,Motorcycle,38,Male,88,Yes,3,3,Minor,Wednesday,October
+333,2024-04-25,20:48,Mumbai,Clear,Dry,Daylight,Bus,40,Male,95,No,4,2,Minor,Thursday,April
+334,2024-03-28,20:12,Jaipur,Clear,Wet,Twilight,Truck,26,Female,26,No,2,5,Minor,Thursday,March
+335,2024-10-20,12:00,Hyderabad,Clear,Dry,Darkness,Car,36,Male,32,Yes,4,0,Minor,Sunday,October
+336,2024-05-30,02:26,Delhi,Clear,Dry,Twilight,Bicycle,62,Male,23,No,4,2,Serious,Thursday,May
+337,2024-06-30,06:56,Chennai,Rain,Dry,Daylight,Truck,63,Male,69,No,4,1,Minor,Sunday,June
+338,2023-07-11,15:35,Delhi,Clear,Wet,Twilight,Auto Rickshaw,69,Male,22,No,3,3,Minor,Tuesday,July
+339,2023-02-18,20:21,Hyderabad,Fog,Wet,Daylight,Bus,36,Male,31,No,4,0,Minor,Saturday,February
+340,2024-05-26,10:52,Chennai,Fog,Snowy,Daylight,Bus,40,Female,84,No,3,2,Minor,Sunday,May
+341,2023-01-17,07:18,Bangalore,Rain,Wet,Darkness,Bus,44,Female,46,No,2,4,Minor,Tuesday,January
+342,2023-06-21,13:52,Bangalore,Fog,Dry,Daylight,Truck,44,Male,69,Yes,2,1,Fatal,Wednesday,June
+343,2023-08-08,16:17,Jaipur,Clear,Wet,Daylight,Bus,56,Male,96,No,1,2,Serious,Tuesday,August
+344,2023-06-07,06:08,Hyderabad,Clear,Snowy,Daylight,Auto Rickshaw,53,Male,36,No,1,4,Minor,Wednesday,June
+345,2024-04-21,03:33,Jaipur,Rain,Wet,Daylight,Truck,29,Male,91,No,2,0,Minor,Sunday,April
+346,2023-02-15,09:00,Kolkata,Clear,Dry,Darkness,Bus,44,Female,51,No,4,0,Minor,Wednesday,February
+347,2024-01-08,21:05,Mumbai,Rain,Dry,Darkness,Car,63,Male,103,No,4,1,Minor,Monday,January
+348,2024-06-01,10:07,Ahmedabad,Clear,Wet,Darkness,Car,51,Female,70,No,2,4,Serious,Saturday,June
+349,2023-04-09,01:20,Kolkata,Rain,Wet,Daylight,Motorcycle,50,Male,36,No,2,3,Minor,Sunday,April
+350,2023-02-06,04:16,Mumbai,Fog,Dry,Darkness,Bus,45,Male,53,No,1,0,Minor,Monday,February
+351,2023-10-07,02:41,Chennai,Fog,Snowy,Daylight,Bus,48,Male,54,No,4,5,Minor,Saturday,October
+352,2023-12-15,11:27,Jaipur,Rain,Icy,Daylight,Truck,49,Male,118,No,2,3,Serious,Friday,December
+353,2024-05-11,22:14,Chennai,Rain,Dry,Twilight,Truck,67,Male,43,No,1,3,Minor,Saturday,May
+354,2023-10-29,15:40,Chennai,Rain,Snowy,Daylight,Bus,37,Male,73,Yes,1,2,Minor,Sunday,October
+355,2023-06-30,18:14,Mumbai,Rain,Dry,Darkness,Motorcycle,57,Male,37,No,4,2,Minor,Friday,June
+356,2024-08-29,11:07,Hyderabad,Clear,Dry,Daylight,Bus,52,Male,69,No,1,0,Serious,Thursday,August
+357,2023-04-09,09:44,Mumbai,Clear,Dry,Darkness,Auto Rickshaw,48,Male,65,No,1,3,Serious,Sunday,April
+358,2024-11-30,20:55,Pune,Clear,Dry,Darkness,Truck,48,Male,67,No,3,2,Minor,Saturday,November
+359,2023-04-26,16:09,Bangalore,Windy,Wet,Daylight,Bus,55,Male,52,Yes,2,4,Fatal,Wednesday,April
+360,2023-07-10,12:13,Bangalore,Clear,Dry,Daylight,Truck,39,Male,106,Yes,4,4,Minor,Monday,July
+361,2023-09-10,04:57,Kolkata,Rain,Dry,Darkness,Bus,62,Male,108,No,2,4,Minor,Sunday,September
+362,2023-06-10,20:22,Bangalore,Rain,Dry,Daylight,Bicycle,58,Male,46,No,3,4,Minor,Saturday,June
+363,2023-09-13,19:55,Mumbai,Rain,Dry,Daylight,Truck,26,Female,20,No,4,3,Serious,Wednesday,September
+364,2023-11-19,05:19,Lucknow,Rain,Dry,Darkness,Motorcycle,69,Male,104,Yes,2,4,Serious,Sunday,November
+365,2023-05-08,21:35,Jaipur,Clear,Wet,Daylight,Bicycle,26,Male,78,No,1,3,Minor,Monday,May
+366,2023-01-18,20:49,Mumbai,Rain,Dry,Darkness,Auto Rickshaw,32,Male,29,No,4,0,Minor,Wednesday,January
+367,2024-07-19,06:58,Mumbai,Fog,Snowy,Daylight,Bus,30,Female,114,No,3,0,Serious,Friday,July
+368,2024-07-23,23:51,Ahmedabad,Clear,Wet,Daylight,Auto Rickshaw,39,Male,44,Yes,1,4,Serious,Tuesday,July
+369,2023-11-19,19:16,Jaipur,Clear,Dry,Darkness,Truck,33,Male,103,No,3,4,Minor,Sunday,November
+370,2024-11-16,20:24,Pune,Rain,Snowy,Daylight,Bicycle,49,Male,76,No,1,4,Serious,Saturday,November
+371,2024-09-17,19:38,Bangalore,Fog,Dry,Daylight,Auto Rickshaw,19,Male,85,No,2,0,Minor,Tuesday,September
+372,2023-10-15,21:10,Jaipur,Clear,Dry,Daylight,Motorcycle,43,Male,34,No,2,2,Minor,Sunday,October
+373,2024-10-24,19:06,Bangalore,Fog,Dry,Daylight,Truck,31,Male,47,No,2,0,Minor,Thursday,October
+374,2024-09-30,04:19,Kolkata,Fog,Dry,Daylight,Bicycle,55,Female,32,No,3,4,Minor,Monday,September
+375,2023-06-04,21:42,Jaipur,Clear,Dry,Daylight,Auto Rickshaw,51,Female,33,Yes,4,2,Minor,Sunday,June
+376,2024-05-04,04:32,Bangalore,Windy,Wet,Daylight,Bicycle,25,Male,85,Yes,2,2,Fatal,Saturday,May
+377,2024-01-21,21:52,Pune,Fog,Dry,Daylight,Bicycle,53,Male,53,Yes,3,1,Minor,Sunday,January
+378,2023-04-14,02:42,Delhi,Fog,Wet,Darkness,Auto Rickshaw,38,Male,118,No,1,3,Minor,Friday,April
+379,2024-01-28,18:50,Chennai,Rain,Dry,Darkness,Car,63,Male,44,No,2,4,Minor,Sunday,January
+380,2023-09-03,02:13,Chennai,Clear,Wet,Daylight,Bus,60,Male,73,No,1,3,Minor,Sunday,September
+381,2023-06-25,22:36,Pune,Clear,Dry,Darkness,Truck,45,Male,98,Yes,2,1,Minor,Sunday,June
+382,2023-02-08,14:05,Ahmedabad,Clear,Dry,Darkness,Truck,63,Male,31,No,1,3,Fatal,Wednesday,February
+383,2024-04-21,19:21,Delhi,Clear,Dry,Daylight,Truck,61,Male,28,No,3,4,Minor,Sunday,April
+384,2024-11-12,19:08,Kolkata,Clear,Dry,Darkness,Bicycle,65,Male,50,No,2,1,Serious,Tuesday,November
+385,2024-06-21,16:18,Pune,Fog,Dry,Daylight,Auto Rickshaw,23,Male,97,Yes,3,3,Serious,Friday,June
+386,2024-02-12,07:41,Chennai,Fog,Wet,Darkness,Bus,37,Male,112,No,3,0,Serious,Monday,February
+387,2024-06-08,10:29,Chennai,Rain,Dry,Daylight,Motorcycle,48,Male,72,No,1,2,Serious,Saturday,June
+388,2024-05-20,03:11,Chennai,Fog,Wet,Daylight,Truck,50,Male,62,No,2,1,Serious,Monday,May
+389,2023-02-05,21:11,Hyderabad,Fog,Wet,Darkness,Auto Rickshaw,61,Female,57,No,4,0,Serious,Sunday,February
+390,2024-11-15,02:56,Pune,Clear,Snowy,Daylight,Bus,24,Female,61,Yes,4,4,Minor,Friday,November
+391,2023-01-20,04:06,Mumbai,Clear,Dry,Daylight,Bus,25,Male,91,No,3,2,Serious,Friday,January
+392,2023-11-17,15:50,Kolkata,Rain,Dry,Daylight,Car,26,Male,67,No,1,1,Minor,Friday,November
+393,2024-05-26,05:18,Chennai,Rain,Snowy,Daylight,Auto Rickshaw,19,Male,86,No,1,2,Fatal,Sunday,May
+394,2024-02-04,05:15,Bangalore,Clear,Wet,Darkness,Truck,34,Male,85,No,1,5,Minor,Sunday,February
+395,2024-10-15,09:00,Pune,Rain,Dry,Darkness,Bicycle,69,Male,35,Yes,2,5,Minor,Tuesday,October
+396,2024-04-15,18:43,Hyderabad,Clear,Dry,Daylight,Bus,62,Male,102,Yes,2,1,Minor,Monday,April
+397,2023-05-23,15:36,Pune,Rain,Dry,Daylight,Bus,54,Male,113,No,1,1,Minor,Tuesday,May
+398,2023-04-02,14:45,Kolkata,Fog,Dry,Darkness,Motorcycle,59,Male,35,No,4,3,Minor,Sunday,April
+399,2023-12-20,16:27,Hyderabad,Rain,Wet,Daylight,Car,61,Female,50,No,4,2,Minor,Wednesday,December
+400,2024-12-27,13:56,Kolkata,Windy,Dry,Darkness,Bus,34,Male,77,No,2,5,Serious,Friday,December
+401,2023-02-20,17:23,Pune,Fog,Dry,Daylight,Bus,55,Male,47,Yes,1,5,Minor,Monday,February
+402,2024-10-26,16:19,Mumbai,Snow,Dry,Daylight,Bicycle,52,Male,23,No,4,2,Fatal,Saturday,October
+403,2024-11-28,02:58,Kolkata,Snow,Dry,Daylight,Bicycle,64,Male,29,Yes,4,5,Serious,Thursday,November
+404,2024-07-28,13:28,Hyderabad,Fog,Wet,Daylight,Motorcycle,56,Male,70,No,2,0,Serious,Sunday,July
+405,2023-07-09,00:47,Hyderabad,Rain,Wet,Daylight,Auto Rickshaw,47,Male,37,No,2,5,Minor,Sunday,July
+406,2023-05-05,23:10,Kolkata,Clear,Dry,Daylight,Motorcycle,23,Male,66,No,4,5,Minor,Friday,May
+407,2023-05-30,08:59,Lucknow,Clear,Snowy,Daylight,Motorcycle,21,Female,51,No,1,4,Minor,Tuesday,May
+408,2023-11-10,00:39,Pune,Rain,Dry,Daylight,Bicycle,68,Male,49,Yes,4,0,Minor,Friday,November
+409,2024-07-23,13:51,Lucknow,Clear,Dry,Daylight,Auto Rickshaw,54,Female,55,No,4,3,Fatal,Tuesday,July
+410,2023-12-08,05:12,Ahmedabad,Clear,Dry,Daylight,Bicycle,52,Male,28,No,1,1,Minor,Friday,December
+411,2023-11-01,05:17,Pune,Windy,Dry,Daylight,Car,26,Male,55,No,2,5,Minor,Wednesday,November
+412,2024-11-22,05:02,Kolkata,Fog,Dry,Daylight,Truck,23,Male,48,No,1,3,Minor,Friday,November
+413,2024-11-12,14:40,Delhi,Fog,Dry,Daylight,Truck,30,Male,35,No,1,3,Minor,Tuesday,November
+414,2023-02-23,08:00,Kolkata,Clear,Wet,Darkness,Car,39,Female,111,No,1,0,Minor,Thursday,February
+415,2024-03-19,05:12,Lucknow,Clear,Dry,Darkness,Truck,45,Male,40,No,1,1,Minor,Tuesday,March
+416,2024-09-04,05:38,Mumbai,Clear,Wet,Daylight,Auto Rickshaw,47,Male,83,No,2,4,Serious,Wednesday,September
+417,2023-09-21,07:09,Kolkata,Clear,Dry,Daylight,Bicycle,69,Male,85,Yes,4,3,Serious,Thursday,September
+418,2023-02-22,16:22,Kolkata,Clear,Snowy,Daylight,Truck,53,Male,78,No,3,4,Fatal,Wednesday,February
+419,2024-07-25,07:34,Mumbai,Clear,Wet,Darkness,Auto Rickshaw,19,Male,118,No,2,1,Serious,Thursday,July
+420,2024-09-11,13:45,Kolkata,Snow,Dry,Daylight,Bicycle,53,Male,47,Yes,1,1,Minor,Wednesday,September
+421,2023-01-05,18:17,Chennai,Rain,Wet,Daylight,Auto Rickshaw,25,Female,74,Yes,4,0,Minor,Thursday,January
+422,2023-04-13,11:41,Delhi,Clear,Dry,Darkness,Car,62,Male,119,No,4,2,Minor,Thursday,April
+423,2023-07-15,23:18,Bangalore,Clear,Wet,Daylight,Motorcycle,59,Male,50,No,1,5,Minor,Saturday,July
+424,2023-12-16,09:04,Delhi,Rain,Dry,Daylight,Car,67,Male,52,No,2,0,Minor,Saturday,December
+425,2023-02-16,13:02,Kolkata,Clear,Wet,Daylight,Truck,26,Male,106,No,1,4,Serious,Thursday,February
+426,2024-10-17,17:25,Chennai,Snow,Wet,Darkness,Bicycle,18,Male,79,No,4,0,Fatal,Thursday,October
+427,2023-09-26,10:56,Pune,Clear,Dry,Daylight,Auto Rickshaw,30,Female,60,No,4,1,Minor,Tuesday,September
+428,2024-01-05,08:34,Kolkata,Clear,Dry,Darkness,Truck,67,Male,100,No,2,3,Minor,Friday,January
+429,2024-09-27,12:33,Lucknow,Clear,Wet,Darkness,Truck,32,Male,65,No,3,5,Minor,Friday,September
+430,2023-04-16,16:13,Chennai,Clear,Dry,Daylight,Motorcycle,49,Male,68,No,1,5,Serious,Sunday,April
+431,2024-10-31,03:41,Mumbai,Rain,Dry,Daylight,Truck,51,Female,84,No,3,2,Minor,Thursday,October
+432,2024-10-20,11:19,Chennai,Rain,Dry,Daylight,Motorcycle,60,Female,61,No,4,1,Serious,Sunday,October
+433,2024-10-18,06:22,Mumbai,Rain,Dry,Darkness,Bicycle,48,Male,42,No,3,5,Minor,Friday,October
+434,2023-04-30,10:16,Ahmedabad,Clear,Icy,Darkness,Bicycle,31,Male,46,No,1,5,Minor,Sunday,April
+435,2024-08-26,22:44,Bangalore,Rain,Dry,Daylight,Auto Rickshaw,64,Male,108,No,1,3,Fatal,Monday,August
+436,2023-02-27,18:34,Jaipur,Rain,Dry,Darkness,Motorcycle,31,Female,51,No,4,4,Fatal,Monday,February
+437,2023-12-12,15:32,Chennai,Fog,Wet,Daylight,Car,65,Male,102,No,2,4,Fatal,Tuesday,December
+438,2024-04-18,17:23,Hyderabad,Clear,Wet,Daylight,Bicycle,46,Male,107,No,2,4,Serious,Thursday,April
+439,2023-04-27,01:02,Lucknow,Clear,Dry,Twilight,Auto Rickshaw,64,Male,22,No,4,0,Minor,Thursday,April
+440,2023-05-07,23:50,Kolkata,Rain,Dry,Darkness,Car,36,Male,79,No,1,4,Serious,Sunday,May
+441,2024-01-28,01:10,Lucknow,Rain,Snowy,Daylight,Bicycle,44,Male,95,No,2,4,Minor,Sunday,January
+442,2024-10-02,22:29,Delhi,Clear,Wet,Darkness,Bicycle,26,Female,118,No,3,0,Serious,Wednesday,October
+443,2023-02-27,06:05,Jaipur,Clear,Dry,Twilight,Auto Rickshaw,54,Male,98,No,4,3,Minor,Monday,February
+444,2024-09-25,10:06,Delhi,Clear,Dry,Darkness,Auto Rickshaw,54,Male,36,No,3,1,Minor,Wednesday,September
+445,2024-05-27,03:18,Ahmedabad,Fog,Dry,Darkness,Bus,60,Male,51,No,1,5,Minor,Monday,May
+446,2023-04-06,14:33,Jaipur,Clear,Dry,Darkness,Truck,45,Female,26,No,2,2,Minor,Thursday,April
+447,2024-09-29,12:33,Jaipur,Snow,Dry,Daylight,Truck,69,Female,102,No,1,5,Serious,Sunday,September
+448,2023-04-28,11:12,Delhi,Rain,Snowy,Darkness,Car,41,Male,90,No,3,4,Minor,Friday,April
+449,2024-07-13,17:44,Mumbai,Snow,Dry,Daylight,Truck,45,Female,88,No,1,4,Serious,Saturday,July
+450,2024-08-23,19:25,Delhi,Fog,Wet,Darkness,Car,53,Male,77,No,1,5,Serious,Friday,August
+451,2024-05-02,14:09,Lucknow,Clear,Dry,Daylight,Bicycle,69,Male,59,No,4,5,Serious,Thursday,May
+452,2023-08-25,12:24,Mumbai,Fog,Wet,Darkness,Bus,35,Male,104,No,4,4,Minor,Friday,August
+453,2023-09-29,16:23,Lucknow,Clear,Wet,Daylight,Bus,42,Female,67,No,1,0,Minor,Friday,September
+454,2023-07-08,16:33,Ahmedabad,Snow,Dry,Daylight,Bicycle,52,Female,70,No,4,0,Minor,Saturday,July
+455,2024-12-04,17:51,Kolkata,Rain,Dry,Daylight,Auto Rickshaw,21,Male,76,No,1,0,Minor,Wednesday,December
+456,2024-03-22,00:52,Pune,Clear,Dry,Twilight,Motorcycle,31,Male,90,Yes,3,2,Serious,Friday,March
+457,2024-08-03,08:43,Mumbai,Rain,Snowy,Twilight,Motorcycle,56,Male,56,No,4,1,Minor,Saturday,August
+458,2023-09-04,14:34,Ahmedabad,Windy,Snowy,Daylight,Truck,43,Female,106,No,1,4,Minor,Monday,September
+459,2023-03-17,19:14,Hyderabad,Clear,Dry,Twilight,Auto Rickshaw,25,Male,94,No,4,3,Minor,Friday,March
+460,2023-06-03,02:22,Ahmedabad,Rain,Dry,Darkness,Car,41,Male,93,Yes,1,5,Minor,Saturday,June
+461,2024-10-17,12:54,Delhi,Rain,Dry,Darkness,Bus,33,Male,104,No,4,5,Serious,Thursday,October
+462,2024-03-10,03:24,Delhi,Fog,Wet,Daylight,Truck,37,Male,74,No,2,4,Serious,Sunday,March
+463,2023-03-27,12:58,Pune,Clear,Dry,Twilight,Bicycle,32,Male,60,Yes,1,4,Minor,Monday,March
+464,2024-11-27,20:09,Ahmedabad,Clear,Dry,Daylight,Auto Rickshaw,24,Male,116,Yes,2,4,Serious,Wednesday,November
+465,2023-10-12,15:52,Bangalore,Clear,Dry,Darkness,Bus,34,Male,39,Yes,1,5,Serious,Thursday,October
+466,2023-08-08,10:58,Kolkata,Rain,Dry,Darkness,Car,39,Female,52,No,2,4,Minor,Tuesday,August
+467,2023-03-10,03:20,Delhi,Clear,Wet,Darkness,Car,39,Male,59,Yes,1,5,Minor,Friday,March
+468,2023-02-16,18:38,Pune,Snow,Dry,Darkness,Motorcycle,29,Female,118,No,4,1,Minor,Thursday,February
+469,2023-04-04,03:49,Kolkata,Clear,Wet,Daylight,Truck,35,Male,53,No,2,3,Minor,Tuesday,April
+470,2024-03-28,15:30,Ahmedabad,Rain,Dry,Daylight,Bicycle,63,Male,81,No,4,0,Minor,Thursday,March
+471,2023-07-23,16:58,Ahmedabad,Clear,Dry,Daylight,Bus,64,Male,119,No,1,3,Serious,Sunday,July
+472,2023-08-06,21:24,Jaipur,Clear,Wet,Daylight,Car,32,Male,110,No,4,4,Minor,Sunday,August
+473,2024-04-18,18:41,Pune,Clear,Icy,Daylight,Bus,54,Male,38,Yes,1,3,Minor,Thursday,April
+474,2024-03-07,12:38,Delhi,Clear,Wet,Darkness,Bicycle,33,Male,62,No,4,4,Serious,Thursday,March
+475,2023-12-07,12:47,Bangalore,Rain,Dry,Darkness,Bus,22,Male,88,No,2,3,Serious,Thursday,December
+476,2024-07-04,07:16,Ahmedabad,Snow,Dry,Daylight,Truck,19,Male,82,No,1,2,Minor,Thursday,July
+477,2024-09-03,11:51,Bangalore,Rain,Snowy,Daylight,Motorcycle,69,Male,112,No,4,3,Minor,Tuesday,September
+478,2023-10-16,22:59,Ahmedabad,Windy,Dry,Daylight,Bus,45,Male,29,Yes,1,0,Serious,Monday,October
+479,2023-09-11,15:59,Delhi,Fog,Dry,Daylight,Auto Rickshaw,58,Male,32,No,1,0,Minor,Monday,September
+480,2023-12-23,12:46,Kolkata,Rain,Snowy,Daylight,Motorcycle,44,Male,112,No,1,3,Minor,Saturday,December
+481,2023-01-23,01:58,Chennai,Fog,Wet,Darkness,Bicycle,48,Male,24,Yes,3,5,Minor,Monday,January
+482,2024-06-05,19:59,Kolkata,Rain,Icy,Daylight,Motorcycle,58,Female,77,No,1,5,Minor,Wednesday,June
+483,2023-04-10,04:23,Ahmedabad,Clear,Snowy,Darkness,Bus,53,Male,78,No,4,5,Minor,Monday,April
+484,2023-06-29,02:21,Lucknow,Rain,Snowy,Daylight,Bus,64,Male,95,No,3,3,Minor,Thursday,June
+485,2023-08-11,00:19,Chennai,Clear,Dry,Darkness,Auto Rickshaw,60,Male,78,No,4,5,Minor,Friday,August
+486,2024-10-20,12:26,Chennai,Rain,Dry,Darkness,Car,18,Male,96,No,3,1,Fatal,Sunday,October
+487,2024-03-17,04:58,Bangalore,Rain,Dry,Twilight,Auto Rickshaw,67,Male,105,Yes,1,3,Fatal,Sunday,March
+488,2024-08-30,17:52,Pune,Clear,Dry,Darkness,Bus,46,Female,34,No,2,0,Serious,Friday,August
+489,2023-11-21,02:41,Bangalore,Clear,Dry,Twilight,Motorcycle,18,Male,96,No,2,5,Minor,Tuesday,November
+490,2024-05-30,18:34,Bangalore,Snow,Dry,Darkness,Auto Rickshaw,25,Male,20,Yes,1,2,Minor,Thursday,May
+491,2023-01-16,12:12,Lucknow,Rain,Dry,Darkness,Auto Rickshaw,33,Male,57,No,3,5,Minor,Monday,January
+492,2023-12-02,09:59,Kolkata,Clear,Dry,Daylight,Car,45,Male,72,No,4,0,Serious,Saturday,December
+493,2023-09-15,18:48,Kolkata,Rain,Dry,Daylight,Bus,39,Male,71,No,2,1,Serious,Friday,September
+494,2024-05-11,01:11,Hyderabad,Rain,Dry,Daylight,Bus,35,Male,20,Yes,1,3,Minor,Saturday,May
+495,2023-06-09,12:20,Ahmedabad,Rain,Dry,Darkness,Bicycle,39,Male,30,No,1,5,Minor,Friday,June
+496,2024-04-19,22:09,Lucknow,Windy,Wet,Daylight,Car,58,Male,77,No,3,2,Minor,Friday,April
+497,2024-10-25,04:18,Hyderabad,Rain,Dry,Darkness,Bicycle,29,Male,59,No,2,0,Minor,Friday,October
+498,2024-11-20,22:02,Delhi,Clear,Dry,Twilight,Bicycle,36,Male,105,No,1,2,Minor,Wednesday,November
+499,2024-11-05,06:04,Ahmedabad,Fog,Wet,Daylight,Bicycle,42,Male,118,No,2,4,Serious,Tuesday,November
+500,2024-01-15,20:12,Ahmedabad,Fog,Dry,Daylight,Truck,67,Male,79,No,4,0,Minor,Monday,January
+501,2024-06-28,03:57,Jaipur,Clear,Dry,Twilight,Bicycle,22,Male,63,Yes,1,4,Minor,Friday,June
+502,2024-11-21,18:02,Jaipur,Clear,Dry,Daylight,Auto Rickshaw,51,Male,25,No,1,2,Minor,Thursday,November
+503,2024-03-02,06:47,Mumbai,Clear,Dry,Darkness,Motorcycle,56,Male,47,No,4,3,Fatal,Saturday,March
+504,2024-09-04,15:51,Mumbai,Rain,Snowy,Daylight,Auto Rickshaw,27,Male,50,No,1,3,Minor,Wednesday,September
+505,2023-09-25,22:18,Bangalore,Rain,Dry,Darkness,Auto Rickshaw,64,Female,27,No,3,3,Minor,Monday,September
+506,2024-07-30,00:30,Delhi,Rain,Wet,Daylight,Bus,24,Male,24,No,4,4,Serious,Tuesday,July
+507,2024-02-21,18:59,Chennai,Snow,Dry,Darkness,Truck,54,Male,73,No,3,3,Minor,Wednesday,February
+508,2023-06-17,22:53,Chennai,Fog,Dry,Daylight,Bicycle,64,Male,36,No,4,1,Minor,Saturday,June
+509,2023-02-12,16:58,Jaipur,Clear,Dry,Daylight,Bus,69,Male,57,No,4,0,Fatal,Sunday,February
+510,2024-07-09,07:33,Jaipur,Clear,Dry,Daylight,Car,69,Female,28,No,3,0,Minor,Tuesday,July
+511,2023-10-12,20:32,Jaipur,Clear,Dry,Daylight,Car,32,Male,93,No,4,2,Minor,Thursday,October
+512,2024-02-01,00:01,Lucknow,Clear,Dry,Twilight,Bus,59,Male,103,Yes,2,5,Minor,Thursday,February
+513,2023-01-12,15:46,Pune,Rain,Dry,Darkness,Motorcycle,41,Male,97,Yes,3,4,Minor,Thursday,January
+514,2024-08-29,16:00,Mumbai,Fog,Wet,Daylight,Bus,43,Male,33,Yes,4,0,Serious,Thursday,August
+515,2023-10-29,11:53,Lucknow,Clear,Dry,Daylight,Bus,43,Male,45,No,3,4,Fatal,Sunday,October
+516,2023-09-10,11:33,Kolkata,Rain,Snowy,Daylight,Truck,63,Male,112,Yes,4,2,Fatal,Sunday,September
+517,2024-05-13,14:01,Chennai,Fog,Wet,Darkness,Car,43,Male,81,No,4,3,Fatal,Monday,May
+518,2023-02-04,11:07,Ahmedabad,Clear,Dry,Darkness,Car,27,Male,110,No,2,5,Minor,Saturday,February
+519,2024-12-27,15:49,Mumbai,Clear,Dry,Daylight,Bicycle,34,Male,44,Yes,2,2,Minor,Friday,December
+520,2023-03-31,16:30,Hyderabad,Clear,Dry,Darkness,Auto Rickshaw,31,Female,99,No,2,1,Serious,Friday,March
+521,2024-08-27,15:02,Kolkata,Clear,Wet,Darkness,Bus,19,Male,55,Yes,4,3,Minor,Tuesday,August
+522,2024-08-24,09:29,Mumbai,Snow,Dry,Twilight,Bus,65,Male,117,No,2,3,Minor,Saturday,August
+523,2024-02-22,22:27,Lucknow,Clear,Wet,Twilight,Motorcycle,30,Male,99,No,3,3,Serious,Thursday,February
+524,2023-04-25,04:57,Delhi,Clear,Dry,Darkness,Car,44,Male,52,No,4,2,Minor,Tuesday,April
+525,2024-09-08,20:06,Ahmedabad,Rain,Wet,Darkness,Motorcycle,26,Male,22,Yes,3,1,Minor,Sunday,September
+526,2023-07-15,09:19,Mumbai,Windy,Dry,Daylight,Truck,24,Male,106,No,2,5,Minor,Saturday,July
+527,2024-05-15,01:24,Pune,Clear,Snowy,Darkness,Bicycle,65,Male,30,No,4,4,Serious,Wednesday,May
+528,2024-09-17,13:17,Jaipur,Clear,Dry,Daylight,Motorcycle,27,Male,77,No,3,2,Minor,Tuesday,September
+529,2024-05-07,05:32,Jaipur,Clear,Dry,Daylight,Car,26,Male,83,No,1,0,Minor,Tuesday,May
+530,2023-03-16,09:05,Ahmedabad,Clear,Dry,Daylight,Truck,39,Female,37,No,3,0,Minor,Thursday,March
+531,2024-02-17,15:59,Lucknow,Clear,Dry,Darkness,Bus,40,Male,66,No,4,2,Serious,Saturday,February
+532,2024-01-11,11:02,Jaipur,Rain,Icy,Daylight,Truck,24,Male,63,No,1,4,Minor,Thursday,January
+533,2024-02-24,13:37,Mumbai,Clear,Dry,Daylight,Auto Rickshaw,65,Female,112,Yes,2,0,Fatal,Saturday,February
+534,2024-12-29,15:41,Hyderabad,Clear,Dry,Daylight,Motorcycle,26,Male,78,No,2,4,Minor,Sunday,December
+535,2023-10-04,10:56,Chennai,Fog,Dry,Daylight,Car,44,Male,69,No,3,3,Serious,Wednesday,October
+536,2024-11-06,02:53,Chennai,Clear,Dry,Daylight,Motorcycle,41,Male,88,No,2,2,Serious,Wednesday,November
+537,2024-01-29,16:25,Kolkata,Clear,Dry,Darkness,Bus,46,Male,107,No,3,3,Minor,Monday,January
+538,2024-04-01,20:33,Bangalore,Clear,Wet,Darkness,Bus,34,Male,48,No,3,0,Fatal,Monday,April
+539,2023-07-11,02:08,Delhi,Windy,Dry,Daylight,Car,37,Male,112,No,3,4,Minor,Tuesday,July
+540,2024-11-19,06:13,Ahmedabad,Clear,Snowy,Darkness,Auto Rickshaw,24,Male,109,No,3,3,Serious,Tuesday,November
+541,2023-04-09,14:24,Kolkata,Fog,Dry,Darkness,Bicycle,60,Male,86,Yes,4,0,Fatal,Sunday,April
+542,2024-07-01,19:50,Bangalore,Fog,Dry,Daylight,Truck,57,Female,21,No,4,1,Minor,Monday,July
+543,2023-04-06,23:41,Lucknow,Clear,Wet,Darkness,Truck,24,Male,44,No,1,3,Minor,Thursday,April
+544,2024-10-25,18:06,Pune,Windy,Wet,Twilight,Bus,45,Female,38,No,1,1,Serious,Friday,October
+545,2024-10-24,08:48,Pune,Clear,Dry,Daylight,Motorcycle,36,Female,59,No,2,1,Minor,Thursday,October
+546,2023-07-09,22:46,Delhi,Clear,Wet,Daylight,Motorcycle,37,Male,21,No,4,5,Serious,Sunday,July
+547,2023-02-06,13:58,Jaipur,Fog,Dry,Twilight,Auto Rickshaw,61,Female,102,No,1,0,Minor,Monday,February
+548,2024-01-04,00:32,Mumbai,Rain,Dry,Darkness,Bicycle,56,Male,84,No,4,2,Minor,Thursday,January
+549,2024-11-25,22:00,Kolkata,Rain,Snowy,Daylight,Motorcycle,57,Female,81,No,4,4,Serious,Monday,November
+550,2024-06-08,04:16,Kolkata,Clear,Dry,Daylight,Truck,24,Male,110,No,2,0,Minor,Saturday,June
+551,2023-10-06,03:06,Ahmedabad,Clear,Dry,Daylight,Motorcycle,23,Male,73,No,2,5,Serious,Friday,October
+552,2023-08-05,14:30,Ahmedabad,Fog,Wet,Darkness,Bicycle,42,Male,64,Yes,3,5,Fatal,Saturday,August
+553,2023-09-30,09:00,Pune,Clear,Icy,Daylight,Truck,58,Male,68,No,4,3,Minor,Saturday,September
+554,2023-03-03,11:55,Pune,Clear,Dry,Daylight,Motorcycle,30,Female,118,Yes,3,4,Minor,Friday,March
+555,2024-08-18,06:38,Hyderabad,Clear,Dry,Darkness,Truck,56,Female,88,No,3,5,Minor,Sunday,August
+556,2024-12-29,05:54,Hyderabad,Clear,Dry,Daylight,Bus,57,Male,57,No,3,2,Minor,Sunday,December
+557,2023-12-08,10:47,Jaipur,Fog,Snowy,Daylight,Bus,39,Female,23,No,4,0,Minor,Friday,December
+558,2024-02-01,20:06,Hyderabad,Clear,Snowy,Daylight,Auto Rickshaw,66,Male,36,No,4,2,Minor,Thursday,February
+559,2024-11-29,19:39,Mumbai,Windy,Dry,Darkness,Bus,34,Male,72,No,3,3,Serious,Friday,November
+560,2023-01-19,00:30,Mumbai,Clear,Dry,Daylight,Motorcycle,65,Male,104,No,4,0,Minor,Thursday,January
+561,2023-06-26,22:21,Kolkata,Rain,Dry,Darkness,Bicycle,39,Male,72,No,3,3,Minor,Monday,June
+562,2024-09-03,01:08,Chennai,Clear,Wet,Daylight,Truck,51,Male,50,No,1,4,Minor,Tuesday,September
+563,2024-01-31,08:44,Mumbai,Clear,Wet,Daylight,Car,25,Male,41,No,4,4,Minor,Wednesday,January
+564,2024-03-20,04:36,Bangalore,Clear,Wet,Daylight,Bus,66,Male,30,No,2,2,Serious,Wednesday,March
+565,2023-08-21,18:24,Pune,Clear,Icy,Daylight,Bus,62,Male,53,No,2,2,Minor,Monday,August
+566,2023-03-17,11:45,Ahmedabad,Rain,Dry,Darkness,Car,35,Male,34,No,3,4,Serious,Friday,March
+567,2023-09-22,02:52,Hyderabad,Windy,Dry,Daylight,Car,41,Male,29,Yes,1,1,Minor,Friday,September
+568,2024-03-30,07:36,Kolkata,Rain,Dry,Darkness,Motorcycle,59,Male,115,No,4,4,Minor,Saturday,March
+569,2024-12-18,06:47,Delhi,Clear,Dry,Daylight,Truck,19,Female,72,No,3,0,Minor,Wednesday,December
+570,2024-01-19,09:12,Ahmedabad,Clear,Dry,Twilight,Bus,19,Female,67,No,1,3,Minor,Friday,January
+571,2024-07-17,09:51,Bangalore,Clear,Dry,Darkness,Bicycle,44,Male,50,No,1,4,Minor,Wednesday,July
+572,2024-05-20,22:26,Hyderabad,Rain,Wet,Darkness,Motorcycle,31,Male,56,No,4,4,Minor,Monday,May
+573,2024-01-02,17:56,Bangalore,Fog,Snowy,Daylight,Motorcycle,65,Female,47,No,2,5,Minor,Tuesday,January
+574,2023-05-24,07:43,Pune,Snow,Dry,Daylight,Bicycle,56,Male,50,No,2,3,Minor,Wednesday,May
+575,2023-03-10,21:36,Pune,Clear,Dry,Daylight,Bicycle,29,Male,89,No,1,5,Minor,Friday,March
+576,2023-04-09,17:09,Jaipur,Rain,Dry,Twilight,Auto Rickshaw,49,Male,33,No,2,3,Serious,Sunday,April
+577,2024-01-31,20:51,Kolkata,Clear,Wet,Daylight,Bicycle,45,Male,106,No,1,0,Fatal,Wednesday,January
+578,2023-01-25,16:41,Ahmedabad,Rain,Wet,Darkness,Car,45,Male,35,Yes,1,3,Minor,Wednesday,January
+579,2024-04-13,05:09,Lucknow,Rain,Dry,Darkness,Bus,63,Male,44,No,1,2,Minor,Saturday,April
+580,2024-04-28,04:06,Lucknow,Rain,Dry,Daylight,Auto Rickshaw,42,Male,58,No,2,4,Minor,Sunday,April
+581,2024-07-18,07:47,Ahmedabad,Rain,Dry,Darkness,Car,21,Male,85,No,3,3,Serious,Thursday,July
+582,2023-05-31,03:10,Delhi,Clear,Dry,Darkness,Auto Rickshaw,43,Female,57,No,2,0,Minor,Wednesday,May
+583,2023-05-24,13:59,Kolkata,Fog,Dry,Darkness,Bus,53,Male,60,No,3,3,Minor,Wednesday,May
+584,2024-07-22,17:38,Bangalore,Clear,Wet,Daylight,Auto Rickshaw,67,Male,117,No,2,4,Serious,Monday,July
+585,2023-02-08,23:26,Delhi,Rain,Snowy,Daylight,Car,20,Male,59,No,4,1,Minor,Wednesday,February
+586,2023-04-19,07:51,Chennai,Clear,Dry,Daylight,Truck,18,Male,83,Yes,4,3,Minor,Wednesday,April
+587,2024-11-23,08:55,Ahmedabad,Rain,Wet,Darkness,Bus,34,Female,108,No,2,2,Minor,Saturday,November
+588,2023-02-11,05:51,Bangalore,Snow,Snowy,Darkness,Motorcycle,24,Male,119,Yes,4,4,Serious,Saturday,February
+589,2023-07-05,15:22,Lucknow,Fog,Dry,Daylight,Bus,65,Female,35,No,4,0,Serious,Wednesday,July
+590,2024-02-02,22:28,Mumbai,Fog,Dry,Twilight,Bus,22,Male,101,Yes,4,4,Serious,Friday,February
+591,2023-08-11,12:04,Jaipur,Rain,Snowy,Daylight,Bus,36,Male,96,No,4,5,Serious,Friday,August
+592,2024-09-25,18:05,Lucknow,Rain,Dry,Darkness,Truck,56,Male,78,Yes,3,1,Serious,Wednesday,September
+593,2023-05-13,04:25,Kolkata,Rain,Snowy,Twilight,Car,63,Male,110,No,1,0,Minor,Saturday,May
+594,2023-06-12,22:26,Pune,Fog,Icy,Darkness,Motorcycle,51,Female,117,No,3,1,Serious,Monday,June
+595,2023-08-03,19:20,Mumbai,Clear,Wet,Darkness,Car,52,Male,30,No,1,1,Minor,Thursday,August
+596,2023-08-23,01:00,Jaipur,Windy,Wet,Daylight,Auto Rickshaw,66,Male,20,No,1,2,Minor,Wednesday,August
+597,2024-10-19,03:19,Jaipur,Snow,Wet,Daylight,Auto Rickshaw,33,Female,32,No,2,3,Fatal,Saturday,October
+598,2024-08-10,04:32,Chennai,Rain,Wet,Darkness,Auto Rickshaw,57,Male,49,No,2,2,Minor,Saturday,August
+599,2023-01-09,17:28,Chennai,Clear,Dry,Daylight,Car,67,Female,88,No,2,2,Minor,Monday,January
+600,2023-03-15,06:41,Hyderabad,Clear,Dry,Daylight,Bicycle,64,Male,37,No,2,5,Minor,Wednesday,March
+601,2024-05-06,03:47,Lucknow,Fog,Dry,Darkness,Truck,56,Male,97,No,2,2,Serious,Monday,May
+602,2023-09-10,21:31,Lucknow,Clear,Wet,Daylight,Bicycle,44,Male,32,No,3,0,Minor,Sunday,September
+603,2023-08-18,18:40,Lucknow,Fog,Dry,Twilight,Auto Rickshaw,58,Male,51,No,3,3,Serious,Friday,August
+604,2024-06-02,22:18,Hyderabad,Clear,Dry,Darkness,Truck,55,Male,90,No,4,3,Minor,Sunday,June
+605,2023-06-23,13:27,Delhi,Clear,Dry,Darkness,Car,67,Male,91,Yes,3,0,Fatal,Friday,June
+606,2024-10-14,18:00,Jaipur,Snow,Wet,Darkness,Auto Rickshaw,67,Male,69,No,3,2,Minor,Monday,October
+607,2023-06-17,03:37,Mumbai,Rain,Icy,Darkness,Car,42,Male,90,No,2,2,Serious,Saturday,June
+608,2023-06-19,13:25,Kolkata,Rain,Icy,Darkness,Truck,43,Male,99,Yes,4,1,Fatal,Monday,June
+609,2024-01-28,13:03,Jaipur,Rain,Dry,Darkness,Car,31,Female,50,No,3,1,Minor,Sunday,January
+610,2024-09-25,16:37,Chennai,Clear,Snowy,Daylight,Car,31,Male,70,No,3,5,Minor,Wednesday,September
+611,2023-07-13,17:01,Bangalore,Fog,Wet,Darkness,Motorcycle,31,Male,46,Yes,4,4,Minor,Thursday,July
+612,2024-05-31,07:12,Pune,Clear,Dry,Darkness,Bicycle,42,Male,79,No,1,1,Fatal,Friday,May
+613,2023-01-29,09:10,Hyderabad,Snow,Dry,Daylight,Bicycle,53,Male,52,No,2,3,Minor,Sunday,January
+614,2023-06-14,16:48,Ahmedabad,Fog,Dry,Daylight,Bicycle,21,Female,72,No,3,0,Minor,Wednesday,June
+615,2024-02-26,18:52,Bangalore,Clear,Snowy,Darkness,Bus,64,Male,112,No,3,2,Serious,Monday,February
+616,2023-12-05,16:43,Kolkata,Rain,Dry,Daylight,Motorcycle,32,Female,91,No,4,4,Minor,Tuesday,December
+617,2024-10-09,06:50,Lucknow,Rain,Dry,Twilight,Auto Rickshaw,49,Male,52,No,3,1,Minor,Wednesday,October
+618,2024-05-10,14:02,Chennai,Clear,Wet,Twilight,Auto Rickshaw,35,Male,60,No,2,4,Fatal,Friday,May
+619,2023-12-31,12:05,Chennai,Windy,Dry,Daylight,Auto Rickshaw,31,Male,38,No,3,0,Minor,Sunday,December
+620,2023-12-08,10:23,Chennai,Clear,Dry,Darkness,Bicycle,18,Female,104,No,1,0,Minor,Friday,December
+621,2024-05-14,10:40,Lucknow,Clear,Wet,Daylight,Bicycle,59,Female,60,Yes,2,4,Minor,Tuesday,May
+622,2024-10-18,09:43,Ahmedabad,Rain,Dry,Darkness,Motorcycle,37,Male,104,No,1,4,Serious,Friday,October
+623,2024-05-25,19:37,Hyderabad,Rain,Wet,Daylight,Car,27,Female,108,No,4,5,Minor,Saturday,May
+624,2023-11-23,17:41,Bangalore,Rain,Dry,Darkness,Bicycle,27,Male,61,Yes,2,4,Serious,Thursday,November
+625,2023-08-05,06:22,Lucknow,Fog,Wet,Daylight,Auto Rickshaw,41,Female,42,No,3,2,Minor,Saturday,August
+626,2023-10-28,15:33,Kolkata,Rain,Wet,Daylight,Car,51,Male,94,Yes,2,3,Fatal,Saturday,October
+627,2023-05-12,16:04,Hyderabad,Rain,Dry,Daylight,Bicycle,45,Male,52,No,2,1,Minor,Friday,May
+628,2023-03-11,13:42,Kolkata,Clear,Dry,Daylight,Truck,44,Male,39,No,2,1,Minor,Saturday,March
+629,2023-09-09,15:01,Hyderabad,Clear,Wet,Daylight,Bus,57,Female,44,No,1,1,Serious,Saturday,September
+630,2024-02-19,13:24,Ahmedabad,Clear,Wet,Daylight,Bicycle,18,Female,109,Yes,4,4,Minor,Monday,February
+631,2024-03-20,21:38,Pune,Clear,Wet,Daylight,Truck,50,Female,71,No,2,4,Minor,Wednesday,March
+632,2023-07-01,11:05,Kolkata,Rain,Snowy,Darkness,Motorcycle,21,Female,31,No,3,5,Fatal,Saturday,July
+633,2023-06-16,18:27,Lucknow,Clear,Dry,Darkness,Truck,24,Male,51,No,2,4,Minor,Friday,June
+634,2023-04-01,01:01,Hyderabad,Clear,Dry,Darkness,Motorcycle,26,Female,52,No,2,5,Minor,Saturday,April
+635,2024-12-14,18:24,Chennai,Clear,Snowy,Twilight,Bicycle,33,Female,93,No,4,5,Serious,Saturday,December
+636,2024-06-14,17:55,Jaipur,Snow,Dry,Daylight,Motorcycle,22,Male,87,No,3,2,Minor,Friday,June
+637,2023-02-08,22:21,Chennai,Snow,Dry,Daylight,Truck,51,Male,34,No,3,2,Minor,Wednesday,February
+638,2023-05-06,05:44,Delhi,Rain,Dry,Daylight,Bus,40,Male,70,Yes,1,2,Serious,Saturday,May
+639,2024-03-26,05:42,Pune,Snow,Dry,Darkness,Car,60,Female,25,No,3,2,Minor,Tuesday,March
+640,2023-06-22,17:33,Pune,Fog,Dry,Twilight,Car,67,Female,110,No,3,0,Serious,Thursday,June
+641,2024-10-14,01:39,Chennai,Rain,Icy,Daylight,Bus,42,Female,88,No,3,2,Minor,Monday,October
+642,2023-08-08,12:03,Bangalore,Clear,Dry,Daylight,Auto Rickshaw,68,Female,88,Yes,2,2,Minor,Tuesday,August
+643,2024-09-29,23:34,Ahmedabad,Fog,Dry,Daylight,Car,30,Female,101,No,1,2,Serious,Sunday,September
+644,2023-02-27,04:22,Kolkata,Rain,Icy,Darkness,Bicycle,41,Male,111,No,3,5,Minor,Monday,February
+645,2024-10-21,12:49,Lucknow,Rain,Icy,Darkness,Auto Rickshaw,28,Male,54,No,3,1,Minor,Monday,October
+646,2024-04-20,18:28,Pune,Fog,Dry,Daylight,Bicycle,69,Male,105,No,3,1,Serious,Saturday,April
+647,2024-03-31,15:23,Chennai,Rain,Dry,Daylight,Truck,68,Male,53,No,2,1,Minor,Sunday,March
+648,2023-12-27,18:47,Chennai,Rain,Wet,Darkness,Truck,34,Male,82,Yes,2,3,Minor,Wednesday,December
+649,2023-01-01,01:22,Ahmedabad,Snow,Wet,Darkness,Auto Rickshaw,54,Female,87,Yes,1,0,Minor,Sunday,January
+650,2024-01-22,03:03,Ahmedabad,Clear,Wet,Daylight,Auto Rickshaw,30,Male,37,No,4,5,Minor,Monday,January
+651,2023-12-14,17:51,Mumbai,Rain,Snowy,Darkness,Auto Rickshaw,44,Male,45,No,1,4,Serious,Thursday,December
+652,2023-07-09,09:59,Mumbai,Clear,Wet,Daylight,Auto Rickshaw,37,Male,105,No,2,5,Serious,Sunday,July
+653,2024-05-19,01:50,Bangalore,Rain,Dry,Darkness,Motorcycle,50,Male,116,No,3,2,Minor,Sunday,May
+654,2023-07-10,07:38,Bangalore,Fog,Wet,Darkness,Auto Rickshaw,59,Male,80,No,3,1,Minor,Monday,July
+655,2024-05-22,03:38,Delhi,Clear,Dry,Daylight,Auto Rickshaw,49,Male,97,No,1,5,Minor,Wednesday,May
+656,2024-01-04,20:48,Bangalore,Rain,Wet,Daylight,Truck,25,Male,114,No,3,0,Serious,Thursday,January
+657,2024-02-13,01:52,Hyderabad,Clear,Wet,Darkness,Bicycle,46,Male,93,No,2,2,Minor,Tuesday,February
+658,2023-04-27,04:55,Ahmedabad,Rain,Dry,Daylight,Truck,57,Male,107,No,1,3,Minor,Thursday,April
+659,2023-05-14,08:48,Lucknow,Clear,Dry,Darkness,Car,36,Male,104,No,4,4,Serious,Sunday,May
+660,2023-02-27,05:50,Hyderabad,Fog,Dry,Darkness,Motorcycle,23,Male,67,Yes,2,2,Serious,Monday,February
+661,2024-07-09,20:11,Kolkata,Clear,Dry,Darkness,Motorcycle,61,Male,91,No,2,4,Minor,Tuesday,July
+662,2024-11-15,22:32,Chennai,Rain,Wet,Daylight,Bicycle,56,Male,115,No,3,5,Serious,Friday,November
+663,2024-11-02,08:24,Bangalore,Clear,Dry,Daylight,Auto Rickshaw,65,Male,50,No,2,2,Serious,Saturday,November
+664,2023-06-22,03:15,Chennai,Fog,Wet,Darkness,Truck,58,Female,53,No,2,3,Minor,Thursday,June
+665,2023-05-29,12:12,Pune,Snow,Dry,Daylight,Car,38,Male,106,No,4,5,Minor,Monday,May
+666,2023-03-21,15:13,Delhi,Windy,Wet,Darkness,Truck,39,Male,108,Yes,3,0,Minor,Tuesday,March
+667,2023-08-01,13:31,Pune,Fog,Wet,Darkness,Auto Rickshaw,59,Male,26,Yes,2,4,Minor,Tuesday,August
+668,2023-07-22,01:24,Delhi,Fog,Wet,Daylight,Auto Rickshaw,27,Male,102,No,3,4,Minor,Saturday,July
+669,2023-08-17,20:21,Mumbai,Clear,Dry,Darkness,Bus,27,Male,26,No,2,0,Minor,Thursday,August
+670,2024-11-06,08:11,Chennai,Clear,Icy,Daylight,Truck,69,Male,66,No,4,4,Fatal,Wednesday,November
+671,2023-08-15,15:58,Delhi,Clear,Dry,Daylight,Bicycle,46,Male,27,Yes,3,5,Serious,Tuesday,August
+672,2024-10-20,04:34,Jaipur,Fog,Dry,Twilight,Truck,33,Male,97,No,3,1,Fatal,Sunday,October
+673,2024-06-15,06:31,Hyderabad,Snow,Dry,Twilight,Motorcycle,18,Male,20,No,4,0,Fatal,Saturday,June
+674,2024-03-16,13:05,Delhi,Clear,Dry,Daylight,Car,34,Male,96,No,1,3,Serious,Saturday,March
+675,2024-02-06,06:49,Delhi,Snow,Icy,Twilight,Bicycle,47,Male,22,No,2,2,Serious,Tuesday,February
+676,2023-02-16,00:36,Hyderabad,Rain,Dry,Daylight,Bus,43,Female,72,Yes,2,2,Serious,Thursday,February
+677,2023-08-21,04:02,Chennai,Rain,Wet,Daylight,Car,63,Male,111,No,1,0,Fatal,Monday,August
+678,2023-11-01,01:16,Chennai,Clear,Wet,Daylight,Car,36,Male,57,No,3,1,Minor,Wednesday,November
+679,2024-06-09,11:32,Hyderabad,Clear,Dry,Twilight,Motorcycle,38,Male,70,No,3,5,Serious,Sunday,June
+680,2023-05-23,00:58,Pune,Rain,Wet,Daylight,Motorcycle,34,Female,34,No,4,3,Minor,Tuesday,May
+681,2024-02-19,02:26,Jaipur,Rain,Dry,Daylight,Motorcycle,63,Male,119,Yes,4,2,Fatal,Monday,February
+682,2024-05-27,05:45,Lucknow,Clear,Dry,Daylight,Bicycle,57,Male,86,No,4,2,Minor,Monday,May
+683,2024-01-08,21:10,Kolkata,Rain,Dry,Darkness,Truck,38,Male,83,No,1,5,Minor,Monday,January
+684,2024-07-19,02:14,Jaipur,Fog,Snowy,Daylight,Car,58,Male,87,Yes,1,1,Minor,Friday,July
+685,2023-09-16,19:49,Chennai,Fog,Icy,Daylight,Truck,57,Male,24,No,3,4,Minor,Saturday,September
+686,2024-10-17,04:37,Lucknow,Snow,Dry,Daylight,Truck,62,Male,109,No,4,0,Minor,Thursday,October
+687,2024-04-15,17:26,Mumbai,Clear,Dry,Darkness,Motorcycle,66,Male,108,No,3,1,Serious,Monday,April
+688,2023-01-12,18:36,Bangalore,Clear,Wet,Darkness,Truck,36,Male,29,No,1,1,Minor,Thursday,January
+689,2023-11-26,19:53,Delhi,Rain,Dry,Daylight,Car,24,Male,27,No,2,1,Minor,Sunday,November
+690,2023-12-24,18:23,Hyderabad,Clear,Snowy,Darkness,Car,34,Male,31,No,3,1,Minor,Sunday,December
+691,2024-02-12,22:51,Hyderabad,Clear,Dry,Daylight,Auto Rickshaw,18,Male,83,No,1,4,Serious,Monday,February
+692,2024-10-29,14:16,Delhi,Clear,Dry,Darkness,Bus,54,Male,78,No,4,5,Minor,Tuesday,October
+693,2024-01-08,01:48,Bangalore,Clear,Wet,Daylight,Bicycle,23,Female,86,Yes,2,3,Minor,Monday,January
+694,2023-01-08,14:00,Kolkata,Clear,Dry,Daylight,Truck,43,Male,110,No,2,1,Minor,Sunday,January
+695,2023-05-02,09:28,Bangalore,Clear,Snowy,Daylight,Bicycle,19,Female,69,No,2,1,Minor,Tuesday,May
+696,2023-12-14,09:05,Lucknow,Clear,Snowy,Darkness,Bicycle,49,Male,42,No,4,0,Fatal,Thursday,December
+697,2024-11-06,22:19,Bangalore,Clear,Dry,Darkness,Bicycle,65,Male,59,No,2,2,Serious,Wednesday,November
+698,2023-03-31,19:23,Lucknow,Rain,Dry,Daylight,Auto Rickshaw,22,Male,116,No,1,4,Minor,Friday,March
+699,2024-10-09,01:47,Bangalore,Rain,Icy,Darkness,Bicycle,54,Male,97,Yes,3,1,Serious,Wednesday,October
+700,2024-11-28,22:17,Kolkata,Rain,Snowy,Daylight,Auto Rickshaw,48,Male,106,No,2,3,Serious,Thursday,November
+701,2023-11-12,03:19,Kolkata,Clear,Dry,Daylight,Car,29,Male,114,No,2,3,Serious,Sunday,November
+702,2023-06-27,17:29,Chennai,Clear,Wet,Daylight,Truck,52,Male,96,No,1,3,Serious,Tuesday,June
+703,2024-06-23,19:43,Delhi,Rain,Dry,Darkness,Auto Rickshaw,47,Male,95,Yes,4,0,Minor,Sunday,June
+704,2023-02-10,04:50,Kolkata,Rain,Dry,Darkness,Bus,65,Male,118,Yes,2,3,Fatal,Friday,February
+705,2024-12-04,20:24,Lucknow,Rain,Snowy,Daylight,Bicycle,23,Male,37,No,1,5,Minor,Wednesday,December
+706,2024-05-16,20:53,Kolkata,Clear,Dry,Daylight,Bus,32,Male,40,No,1,0,Minor,Thursday,May
+707,2023-05-25,07:32,Chennai,Snow,Snowy,Daylight,Car,32,Female,20,No,4,4,Minor,Thursday,May
+708,2023-07-20,10:25,Hyderabad,Clear,Dry,Daylight,Car,33,Female,57,No,4,3,Serious,Thursday,July
+709,2024-12-24,18:03,Lucknow,Clear,Wet,Daylight,Motorcycle,37,Male,60,No,3,2,Minor,Tuesday,December
+710,2024-04-05,03:49,Chennai,Rain,Dry,Daylight,Bicycle,30,Male,61,No,2,1,Minor,Friday,April
+711,2024-07-11,16:59,Pune,Rain,Dry,Daylight,Motorcycle,61,Female,28,No,3,4,Minor,Thursday,July
+712,2024-06-30,06:45,Pune,Clear,Wet,Daylight,Bus,59,Female,42,No,1,5,Minor,Sunday,June
+713,2023-09-10,13:40,Mumbai,Clear,Dry,Daylight,Truck,63,Male,97,No,2,2,Minor,Sunday,September
+714,2024-01-25,05:30,Bangalore,Fog,Dry,Daylight,Motorcycle,48,Female,30,No,1,4,Minor,Thursday,January
+715,2024-08-16,03:35,Delhi,Clear,Dry,Daylight,Car,51,Male,90,No,1,5,Serious,Friday,August
+716,2023-09-13,23:59,Ahmedabad,Clear,Dry,Darkness,Bicycle,46,Male,50,No,1,3,Fatal,Wednesday,September
+717,2024-12-09,03:02,Jaipur,Clear,Wet,Daylight,Bus,20,Male,107,No,4,4,Minor,Monday,December
+718,2024-03-25,15:40,Chennai,Fog,Dry,Darkness,Auto Rickshaw,26,Male,45,No,4,4,Fatal,Monday,March
+719,2023-01-10,17:50,Hyderabad,Clear,Dry,Daylight,Car,28,Female,49,Yes,2,4,Serious,Tuesday,January
+720,2023-08-30,19:25,Jaipur,Windy,Dry,Daylight,Auto Rickshaw,28,Male,53,No,1,0,Minor,Wednesday,August
+721,2023-09-08,03:14,Hyderabad,Rain,Dry,Daylight,Truck,42,Male,65,No,1,2,Serious,Friday,September
+722,2023-01-05,16:42,Jaipur,Windy,Dry,Daylight,Bicycle,39,Male,88,No,2,5,Minor,Thursday,January
+723,2023-04-29,00:35,Chennai,Snow,Dry,Daylight,Truck,59,Male,24,No,3,3,Minor,Saturday,April
+724,2024-01-09,20:28,Ahmedabad,Clear,Dry,Twilight,Truck,63,Male,80,Yes,1,1,Serious,Tuesday,January
+725,2023-03-06,21:41,Jaipur,Clear,Wet,Daylight,Bicycle,26,Female,102,Yes,4,3,Serious,Monday,March
+726,2023-05-26,04:32,Chennai,Clear,Wet,Daylight,Bicycle,37,Male,57,No,3,3,Serious,Friday,May
+727,2023-08-12,20:34,Kolkata,Clear,Dry,Darkness,Auto Rickshaw,38,Male,47,No,3,0,Serious,Saturday,August
+728,2023-08-27,16:38,Ahmedabad,Rain,Dry,Daylight,Truck,27,Female,45,No,3,0,Fatal,Sunday,August
+729,2023-06-26,13:45,Lucknow,Clear,Dry,Darkness,Bus,39,Male,80,No,3,4,Fatal,Monday,June
+730,2023-10-09,01:43,Hyderabad,Clear,Dry,Daylight,Auto Rickshaw,46,Female,42,No,3,3,Minor,Monday,October
+731,2023-03-04,08:02,Pune,Clear,Dry,Twilight,Bicycle,26,Male,65,No,3,2,Serious,Saturday,March
+732,2023-08-05,15:16,Bangalore,Snow,Dry,Daylight,Car,22,Male,49,No,2,0,Minor,Saturday,August
+733,2024-11-19,18:09,Pune,Clear,Dry,Daylight,Auto Rickshaw,57,Male,86,No,2,5,Minor,Tuesday,November
+734,2024-04-05,09:28,Ahmedabad,Clear,Dry,Darkness,Motorcycle,28,Female,111,No,3,0,Minor,Friday,April
+735,2024-09-01,17:46,Lucknow,Clear,Dry,Daylight,Bus,18,Male,52,Yes,4,2,Minor,Sunday,September
+736,2023-04-15,13:43,Hyderabad,Snow,Dry,Daylight,Auto Rickshaw,59,Male,22,No,2,0,Serious,Saturday,April
+737,2023-04-09,02:13,Lucknow,Rain,Dry,Darkness,Bicycle,18,Male,88,No,2,2,Minor,Sunday,April
+738,2024-05-25,09:24,Jaipur,Clear,Dry,Daylight,Bicycle,56,Male,102,No,3,1,Serious,Saturday,May
+739,2024-01-20,00:10,Hyderabad,Clear,Dry,Daylight,Bus,63,Male,61,Yes,4,2,Fatal,Saturday,January
+740,2024-02-09,06:43,Jaipur,Clear,Dry,Darkness,Motorcycle,22,Female,81,Yes,3,1,Minor,Friday,February
+741,2024-06-01,07:51,Chennai,Clear,Dry,Daylight,Auto Rickshaw,66,Female,77,No,4,5,Serious,Saturday,June
+742,2024-04-20,15:34,Ahmedabad,Snow,Dry,Darkness,Auto Rickshaw,39,Male,76,No,4,4,Serious,Saturday,April
+743,2024-12-09,02:27,Chennai,Fog,Dry,Twilight,Truck,43,Male,20,No,1,4,Minor,Monday,December
+744,2024-10-06,01:59,Mumbai,Clear,Dry,Daylight,Car,23,Male,92,No,2,0,Minor,Sunday,October
+745,2024-03-12,02:27,Lucknow,Fog,Dry,Daylight,Bicycle,49,Male,79,Yes,3,2,Serious,Tuesday,March
+746,2023-01-23,08:12,Jaipur,Clear,Dry,Daylight,Auto Rickshaw,65,Female,88,No,2,0,Serious,Monday,January
+747,2024-07-18,00:29,Kolkata,Rain,Wet,Daylight,Auto Rickshaw,28,Female,78,Yes,2,2,Minor,Thursday,July
+748,2024-11-07,15:24,Chennai,Fog,Dry,Twilight,Auto Rickshaw,27,Female,65,No,4,0,Minor,Thursday,November
+749,2024-12-14,08:26,Mumbai,Clear,Dry,Daylight,Motorcycle,64,Male,53,No,2,4,Fatal,Saturday,December
+750,2024-04-02,16:26,Delhi,Fog,Snowy,Daylight,Car,56,Male,116,No,1,5,Minor,Tuesday,April
+751,2023-03-24,12:25,Pune,Clear,Dry,Darkness,Auto Rickshaw,51,Male,44,No,3,4,Minor,Friday,March
+752,2023-05-25,03:53,Hyderabad,Clear,Dry,Darkness,Bus,48,Male,61,No,2,0,Serious,Thursday,May
+753,2023-03-26,09:32,Mumbai,Clear,Snowy,Daylight,Bicycle,29,Male,48,No,3,2,Minor,Sunday,March
+754,2023-03-19,15:30,Ahmedabad,Clear,Wet,Daylight,Truck,68,Female,44,No,2,3,Minor,Sunday,March
+755,2024-04-01,06:43,Chennai,Rain,Dry,Darkness,Bus,61,Female,73,No,3,5,Serious,Monday,April
+756,2023-01-01,14:52,Ahmedabad,Snow,Dry,Twilight,Bicycle,33,Female,92,No,3,2,Minor,Sunday,January
+757,2023-02-20,23:08,Pune,Rain,Dry,Darkness,Motorcycle,55,Female,86,No,3,0,Serious,Monday,February
+758,2024-11-15,06:19,Kolkata,Fog,Dry,Daylight,Car,20,Male,34,No,2,2,Minor,Friday,November
+759,2024-12-17,09:11,Lucknow,Fog,Dry,Daylight,Car,19,Male,23,No,1,1,Minor,Tuesday,December
+760,2024-03-21,03:48,Lucknow,Clear,Dry,Daylight,Bicycle,69,Male,57,No,3,2,Serious,Thursday,March
+761,2024-03-24,18:55,Ahmedabad,Clear,Dry,Daylight,Bus,22,Male,39,No,4,4,Minor,Sunday,March
+762,2024-05-02,13:36,Jaipur,Clear,Snowy,Twilight,Truck,28,Male,42,No,4,4,Minor,Thursday,May
+763,2023-02-03,15:46,Kolkata,Rain,Icy,Darkness,Motorcycle,42,Male,56,No,4,1,Serious,Friday,February
+764,2023-12-14,15:16,Lucknow,Snow,Dry,Twilight,Bicycle,52,Male,81,No,1,5,Serious,Thursday,December
+765,2023-04-05,06:08,Kolkata,Clear,Wet,Daylight,Motorcycle,52,Male,27,No,3,2,Fatal,Wednesday,April
+766,2023-03-13,06:46,Mumbai,Rain,Dry,Darkness,Car,39,Male,56,No,1,5,Minor,Monday,March
+767,2024-07-04,08:22,Kolkata,Rain,Snowy,Darkness,Auto Rickshaw,54,Male,64,No,3,3,Minor,Thursday,July
+768,2023-06-03,10:33,Bangalore,Rain,Dry,Darkness,Auto Rickshaw,39,Male,116,No,1,2,Minor,Saturday,June
+769,2023-09-07,01:38,Pune,Clear,Dry,Daylight,Truck,28,Male,52,No,3,4,Minor,Thursday,September
+770,2024-11-04,22:40,Lucknow,Clear,Dry,Daylight,Motorcycle,49,Male,26,No,4,4,Minor,Monday,November
+771,2024-03-13,18:28,Kolkata,Clear,Dry,Darkness,Bicycle,52,Female,41,No,3,5,Serious,Wednesday,March
+772,2023-04-28,03:34,Ahmedabad,Clear,Dry,Daylight,Truck,48,Male,24,No,1,0,Serious,Friday,April
+773,2023-11-02,02:17,Delhi,Clear,Wet,Twilight,Bus,62,Male,34,No,3,4,Minor,Thursday,November
+774,2023-09-25,01:19,Bangalore,Rain,Wet,Daylight,Auto Rickshaw,25,Male,40,No,2,0,Minor,Monday,September
+775,2023-02-23,17:03,Bangalore,Clear,Dry,Darkness,Bicycle,37,Female,108,No,3,4,Minor,Thursday,February
+776,2023-08-24,06:46,Jaipur,Fog,Dry,Darkness,Motorcycle,59,Male,36,No,4,4,Minor,Thursday,August
+777,2024-01-24,01:44,Kolkata,Rain,Dry,Darkness,Truck,51,Female,75,No,3,3,Minor,Wednesday,January
+778,2024-02-05,16:39,Jaipur,Rain,Snowy,Daylight,Bicycle,21,Female,69,No,2,0,Minor,Monday,February
+779,2024-09-15,18:36,Jaipur,Clear,Snowy,Twilight,Truck,35,Female,26,No,2,0,Serious,Sunday,September
+780,2023-10-30,22:04,Delhi,Rain,Icy,Darkness,Truck,68,Male,69,Yes,2,4,Minor,Monday,October
+781,2023-07-26,06:57,Mumbai,Snow,Snowy,Daylight,Truck,21,Male,79,No,1,0,Minor,Wednesday,July
+782,2023-08-17,01:21,Kolkata,Clear,Dry,Darkness,Motorcycle,37,Male,102,No,2,4,Minor,Thursday,August
+783,2024-07-31,22:53,Chennai,Clear,Dry,Daylight,Bicycle,26,Male,26,No,1,4,Minor,Wednesday,July
+784,2023-03-16,01:39,Lucknow,Fog,Dry,Daylight,Car,33,Male,59,No,2,5,Minor,Thursday,March
+785,2024-03-10,06:26,Jaipur,Clear,Snowy,Daylight,Car,43,Female,64,No,1,2,Minor,Sunday,March
+786,2023-04-13,04:46,Pune,Clear,Dry,Darkness,Motorcycle,55,Female,78,Yes,2,0,Serious,Thursday,April
+787,2024-02-26,03:45,Hyderabad,Clear,Dry,Daylight,Motorcycle,42,Male,107,No,2,1,Minor,Monday,February
+788,2024-12-04,05:47,Pune,Clear,Wet,Darkness,Auto Rickshaw,21,Male,94,Yes,3,5,Minor,Wednesday,December
+789,2023-11-02,08:28,Delhi,Rain,Dry,Daylight,Truck,58,Female,74,No,2,0,Serious,Thursday,November
+790,2023-04-08,19:31,Delhi,Clear,Dry,Daylight,Bicycle,62,Male,83,No,3,0,Fatal,Saturday,April
+791,2023-12-01,01:25,Ahmedabad,Fog,Wet,Twilight,Bicycle,58,Male,84,No,2,3,Minor,Friday,December
+792,2024-03-10,20:08,Mumbai,Fog,Dry,Darkness,Bus,55,Male,73,No,2,1,Serious,Sunday,March
+793,2024-03-22,17:24,Lucknow,Rain,Dry,Twilight,Bus,36,Male,115,No,3,1,Minor,Friday,March
+794,2023-11-04,07:27,Jaipur,Rain,Wet,Daylight,Car,31,Male,59,No,3,3,Minor,Saturday,November
+795,2023-09-06,02:10,Pune,Fog,Wet,Daylight,Bus,38,Male,72,No,1,3,Serious,Wednesday,September
+796,2023-06-15,01:25,Hyderabad,Clear,Icy,Darkness,Bus,32,Male,63,No,4,0,Minor,Thursday,June
+797,2024-04-25,18:42,Delhi,Fog,Dry,Darkness,Car,20,Male,82,No,3,2,Minor,Thursday,April
+798,2023-12-01,21:53,Delhi,Fog,Dry,Daylight,Auto Rickshaw,54,Male,21,No,1,3,Minor,Friday,December
+799,2024-06-25,22:12,Mumbai,Rain,Wet,Daylight,Car,67,Male,98,Yes,2,1,Minor,Tuesday,June
+800,2023-04-16,20:08,Hyderabad,Rain,Dry,Darkness,Bus,63,Male,40,Yes,3,1,Minor,Sunday,April
+801,2024-07-16,07:03,Hyderabad,Clear,Dry,Daylight,Bicycle,33,Male,107,Yes,3,0,Fatal,Tuesday,July
+802,2023-03-22,05:28,Mumbai,Clear,Wet,Darkness,Bus,31,Female,69,No,2,2,Serious,Wednesday,March
+803,2023-05-13,16:47,Delhi,Fog,Dry,Daylight,Truck,26,Male,100,No,2,4,Fatal,Saturday,May
+804,2023-05-18,13:58,Lucknow,Clear,Dry,Daylight,Truck,64,Male,71,No,2,3,Minor,Thursday,May
+805,2023-07-03,14:50,Kolkata,Fog,Dry,Twilight,Truck,24,Female,28,No,2,3,Minor,Monday,July
+806,2024-02-05,21:17,Kolkata,Clear,Dry,Daylight,Auto Rickshaw,31,Female,118,No,4,0,Minor,Monday,February
+807,2023-11-26,07:31,Mumbai,Clear,Dry,Daylight,Motorcycle,23,Female,39,No,3,5,Minor,Sunday,November
+808,2024-05-22,05:23,Hyderabad,Clear,Dry,Darkness,Truck,38,Male,102,No,2,5,Serious,Wednesday,May
+809,2023-03-10,12:02,Jaipur,Clear,Wet,Daylight,Bicycle,32,Male,37,No,2,2,Serious,Friday,March
+810,2024-06-29,01:33,Mumbai,Rain,Snowy,Daylight,Auto Rickshaw,69,Female,103,No,4,1,Minor,Saturday,June
+811,2023-02-22,21:14,Lucknow,Clear,Dry,Darkness,Motorcycle,25,Female,49,No,3,1,Minor,Wednesday,February
+812,2024-03-25,22:14,Mumbai,Windy,Dry,Daylight,Motorcycle,51,Female,84,Yes,1,4,Minor,Monday,March
+813,2023-07-24,18:32,Bangalore,Rain,Dry,Daylight,Truck,57,Male,43,No,3,1,Serious,Monday,July
+814,2023-05-06,00:30,Pune,Clear,Dry,Daylight,Bus,18,Male,107,No,1,5,Minor,Saturday,May
+815,2023-02-12,21:08,Hyderabad,Rain,Wet,Daylight,Car,49,Male,66,No,4,5,Minor,Sunday,February
+816,2023-04-21,21:07,Ahmedabad,Fog,Wet,Darkness,Bus,66,Male,102,No,2,3,Minor,Friday,April
+817,2024-10-24,21:14,Ahmedabad,Rain,Wet,Darkness,Bus,68,Male,113,No,4,4,Fatal,Thursday,October
+818,2023-07-02,21:33,Hyderabad,Clear,Dry,Daylight,Motorcycle,22,Male,109,Yes,3,2,Minor,Sunday,July
+819,2023-04-05,02:53,Lucknow,Fog,Dry,Darkness,Motorcycle,47,Male,63,No,2,4,Minor,Wednesday,April
+820,2024-01-09,08:50,Bangalore,Fog,Dry,Twilight,Auto Rickshaw,39,Male,48,Yes,3,2,Minor,Tuesday,January
+821,2024-06-03,04:45,Bangalore,Clear,Dry,Daylight,Auto Rickshaw,37,Male,96,No,1,5,Fatal,Monday,June
+822,2023-12-26,08:46,Delhi,Clear,Wet,Darkness,Motorcycle,33,Female,87,No,3,1,Serious,Tuesday,December
+823,2024-11-26,16:43,Pune,Rain,Icy,Daylight,Bicycle,24,Female,36,Yes,4,0,Minor,Tuesday,November
+824,2023-10-08,18:33,Kolkata,Clear,Dry,Darkness,Bicycle,24,Male,116,No,4,4,Serious,Sunday,October
+825,2023-07-14,08:52,Chennai,Fog,Wet,Twilight,Car,67,Male,24,No,4,4,Minor,Friday,July
+826,2023-07-14,13:19,Lucknow,Clear,Dry,Daylight,Motorcycle,67,Female,111,No,2,3,Serious,Friday,July
+827,2024-10-28,20:19,Chennai,Snow,Dry,Daylight,Truck,19,Male,107,No,3,3,Serious,Monday,October
+828,2023-04-03,06:14,Chennai,Rain,Dry,Daylight,Auto Rickshaw,64,Male,100,No,2,5,Minor,Monday,April
+829,2024-11-02,17:39,Hyderabad,Clear,Dry,Daylight,Motorcycle,31,Male,69,No,3,2,Minor,Saturday,November
+830,2023-03-02,00:18,Ahmedabad,Clear,Dry,Daylight,Bicycle,48,Male,59,No,1,0,Minor,Thursday,March
+831,2024-09-25,07:22,Ahmedabad,Rain,Wet,Darkness,Motorcycle,67,Male,65,No,3,3,Minor,Wednesday,September
+832,2023-02-20,02:13,Kolkata,Fog,Snowy,Daylight,Bicycle,58,Male,70,Yes,3,3,Serious,Monday,February
+833,2024-02-07,15:22,Hyderabad,Fog,Dry,Daylight,Motorcycle,31,Male,30,Yes,3,1,Minor,Wednesday,February
+834,2023-01-05,03:10,Chennai,Clear,Dry,Darkness,Truck,22,Male,31,No,3,1,Serious,Thursday,January
+835,2024-04-10,02:08,Jaipur,Clear,Snowy,Daylight,Car,28,Male,32,No,1,5,Minor,Wednesday,April
+836,2024-08-26,16:52,Ahmedabad,Clear,Wet,Twilight,Truck,57,Male,83,No,2,5,Fatal,Monday,August
+837,2024-11-12,20:00,Lucknow,Rain,Wet,Darkness,Bicycle,22,Male,27,No,4,3,Serious,Tuesday,November
+838,2024-06-17,18:28,Lucknow,Clear,Dry,Daylight,Auto Rickshaw,46,Male,84,Yes,3,2,Serious,Monday,June
+839,2024-02-09,06:03,Delhi,Clear,Snowy,Daylight,Auto Rickshaw,28,Male,28,No,4,0,Serious,Friday,February
+840,2024-05-27,20:09,Mumbai,Rain,Dry,Daylight,Bus,22,Male,111,No,4,3,Minor,Monday,May
+841,2024-10-06,12:31,Jaipur,Snow,Wet,Darkness,Truck,66,Male,21,Yes,4,2,Minor,Sunday,October
+842,2023-08-21,11:55,Ahmedabad,Clear,Dry,Daylight,Motorcycle,49,Male,97,No,4,2,Minor,Monday,August
+843,2024-06-07,10:09,Bangalore,Clear,Wet,Darkness,Car,53,Male,32,No,3,3,Minor,Friday,June
+844,2023-12-12,02:00,Ahmedabad,Rain,Dry,Darkness,Motorcycle,32,Male,21,Yes,4,2,Serious,Tuesday,December
+845,2023-02-15,15:23,Delhi,Rain,Dry,Daylight,Motorcycle,36,Male,87,No,3,4,Serious,Wednesday,February
+846,2024-06-29,14:43,Lucknow,Clear,Dry,Darkness,Truck,39,Male,95,No,1,2,Serious,Saturday,June
+847,2023-03-19,10:11,Chennai,Snow,Dry,Daylight,Car,51,Male,67,No,2,3,Serious,Sunday,March
+848,2024-12-30,08:32,Bangalore,Fog,Wet,Twilight,Bus,34,Male,93,No,2,2,Minor,Monday,December
+849,2023-03-14,05:58,Hyderabad,Clear,Snowy,Daylight,Motorcycle,29,Male,22,No,3,3,Minor,Tuesday,March
+850,2023-09-06,15:39,Pune,Clear,Icy,Darkness,Car,42,Male,87,No,3,1,Serious,Wednesday,September
+851,2023-02-16,02:53,Chennai,Rain,Dry,Daylight,Bus,34,Male,25,No,2,3,Serious,Thursday,February
+852,2023-05-01,12:30,Pune,Fog,Wet,Darkness,Motorcycle,27,Female,106,Yes,4,2,Fatal,Monday,May
+853,2023-08-02,02:47,Jaipur,Clear,Wet,Daylight,Car,45,Male,24,No,3,3,Serious,Wednesday,August
+854,2023-08-27,01:09,Mumbai,Rain,Dry,Daylight,Truck,35,Male,22,Yes,4,0,Serious,Sunday,August
+855,2023-02-25,07:50,Bangalore,Rain,Dry,Daylight,Auto Rickshaw,68,Male,29,No,3,3,Minor,Saturday,February
+856,2023-12-16,19:29,Kolkata,Clear,Wet,Daylight,Auto Rickshaw,35,Male,62,No,3,3,Serious,Saturday,December
+857,2023-04-17,21:03,Bangalore,Rain,Snowy,Darkness,Motorcycle,62,Female,38,No,1,0,Minor,Monday,April
+858,2023-02-17,09:08,Ahmedabad,Snow,Wet,Darkness,Motorcycle,49,Male,33,Yes,1,0,Serious,Friday,February
+859,2024-07-26,11:54,Lucknow,Clear,Dry,Daylight,Car,31,Male,40,No,2,0,Fatal,Friday,July
+860,2023-12-03,12:33,Ahmedabad,Clear,Dry,Daylight,Auto Rickshaw,33,Male,62,No,1,5,Minor,Sunday,December
+861,2023-01-26,06:01,Ahmedabad,Clear,Dry,Daylight,Motorcycle,67,Male,47,Yes,1,4,Minor,Thursday,January
+862,2023-09-14,00:10,Jaipur,Fog,Wet,Daylight,Bus,35,Male,40,No,2,5,Serious,Thursday,September
+863,2023-01-08,10:04,Chennai,Windy,Wet,Daylight,Motorcycle,33,Male,55,Yes,4,3,Minor,Sunday,January
+864,2024-09-16,20:17,Kolkata,Clear,Dry,Daylight,Auto Rickshaw,34,Female,43,No,1,5,Fatal,Monday,September
+865,2023-09-10,08:29,Kolkata,Fog,Snowy,Daylight,Bicycle,24,Male,73,Yes,4,5,Serious,Sunday,September
+866,2024-11-22,14:19,Ahmedabad,Rain,Dry,Daylight,Auto Rickshaw,29,Male,57,No,2,0,Minor,Friday,November
+867,2024-12-19,09:08,Pune,Rain,Icy,Twilight,Bus,51,Male,36,Yes,3,0,Minor,Thursday,December
+868,2023-10-30,14:08,Jaipur,Clear,Dry,Daylight,Car,27,Male,41,No,4,1,Serious,Monday,October
+869,2024-09-30,07:10,Ahmedabad,Clear,Dry,Daylight,Bus,22,Male,102,No,2,5,Fatal,Monday,September
+870,2023-02-25,08:14,Mumbai,Clear,Dry,Darkness,Bicycle,38,Male,64,No,4,4,Minor,Saturday,February
+871,2024-12-26,05:59,Lucknow,Rain,Dry,Darkness,Bicycle,20,Male,93,No,2,3,Serious,Thursday,December
+872,2024-06-09,15:22,Chennai,Clear,Dry,Daylight,Motorcycle,36,Male,80,Yes,2,2,Serious,Sunday,June
+873,2024-04-18,17:37,Hyderabad,Snow,Dry,Darkness,Motorcycle,62,Female,30,No,3,4,Minor,Thursday,April
+874,2023-01-28,10:07,Mumbai,Clear,Dry,Darkness,Auto Rickshaw,61,Male,80,Yes,4,4,Minor,Saturday,January
+875,2023-03-19,21:07,Pune,Clear,Wet,Daylight,Truck,52,Male,57,No,3,1,Fatal,Sunday,March
+876,2023-08-04,02:42,Bangalore,Rain,Dry,Daylight,Bus,23,Male,85,Yes,3,3,Minor,Friday,August
+877,2024-01-21,02:58,Bangalore,Rain,Dry,Daylight,Auto Rickshaw,31,Male,52,No,4,3,Minor,Sunday,January
+878,2023-12-31,22:31,Mumbai,Clear,Dry,Daylight,Truck,21,Male,62,No,4,0,Minor,Sunday,December
+879,2024-10-27,09:53,Ahmedabad,Clear,Wet,Daylight,Auto Rickshaw,62,Male,50,No,2,0,Minor,Sunday,October
+880,2024-06-09,08:14,Hyderabad,Windy,Dry,Darkness,Bicycle,68,Male,54,No,4,4,Minor,Sunday,June
+881,2024-11-29,21:24,Delhi,Clear,Snowy,Daylight,Motorcycle,35,Male,56,No,2,1,Serious,Friday,November
+882,2023-11-08,21:39,Delhi,Clear,Wet,Daylight,Motorcycle,46,Female,66,No,2,3,Serious,Wednesday,November
+883,2023-01-07,06:13,Pune,Fog,Dry,Daylight,Auto Rickshaw,52,Male,119,No,2,1,Minor,Saturday,January
+884,2023-01-03,15:45,Ahmedabad,Clear,Dry,Daylight,Motorcycle,69,Male,42,No,2,2,Minor,Tuesday,January
+885,2024-09-14,01:59,Kolkata,Clear,Dry,Darkness,Car,55,Male,55,No,2,3,Minor,Saturday,September
+886,2023-12-29,00:27,Kolkata,Clear,Dry,Daylight,Auto Rickshaw,33,Male,59,No,2,0,Minor,Friday,December
+887,2024-05-22,12:01,Chennai,Clear,Snowy,Twilight,Bicycle,37,Male,109,No,4,4,Minor,Wednesday,May
+888,2023-10-01,13:35,Hyderabad,Clear,Snowy,Daylight,Auto Rickshaw,41,Male,108,No,4,1,Minor,Sunday,October
+889,2024-05-20,22:17,Hyderabad,Clear,Dry,Daylight,Auto Rickshaw,52,Male,100,No,1,0,Minor,Monday,May
+890,2023-01-15,14:08,Bangalore,Clear,Dry,Darkness,Motorcycle,61,Male,34,No,4,4,Minor,Sunday,January
+891,2023-07-11,18:29,Jaipur,Clear,Wet,Daylight,Bicycle,68,Male,56,No,3,0,Serious,Tuesday,July
+892,2024-09-22,12:45,Pune,Fog,Wet,Daylight,Auto Rickshaw,36,Male,23,No,1,3,Minor,Sunday,September
+893,2024-04-29,19:53,Delhi,Clear,Dry,Darkness,Motorcycle,21,Male,41,No,4,1,Minor,Monday,April
+894,2023-01-28,09:44,Pune,Clear,Dry,Daylight,Bus,50,Female,100,No,3,2,Minor,Saturday,January
+895,2024-12-14,07:08,Kolkata,Fog,Dry,Darkness,Bicycle,19,Female,41,No,4,5,Minor,Saturday,December
+896,2023-02-08,22:49,Kolkata,Rain,Wet,Twilight,Truck,30,Female,100,No,2,0,Serious,Wednesday,February
+897,2023-09-30,10:27,Mumbai,Clear,Dry,Daylight,Car,62,Male,97,No,1,5,Minor,Saturday,September
+898,2023-08-19,23:32,Chennai,Snow,Dry,Daylight,Truck,47,Male,97,Yes,2,1,Minor,Saturday,August
+899,2023-03-27,01:45,Hyderabad,Clear,Snowy,Daylight,Bicycle,51,Male,36,Yes,1,3,Minor,Monday,March
+900,2024-04-18,01:34,Lucknow,Clear,Wet,Daylight,Auto Rickshaw,47,Male,91,Yes,1,0,Minor,Thursday,April
+901,2023-05-06,17:20,Pune,Fog,Snowy,Darkness,Motorcycle,68,Male,117,No,2,3,Serious,Saturday,May
+902,2024-06-20,14:55,Kolkata,Rain,Dry,Darkness,Bicycle,41,Male,109,No,1,2,Minor,Thursday,June
+903,2023-05-25,16:03,Jaipur,Clear,Dry,Daylight,Car,65,Male,113,No,1,2,Minor,Thursday,May
+904,2024-06-08,08:59,Bangalore,Clear,Snowy,Daylight,Bicycle,61,Male,105,No,4,4,Minor,Saturday,June
+905,2023-07-31,08:32,Delhi,Rain,Dry,Daylight,Motorcycle,50,Male,99,No,3,4,Minor,Monday,July
+906,2023-01-25,19:29,Chennai,Clear,Dry,Daylight,Truck,58,Male,113,No,2,4,Minor,Wednesday,January
+907,2024-08-02,21:51,Jaipur,Snow,Dry,Darkness,Bus,66,Male,99,No,4,3,Serious,Friday,August
+908,2024-01-29,11:20,Chennai,Clear,Dry,Daylight,Truck,27,Female,57,No,4,4,Minor,Monday,January
+909,2023-03-08,13:19,Mumbai,Fog,Dry,Darkness,Motorcycle,35,Male,43,Yes,2,1,Fatal,Wednesday,March
+910,2023-08-21,19:25,Lucknow,Rain,Snowy,Darkness,Motorcycle,36,Male,119,Yes,1,5,Minor,Monday,August
+911,2023-04-19,04:09,Kolkata,Fog,Snowy,Darkness,Car,24,Male,118,Yes,2,5,Serious,Wednesday,April
+912,2023-05-26,19:04,Bangalore,Rain,Snowy,Daylight,Bicycle,36,Male,25,No,3,3,Fatal,Friday,May
+913,2023-04-21,15:10,Jaipur,Rain,Dry,Darkness,Bicycle,41,Male,87,No,3,3,Minor,Friday,April
+914,2023-08-16,14:28,Chennai,Clear,Dry,Darkness,Truck,32,Male,101,Yes,2,4,Minor,Wednesday,August
+915,2023-04-21,15:36,Hyderabad,Clear,Dry,Darkness,Bus,58,Male,25,Yes,4,5,Minor,Friday,April
+916,2024-04-14,02:58,Mumbai,Clear,Snowy,Daylight,Bus,59,Male,45,Yes,2,5,Minor,Sunday,April
+917,2023-02-03,01:25,Hyderabad,Fog,Dry,Daylight,Car,40,Male,110,No,3,4,Minor,Friday,February
+918,2024-09-14,05:35,Bangalore,Fog,Wet,Darkness,Motorcycle,69,Male,60,No,2,3,Minor,Saturday,September
+919,2024-01-04,14:09,Jaipur,Clear,Wet,Daylight,Car,69,Male,94,No,1,2,Minor,Thursday,January
+920,2024-08-17,02:16,Mumbai,Clear,Dry,Daylight,Bicycle,21,Male,57,No,2,2,Minor,Saturday,August
+921,2024-07-07,11:33,Jaipur,Clear,Dry,Twilight,Auto Rickshaw,55,Male,99,No,4,4,Minor,Sunday,July
+922,2024-02-29,20:07,Kolkata,Rain,Icy,Daylight,Auto Rickshaw,21,Male,102,Yes,1,2,Minor,Thursday,February
+923,2024-09-04,17:15,Ahmedabad,Clear,Icy,Daylight,Auto Rickshaw,22,Female,62,No,3,1,Minor,Wednesday,September
+924,2024-06-01,17:46,Mumbai,Fog,Dry,Daylight,Motorcycle,58,Male,72,No,2,1,Serious,Saturday,June
+925,2024-11-22,21:49,Hyderabad,Windy,Dry,Darkness,Car,61,Male,34,No,4,1,Minor,Friday,November
+926,2023-10-09,14:44,Bangalore,Clear,Icy,Daylight,Truck,40,Male,109,No,4,3,Fatal,Monday,October
+927,2023-11-16,21:59,Lucknow,Clear,Dry,Darkness,Bicycle,57,Male,75,No,3,3,Serious,Thursday,November
+928,2024-03-18,01:38,Kolkata,Clear,Dry,Daylight,Auto Rickshaw,54,Male,75,No,2,3,Serious,Monday,March
+929,2023-11-11,15:08,Ahmedabad,Clear,Dry,Daylight,Bus,28,Male,50,Yes,4,3,Minor,Saturday,November
+930,2024-01-12,09:55,Lucknow,Clear,Dry,Darkness,Car,28,Female,102,No,1,3,Serious,Friday,January
+931,2023-10-16,11:48,Delhi,Clear,Dry,Daylight,Bicycle,30,Male,76,Yes,2,4,Minor,Monday,October
+932,2024-03-12,11:20,Kolkata,Fog,Dry,Twilight,Bicycle,31,Male,70,No,3,2,Minor,Tuesday,March
+933,2024-10-23,10:07,Bangalore,Clear,Dry,Daylight,Bus,25,Female,43,No,1,4,Minor,Wednesday,October
+934,2023-10-04,06:56,Chennai,Clear,Dry,Daylight,Bus,42,Male,77,No,2,2,Minor,Wednesday,October
+935,2024-12-10,13:23,Mumbai,Snow,Icy,Daylight,Bus,35,Male,92,No,4,4,Minor,Tuesday,December
+936,2024-08-04,18:27,Jaipur,Fog,Wet,Daylight,Auto Rickshaw,68,Male,106,No,3,1,Minor,Sunday,August
+937,2024-05-17,09:52,Bangalore,Clear,Wet,Twilight,Auto Rickshaw,61,Male,23,No,3,0,Minor,Friday,May
+938,2024-09-15,12:22,Mumbai,Rain,Wet,Darkness,Car,61,Male,29,No,2,3,Minor,Sunday,September
+939,2024-05-30,13:23,Lucknow,Clear,Dry,Daylight,Bus,35,Male,82,No,3,0,Minor,Thursday,May
+940,2023-12-16,00:54,Jaipur,Fog,Dry,Daylight,Truck,27,Female,92,No,1,0,Minor,Saturday,December
+941,2024-03-21,12:42,Pune,Rain,Snowy,Darkness,Bicycle,24,Male,102,No,2,1,Serious,Thursday,March
+942,2023-12-16,20:22,Hyderabad,Rain,Dry,Daylight,Bus,67,Male,34,No,1,0,Minor,Saturday,December
+943,2024-08-29,11:00,Delhi,Clear,Dry,Daylight,Bicycle,61,Male,117,Yes,3,0,Fatal,Thursday,August
+944,2024-10-25,02:33,Kolkata,Fog,Wet,Twilight,Motorcycle,31,Male,82,No,3,1,Serious,Friday,October
+945,2023-05-17,03:23,Bangalore,Clear,Dry,Twilight,Motorcycle,32,Male,38,Yes,3,2,Minor,Wednesday,May
+946,2023-08-31,04:50,Delhi,Clear,Dry,Twilight,Bus,33,Male,82,No,1,4,Minor,Thursday,August
+947,2024-06-26,09:05,Chennai,Clear,Icy,Darkness,Bicycle,19,Male,75,No,3,5,Minor,Wednesday,June
+948,2023-02-09,06:12,Mumbai,Clear,Snowy,Darkness,Motorcycle,47,Male,40,No,2,0,Minor,Thursday,February
+949,2023-08-17,17:52,Mumbai,Clear,Dry,Daylight,Bus,47,Male,53,Yes,4,3,Minor,Thursday,August
+950,2024-07-01,00:12,Bangalore,Fog,Icy,Daylight,Bicycle,35,Female,36,Yes,2,1,Serious,Monday,July
+951,2023-08-11,22:23,Ahmedabad,Snow,Wet,Daylight,Bus,48,Male,37,No,4,0,Minor,Friday,August
+952,2023-01-06,11:30,Ahmedabad,Clear,Wet,Darkness,Auto Rickshaw,61,Male,100,No,3,5,Fatal,Friday,January
+953,2023-11-18,10:08,Pune,Clear,Dry,Darkness,Bicycle,65,Female,85,No,2,2,Serious,Saturday,November
+954,2024-04-12,10:59,Hyderabad,Clear,Dry,Darkness,Motorcycle,30,Male,70,No,1,2,Minor,Friday,April
+955,2023-03-16,04:43,Jaipur,Clear,Wet,Twilight,Bus,37,Female,84,No,4,5,Serious,Thursday,March
+956,2023-01-04,05:02,Chennai,Clear,Snowy,Darkness,Motorcycle,66,Male,62,Yes,1,3,Fatal,Wednesday,January
+957,2024-10-07,22:20,Delhi,Snow,Wet,Twilight,Bus,67,Male,76,Yes,4,0,Minor,Monday,October
+958,2023-04-28,15:38,Ahmedabad,Clear,Dry,Daylight,Car,52,Female,29,No,3,3,Serious,Friday,April
+959,2024-08-28,16:20,Pune,Clear,Dry,Darkness,Motorcycle,40,Male,56,No,2,2,Fatal,Wednesday,August
+960,2024-05-18,00:44,Pune,Clear,Wet,Daylight,Motorcycle,59,Female,67,No,4,2,Fatal,Saturday,May
+961,2024-07-27,08:44,Bangalore,Fog,Dry,Daylight,Truck,50,Female,88,Yes,2,4,Serious,Saturday,July
+962,2024-03-16,19:17,Chennai,Rain,Dry,Twilight,Auto Rickshaw,55,Female,75,Yes,4,2,Serious,Saturday,March
+963,2023-07-13,18:09,Lucknow,Snow,Dry,Darkness,Motorcycle,52,Male,95,No,4,1,Minor,Thursday,July
+964,2024-12-15,12:35,Jaipur,Fog,Dry,Daylight,Bicycle,68,Male,55,No,3,4,Serious,Sunday,December
+965,2024-01-27,08:39,Hyderabad,Clear,Wet,Daylight,Bus,53,Male,50,No,4,3,Minor,Saturday,January
+966,2023-01-26,22:16,Kolkata,Clear,Wet,Darkness,Car,37,Female,74,No,1,2,Serious,Thursday,January
+967,2024-03-10,00:44,Bangalore,Rain,Dry,Darkness,Bicycle,20,Male,57,No,4,5,Minor,Sunday,March
+968,2023-06-22,22:05,Jaipur,Clear,Dry,Twilight,Bicycle,25,Male,92,No,4,1,Minor,Thursday,June
+969,2023-10-27,03:22,Kolkata,Rain,Wet,Daylight,Bicycle,57,Male,109,Yes,4,4,Minor,Friday,October
+970,2024-10-06,17:15,Kolkata,Clear,Dry,Daylight,Bicycle,49,Male,34,Yes,3,1,Minor,Sunday,October
+971,2023-11-22,01:32,Chennai,Clear,Dry,Daylight,Car,46,Male,35,Yes,2,4,Minor,Wednesday,November
+972,2024-02-14,13:49,Chennai,Rain,Icy,Daylight,Truck,24,Male,96,No,2,4,Serious,Wednesday,February
+973,2023-04-28,15:56,Delhi,Rain,Dry,Daylight,Auto Rickshaw,19,Female,108,No,3,4,Minor,Friday,April
+974,2024-12-24,03:53,Pune,Fog,Snowy,Twilight,Motorcycle,38,Male,113,No,1,5,Minor,Tuesday,December
+975,2023-08-13,08:10,Jaipur,Clear,Dry,Daylight,Bicycle,23,Female,72,Yes,1,3,Fatal,Sunday,August
+976,2024-06-15,11:40,Bangalore,Rain,Dry,Daylight,Motorcycle,45,Male,75,No,3,4,Fatal,Saturday,June
+977,2023-04-23,07:52,Mumbai,Clear,Dry,Daylight,Motorcycle,65,Male,26,No,2,4,Serious,Sunday,April
+978,2023-05-20,06:23,Bangalore,Clear,Icy,Daylight,Bicycle,59,Male,76,No,1,1,Minor,Saturday,May
+979,2024-07-12,07:21,Delhi,Clear,Dry,Darkness,Truck,53,Male,74,No,3,4,Serious,Friday,July
+980,2023-01-01,08:36,Hyderabad,Clear,Dry,Darkness,Motorcycle,49,Male,71,Yes,2,3,Serious,Sunday,January
+981,2023-03-31,08:38,Pune,Clear,Icy,Darkness,Bus,62,Male,23,No,1,5,Minor,Friday,March
+982,2024-10-15,03:06,Mumbai,Clear,Dry,Daylight,Motorcycle,59,Male,62,No,1,5,Minor,Tuesday,October
+983,2023-11-16,02:36,Ahmedabad,Clear,Dry,Daylight,Auto Rickshaw,63,Male,59,No,3,1,Serious,Thursday,November
+984,2024-07-03,19:36,Hyderabad,Clear,Dry,Daylight,Bicycle,26,Male,49,Yes,2,4,Serious,Wednesday,July
+985,2023-05-19,18:13,Chennai,Clear,Wet,Daylight,Car,28,Male,29,No,1,1,Minor,Friday,May
+986,2024-05-25,11:19,Kolkata,Clear,Dry,Darkness,Motorcycle,40,Male,113,No,3,5,Minor,Saturday,May
+987,2023-09-16,01:54,Ahmedabad,Clear,Dry,Daylight,Truck,67,Male,26,No,1,3,Minor,Saturday,September
+988,2024-11-03,05:45,Bangalore,Rain,Dry,Darkness,Bus,28,Male,55,No,2,1,Minor,Sunday,November
+989,2024-11-20,01:10,Bangalore,Clear,Dry,Daylight,Bus,66,Female,54,No,4,3,Serious,Wednesday,November
+990,2023-01-10,18:43,Chennai,Clear,Icy,Darkness,Car,19,Male,107,No,1,2,Serious,Tuesday,January
+991,2023-09-18,20:33,Delhi,Clear,Snowy,Twilight,Auto Rickshaw,20,Male,58,No,2,4,Minor,Monday,September
+992,2024-10-11,06:08,Jaipur,Rain,Wet,Darkness,Car,28,Male,55,No,1,3,Minor,Friday,October
+993,2023-06-21,17:01,Ahmedabad,Fog,Wet,Daylight,Auto Rickshaw,67,Male,39,No,4,4,Minor,Wednesday,June
+994,2023-01-13,13:03,Ahmedabad,Fog,Wet,Twilight,Motorcycle,52,Male,68,No,4,3,Minor,Friday,January
+995,2023-06-17,01:15,Lucknow,Rain,Dry,Darkness,Bicycle,32,Male,115,Yes,1,0,Minor,Saturday,June
+996,2024-10-03,11:56,Hyderabad,Clear,Wet,Daylight,Truck,60,Male,78,No,3,0,Fatal,Thursday,October
+997,2024-08-18,14:32,Pune,Rain,Dry,Daylight,Bus,28,Male,68,No,1,0,Fatal,Sunday,August
+998,2023-11-17,19:18,Hyderabad,Rain,Dry,Darkness,Car,48,Male,109,No,2,3,Serious,Friday,November
+999,2023-11-15,23:09,Jaipur,Clear,Wet,Darkness,Truck,45,Male,45,Yes,3,5,Serious,Wednesday,November
+1000,2024-09-04,20:57,Bangalore,Clear,Dry,Daylight,Auto Rickshaw,45,Male,55,No,2,5,Serious,Wednesday,September
+1001,2023-11-25,01:48,Bangalore,Clear,Snowy,Daylight,Bicycle,49,Female,62,Yes,2,4,Minor,Saturday,November
+1002,2024-07-03,20:26,Bangalore,Snow,Dry,Twilight,Bus,42,Male,118,No,3,0,Fatal,Wednesday,July
+1003,2024-02-23,15:08,Lucknow,Rain,Wet,Daylight,Bus,37,Female,62,Yes,4,4,Serious,Friday,February
+1004,2024-08-28,14:00,Bangalore,Rain,Dry,Daylight,Auto Rickshaw,45,Male,118,No,2,3,Serious,Wednesday,August
+1005,2023-04-05,14:50,Jaipur,Clear,Wet,Daylight,Bicycle,42,Male,95,No,1,4,Minor,Wednesday,April
+1006,2024-08-03,04:09,Chennai,Clear,Wet,Darkness,Bus,28,Male,52,No,4,4,Minor,Saturday,August
+1007,2023-11-14,19:24,Pune,Clear,Dry,Daylight,Bicycle,36,Male,119,No,4,0,Minor,Tuesday,November
+1008,2023-08-24,06:45,Jaipur,Clear,Dry,Darkness,Bus,45,Male,97,No,3,5,Minor,Thursday,August
+1009,2023-11-30,15:54,Pune,Fog,Dry,Daylight,Motorcycle,18,Male,116,Yes,1,1,Minor,Thursday,November
+1010,2024-01-11,13:44,Jaipur,Rain,Dry,Darkness,Auto Rickshaw,22,Male,64,No,1,2,Serious,Thursday,January
+1011,2024-04-03,13:07,Bangalore,Clear,Wet,Darkness,Bicycle,27,Male,64,Yes,4,3,Serious,Wednesday,April
+1012,2023-05-17,08:42,Chennai,Fog,Snowy,Daylight,Truck,59,Male,107,No,2,3,Serious,Wednesday,May
+1013,2024-08-10,05:04,Ahmedabad,Clear,Dry,Daylight,Motorcycle,63,Male,34,No,2,3,Minor,Saturday,August
+1014,2024-06-30,22:20,Hyderabad,Windy,Wet,Daylight,Truck,51,Male,114,No,1,2,Fatal,Sunday,June
+1015,2024-05-27,04:01,Kolkata,Clear,Snowy,Daylight,Auto Rickshaw,53,Male,36,No,4,1,Fatal,Monday,May
+1016,2023-10-23,19:46,Chennai,Clear,Dry,Darkness,Bus,19,Male,31,Yes,4,5,Minor,Monday,October
+1017,2023-11-16,16:07,Ahmedabad,Clear,Wet,Daylight,Truck,35,Male,41,No,4,4,Minor,Thursday,November
+1018,2024-07-25,06:17,Delhi,Clear,Wet,Darkness,Motorcycle,30,Female,42,No,3,5,Minor,Thursday,July
+1019,2023-12-15,11:55,Jaipur,Clear,Dry,Daylight,Bicycle,68,Female,109,No,1,3,Serious,Friday,December
+1020,2023-08-17,22:34,Delhi,Rain,Dry,Daylight,Car,22,Male,97,No,1,4,Minor,Thursday,August
+1021,2023-09-27,12:04,Ahmedabad,Fog,Dry,Daylight,Truck,37,Male,31,No,2,0,Minor,Wednesday,September
+1022,2023-10-18,14:58,Chennai,Fog,Icy,Daylight,Car,19,Male,87,Yes,2,5,Serious,Wednesday,October
+1023,2024-12-25,19:55,Jaipur,Clear,Snowy,Daylight,Auto Rickshaw,28,Male,70,No,1,0,Minor,Wednesday,December
+1024,2023-06-14,13:48,Kolkata,Rain,Wet,Darkness,Truck,47,Male,32,No,1,0,Minor,Wednesday,June
+1025,2023-01-05,05:07,Bangalore,Clear,Dry,Daylight,Truck,49,Male,76,No,2,5,Fatal,Thursday,January
+1026,2024-01-14,14:42,Jaipur,Clear,Dry,Daylight,Bicycle,49,Male,74,No,1,3,Serious,Sunday,January
+1027,2023-03-19,01:44,Jaipur,Rain,Dry,Darkness,Bus,67,Male,101,Yes,2,2,Minor,Sunday,March
+1028,2024-02-14,07:17,Chennai,Rain,Dry,Darkness,Motorcycle,55,Male,47,Yes,1,3,Serious,Wednesday,February
+1029,2024-07-27,16:55,Chennai,Clear,Wet,Daylight,Motorcycle,45,Male,63,Yes,3,0,Minor,Saturday,July
+1030,2023-05-12,05:40,Ahmedabad,Clear,Icy,Darkness,Motorcycle,27,Male,38,No,3,0,Serious,Friday,May
+1031,2024-08-23,21:34,Mumbai,Windy,Snowy,Daylight,Auto Rickshaw,39,Male,65,Yes,4,3,Minor,Friday,August
+1032,2023-02-11,22:49,Jaipur,Clear,Wet,Darkness,Bus,34,Male,22,No,1,2,Minor,Saturday,February
+1033,2023-03-30,16:28,Hyderabad,Clear,Dry,Darkness,Car,39,Male,102,No,2,2,Minor,Thursday,March
+1034,2024-02-06,00:21,Jaipur,Rain,Dry,Darkness,Motorcycle,60,Female,39,Yes,1,4,Serious,Tuesday,February
+1035,2023-10-23,20:25,Ahmedabad,Clear,Dry,Darkness,Car,36,Male,44,No,1,1,Serious,Monday,October
+1036,2023-10-22,19:54,Pune,Clear,Wet,Daylight,Bus,34,Male,94,No,4,0,Fatal,Sunday,October
+1037,2024-09-07,05:18,Delhi,Clear,Wet,Darkness,Auto Rickshaw,41,Male,75,No,2,2,Serious,Saturday,September
+1038,2024-06-09,00:49,Bangalore,Fog,Dry,Daylight,Bus,53,Male,100,No,1,5,Serious,Sunday,June
+1039,2024-11-21,21:09,Mumbai,Rain,Dry,Daylight,Bicycle,49,Male,80,No,2,0,Minor,Thursday,November
+1040,2024-09-28,18:53,Kolkata,Rain,Dry,Daylight,Motorcycle,63,Male,74,No,1,1,Serious,Saturday,September
+1041,2024-02-26,21:18,Kolkata,Windy,Dry,Twilight,Auto Rickshaw,69,Male,54,Yes,4,5,Minor,Monday,February
+1042,2023-01-23,21:32,Kolkata,Fog,Dry,Darkness,Bicycle,53,Male,97,No,2,0,Minor,Monday,January
+1043,2024-07-28,00:32,Chennai,Clear,Dry,Daylight,Motorcycle,45,Female,78,No,1,2,Minor,Sunday,July
+1044,2023-05-23,23:27,Kolkata,Clear,Dry,Darkness,Bus,31,Male,58,No,3,4,Minor,Tuesday,May
+1045,2024-10-26,05:57,Bangalore,Rain,Snowy,Darkness,Bus,53,Male,76,No,2,3,Serious,Saturday,October
+1046,2023-05-25,11:01,Delhi,Rain,Dry,Daylight,Truck,23,Male,102,No,4,5,Minor,Thursday,May
+1047,2023-08-13,20:31,Kolkata,Rain,Dry,Daylight,Truck,26,Male,86,No,3,3,Minor,Sunday,August
+1048,2024-05-17,07:01,Jaipur,Rain,Dry,Darkness,Bus,38,Male,53,No,2,2,Minor,Friday,May
+1049,2024-09-07,23:46,Jaipur,Clear,Dry,Daylight,Bus,29,Male,60,Yes,2,2,Minor,Saturday,September
+1050,2023-04-14,01:44,Chennai,Clear,Dry,Daylight,Car,47,Female,41,Yes,2,5,Minor,Friday,April
+1051,2023-02-08,17:32,Bangalore,Clear,Dry,Darkness,Car,48,Male,46,No,2,1,Serious,Wednesday,February
+1052,2023-07-17,16:43,Delhi,Clear,Dry,Twilight,Bicycle,57,Female,40,No,1,5,Fatal,Monday,July
+1053,2024-10-07,14:31,Mumbai,Clear,Dry,Darkness,Truck,21,Male,60,No,1,0,Minor,Monday,October
+1054,2024-08-01,01:53,Ahmedabad,Rain,Wet,Darkness,Truck,48,Female,50,No,2,1,Minor,Thursday,August
+1055,2024-01-26,02:36,Delhi,Rain,Dry,Daylight,Bus,44,Male,46,Yes,4,3,Minor,Friday,January
+1056,2023-06-28,10:20,Ahmedabad,Clear,Wet,Daylight,Bus,42,Male,56,Yes,1,0,Serious,Wednesday,June
+1057,2024-07-07,01:59,Pune,Clear,Dry,Darkness,Bicycle,22,Male,85,No,2,1,Minor,Sunday,July
+1058,2024-03-23,02:46,Ahmedabad,Clear,Dry,Daylight,Auto Rickshaw,23,Male,73,Yes,2,3,Minor,Saturday,March
+1059,2024-05-14,08:34,Hyderabad,Clear,Dry,Darkness,Auto Rickshaw,22,Male,28,No,4,0,Serious,Tuesday,May
+1060,2023-01-15,04:33,Jaipur,Rain,Dry,Daylight,Auto Rickshaw,68,Male,102,No,4,4,Fatal,Sunday,January
+1061,2024-09-14,18:30,Bangalore,Fog,Snowy,Daylight,Truck,44,Male,61,No,4,5,Serious,Saturday,September
+1062,2024-10-30,01:57,Lucknow,Fog,Wet,Daylight,Car,25,Male,55,No,3,5,Minor,Wednesday,October
+1063,2023-10-16,19:48,Chennai,Rain,Snowy,Twilight,Auto Rickshaw,26,Male,29,No,2,5,Minor,Monday,October
+1064,2024-04-22,13:47,Hyderabad,Rain,Snowy,Daylight,Motorcycle,32,Male,78,Yes,4,4,Serious,Monday,April
+1065,2023-08-19,17:54,Ahmedabad,Clear,Wet,Daylight,Bicycle,53,Male,59,No,2,1,Serious,Saturday,August
+1066,2024-02-24,13:12,Kolkata,Clear,Dry,Daylight,Auto Rickshaw,58,Male,73,No,1,2,Minor,Saturday,February
+1067,2023-06-06,16:14,Bangalore,Clear,Dry,Darkness,Motorcycle,24,Male,58,No,2,0,Minor,Tuesday,June
+1068,2024-07-03,09:57,Hyderabad,Windy,Icy,Daylight,Auto Rickshaw,49,Male,26,No,2,1,Minor,Wednesday,July
+1069,2024-03-16,18:16,Chennai,Clear,Wet,Daylight,Car,25,Male,23,No,3,2,Minor,Saturday,March
+1070,2023-04-07,11:50,Jaipur,Clear,Dry,Daylight,Car,64,Male,34,No,1,5,Serious,Friday,April
+1071,2024-02-15,20:35,Bangalore,Fog,Wet,Darkness,Auto Rickshaw,68,Male,95,No,1,5,Minor,Thursday,February
+1072,2023-10-16,14:36,Chennai,Snow,Dry,Daylight,Motorcycle,32,Female,67,No,3,5,Serious,Monday,October
+1073,2023-09-11,19:52,Pune,Fog,Dry,Daylight,Bicycle,54,Male,25,No,4,2,Minor,Monday,September
+1074,2023-07-15,10:53,Pune,Clear,Dry,Daylight,Motorcycle,36,Male,92,No,4,0,Serious,Saturday,July
+1075,2024-08-20,06:09,Chennai,Clear,Wet,Daylight,Bicycle,56,Male,54,Yes,2,0,Minor,Tuesday,August
+1076,2024-06-05,22:21,Hyderabad,Clear,Snowy,Darkness,Auto Rickshaw,23,Female,91,No,3,2,Serious,Wednesday,June
+1077,2024-05-31,04:03,Bangalore,Clear,Dry,Daylight,Bicycle,36,Male,90,Yes,4,3,Minor,Friday,May
+1078,2024-09-26,13:12,Hyderabad,Clear,Dry,Twilight,Bus,45,Male,87,No,1,5,Serious,Thursday,September
+1079,2023-04-28,20:13,Mumbai,Clear,Dry,Twilight,Truck,34,Male,77,No,3,1,Minor,Friday,April
+1080,2023-06-08,08:24,Ahmedabad,Snow,Wet,Daylight,Truck,59,Male,96,No,4,0,Minor,Thursday,June
+1081,2023-08-16,10:45,Mumbai,Clear,Dry,Darkness,Car,36,Male,38,Yes,1,2,Fatal,Wednesday,August
+1082,2023-08-04,20:09,Pune,Rain,Dry,Darkness,Bus,48,Male,81,No,3,3,Minor,Friday,August
+1083,2024-11-26,04:34,Jaipur,Rain,Dry,Darkness,Truck,28,Male,90,No,2,4,Minor,Tuesday,November
+1084,2023-01-15,13:44,Delhi,Clear,Dry,Daylight,Auto Rickshaw,32,Female,29,Yes,2,2,Minor,Sunday,January
+1085,2023-06-06,10:24,Ahmedabad,Rain,Dry,Daylight,Bicycle,27,Male,44,No,1,3,Minor,Tuesday,June
+1086,2024-10-09,02:15,Pune,Clear,Wet,Daylight,Bicycle,60,Male,63,Yes,4,4,Minor,Wednesday,October
+1087,2023-09-18,08:48,Hyderabad,Clear,Dry,Darkness,Motorcycle,40,Male,118,No,4,3,Minor,Monday,September
+1088,2023-06-06,17:29,Hyderabad,Rain,Wet,Daylight,Motorcycle,20,Male,77,Yes,3,0,Minor,Tuesday,June
+1089,2023-02-16,12:27,Hyderabad,Clear,Dry,Daylight,Bicycle,20,Female,44,No,1,2,Fatal,Thursday,February
+1090,2023-11-20,23:31,Jaipur,Windy,Dry,Daylight,Auto Rickshaw,35,Female,112,No,4,4,Serious,Monday,November
+1091,2024-11-15,09:22,Mumbai,Clear,Dry,Daylight,Bicycle,42,Female,95,No,2,3,Minor,Friday,November
+1092,2023-05-10,17:57,Delhi,Rain,Wet,Daylight,Motorcycle,60,Female,59,No,1,4,Serious,Wednesday,May
+1093,2024-02-15,05:43,Hyderabad,Clear,Snowy,Daylight,Truck,37,Male,95,No,2,1,Minor,Thursday,February
+1094,2023-04-05,00:01,Lucknow,Clear,Snowy,Daylight,Car,46,Male,89,Yes,1,2,Serious,Wednesday,April
+1095,2024-09-18,09:13,Ahmedabad,Clear,Dry,Twilight,Motorcycle,39,Male,29,No,3,0,Minor,Wednesday,September
+1096,2023-10-19,22:02,Bangalore,Rain,Dry,Daylight,Auto Rickshaw,67,Male,85,No,4,4,Minor,Thursday,October
+1097,2023-10-10,21:36,Lucknow,Fog,Wet,Darkness,Truck,32,Female,44,No,4,5,Minor,Tuesday,October
+1098,2023-03-10,18:29,Delhi,Fog,Wet,Daylight,Truck,56,Male,90,No,4,3,Minor,Friday,March
+1099,2024-10-21,02:34,Jaipur,Clear,Dry,Daylight,Truck,27,Male,106,No,2,5,Minor,Monday,October
+1100,2023-01-11,04:09,Delhi,Fog,Wet,Darkness,Bus,38,Female,30,No,4,4,Serious,Wednesday,January
+1101,2023-09-11,18:45,Bangalore,Rain,Dry,Darkness,Bus,69,Male,55,No,1,5,Serious,Monday,September
+1102,2024-07-03,06:50,Ahmedabad,Rain,Dry,Daylight,Truck,46,Female,68,Yes,2,3,Serious,Wednesday,July
+1103,2023-05-14,18:27,Bangalore,Clear,Dry,Twilight,Auto Rickshaw,49,Male,67,No,3,4,Minor,Sunday,May
+1104,2024-12-12,12:51,Chennai,Rain,Dry,Twilight,Bicycle,27,Male,106,No,2,0,Fatal,Thursday,December
+1105,2023-01-23,12:38,Ahmedabad,Fog,Dry,Twilight,Auto Rickshaw,30,Male,26,Yes,3,0,Serious,Monday,January
+1106,2023-12-12,20:40,Delhi,Clear,Dry,Daylight,Bus,64,Male,110,No,2,2,Minor,Tuesday,December
+1107,2023-10-29,19:13,Hyderabad,Fog,Dry,Daylight,Motorcycle,40,Male,96,No,4,0,Minor,Sunday,October
+1108,2023-12-29,12:28,Delhi,Rain,Dry,Darkness,Bus,67,Male,70,No,3,4,Serious,Friday,December
+1109,2024-01-31,07:35,Delhi,Clear,Dry,Darkness,Bicycle,40,Female,36,No,4,4,Serious,Wednesday,January
+1110,2023-08-06,18:45,Ahmedabad,Clear,Wet,Daylight,Car,48,Male,51,Yes,2,0,Minor,Sunday,August
+1111,2023-05-21,08:41,Chennai,Clear,Dry,Darkness,Bus,21,Male,45,No,3,1,Minor,Sunday,May
+1112,2024-09-07,01:56,Delhi,Rain,Dry,Daylight,Auto Rickshaw,69,Male,41,No,1,4,Serious,Saturday,September
+1113,2023-07-29,03:52,Lucknow,Fog,Dry,Daylight,Auto Rickshaw,66,Female,32,No,1,2,Minor,Saturday,July
+1114,2024-09-14,12:52,Pune,Clear,Snowy,Daylight,Truck,20,Male,31,No,2,1,Minor,Saturday,September
+1115,2024-09-07,15:42,Kolkata,Fog,Dry,Darkness,Truck,38,Male,90,No,3,0,Minor,Saturday,September
+1116,2024-11-13,13:52,Kolkata,Fog,Dry,Daylight,Truck,19,Male,20,No,1,3,Minor,Wednesday,November
+1117,2024-04-04,06:25,Delhi,Clear,Dry,Darkness,Car,21,Male,52,No,4,4,Minor,Thursday,April
+1118,2023-12-22,05:44,Lucknow,Fog,Wet,Daylight,Bicycle,18,Female,33,No,4,3,Minor,Friday,December
+1119,2023-11-20,23:27,Hyderabad,Windy,Dry,Darkness,Motorcycle,32,Male,83,No,2,5,Serious,Monday,November
+1120,2023-05-13,06:59,Jaipur,Rain,Dry,Twilight,Auto Rickshaw,50,Male,62,No,4,2,Serious,Saturday,May
+1121,2023-05-07,06:15,Jaipur,Fog,Dry,Darkness,Auto Rickshaw,23,Female,77,No,4,1,Minor,Sunday,May
+1122,2023-04-16,07:59,Ahmedabad,Windy,Dry,Twilight,Bicycle,24,Male,60,Yes,4,3,Minor,Sunday,April
+1123,2024-08-26,08:58,Kolkata,Rain,Wet,Daylight,Car,36,Male,100,No,1,2,Minor,Monday,August
+1124,2024-01-13,02:35,Delhi,Clear,Snowy,Daylight,Truck,61,Male,87,No,3,3,Fatal,Saturday,January
+1125,2023-02-20,10:50,Jaipur,Fog,Wet,Daylight,Bicycle,18,Male,58,No,2,3,Minor,Monday,February
+1126,2023-01-29,11:02,Delhi,Rain,Wet,Daylight,Motorcycle,56,Male,20,No,3,2,Serious,Sunday,January
+1127,2024-04-06,02:10,Ahmedabad,Rain,Dry,Darkness,Truck,36,Female,60,No,3,4,Minor,Saturday,April
+1128,2023-10-23,14:22,Kolkata,Clear,Dry,Daylight,Motorcycle,62,Male,64,No,3,3,Fatal,Monday,October
+1129,2023-10-24,10:54,Bangalore,Fog,Wet,Daylight,Bus,43,Male,107,Yes,1,2,Minor,Tuesday,October
+1130,2024-12-26,04:02,Pune,Clear,Dry,Daylight,Motorcycle,61,Male,117,Yes,4,3,Minor,Thursday,December
+1131,2024-02-11,18:02,Pune,Snow,Snowy,Daylight,Truck,29,Male,117,No,2,4,Serious,Sunday,February
+1132,2024-09-04,22:03,Jaipur,Clear,Dry,Daylight,Bus,39,Male,107,No,3,2,Serious,Wednesday,September
+1133,2024-02-09,00:38,Pune,Clear,Dry,Darkness,Truck,30,Male,98,No,4,3,Minor,Friday,February
+1134,2023-12-12,00:53,Bangalore,Clear,Wet,Daylight,Auto Rickshaw,45,Male,100,No,1,0,Minor,Tuesday,December
+1135,2024-09-13,06:56,Delhi,Clear,Wet,Daylight,Truck,31,Male,32,No,3,4,Serious,Friday,September
+1136,2024-02-24,02:50,Ahmedabad,Rain,Wet,Darkness,Bus,39,Male,90,No,4,3,Serious,Saturday,February
+1137,2023-07-01,08:28,Bangalore,Snow,Dry,Darkness,Motorcycle,47,Male,28,No,1,1,Serious,Saturday,July
+1138,2023-01-01,05:33,Ahmedabad,Fog,Wet,Daylight,Auto Rickshaw,61,Male,82,No,4,2,Minor,Sunday,January
+1139,2024-07-20,08:50,Ahmedabad,Clear,Dry,Darkness,Car,37,Male,118,No,2,3,Serious,Saturday,July
+1140,2024-01-06,16:24,Kolkata,Clear,Dry,Daylight,Car,61,Male,42,No,4,4,Fatal,Saturday,January
+1141,2024-10-22,00:12,Delhi,Fog,Icy,Daylight,Car,44,Male,73,No,4,4,Minor,Tuesday,October
+1142,2024-03-06,15:39,Lucknow,Snow,Wet,Daylight,Car,55,Male,66,No,2,1,Minor,Wednesday,March
+1143,2023-11-05,16:11,Pune,Clear,Dry,Daylight,Bicycle,59,Male,58,No,2,1,Serious,Sunday,November
+1144,2023-05-17,19:39,Lucknow,Clear,Wet,Darkness,Car,69,Male,106,No,4,5,Minor,Wednesday,May
+1145,2023-07-21,09:02,Kolkata,Clear,Dry,Daylight,Bus,58,Male,45,No,2,5,Minor,Friday,July
+1146,2024-03-11,18:40,Ahmedabad,Fog,Dry,Daylight,Car,51,Male,20,Yes,4,3,Minor,Monday,March
+1147,2023-11-09,06:11,Jaipur,Rain,Dry,Darkness,Truck,56,Male,33,No,3,0,Serious,Thursday,November
+1148,2023-04-27,13:31,Pune,Clear,Icy,Daylight,Car,58,Male,115,No,4,4,Minor,Thursday,April
+1149,2024-10-27,00:00,Pune,Clear,Dry,Daylight,Motorcycle,61,Male,93,No,1,0,Serious,Sunday,October
+1150,2024-07-28,05:42,Delhi,Fog,Wet,Darkness,Bus,54,Female,84,No,2,0,Serious,Sunday,July
+1151,2023-09-01,19:11,Chennai,Clear,Dry,Daylight,Bus,18,Male,88,Yes,3,3,Serious,Friday,September
+1152,2024-06-20,14:25,Mumbai,Clear,Wet,Darkness,Auto Rickshaw,32,Male,86,Yes,2,2,Minor,Thursday,June
+1153,2024-08-24,06:08,Mumbai,Rain,Dry,Daylight,Bicycle,49,Male,68,No,2,2,Minor,Saturday,August
+1154,2023-03-16,04:48,Mumbai,Clear,Wet,Darkness,Truck,25,Male,69,Yes,2,2,Minor,Thursday,March
+1155,2024-01-21,16:41,Chennai,Clear,Dry,Daylight,Bus,50,Female,77,No,1,1,Serious,Sunday,January
+1156,2023-07-29,23:59,Delhi,Fog,Wet,Darkness,Motorcycle,35,Male,72,No,1,4,Minor,Saturday,July
+1157,2024-04-19,15:40,Chennai,Fog,Icy,Daylight,Car,62,Male,110,No,4,1,Minor,Friday,April
+1158,2024-02-22,23:35,Mumbai,Fog,Wet,Darkness,Bus,46,Male,76,Yes,1,4,Serious,Thursday,February
+1159,2023-12-13,18:37,Kolkata,Fog,Dry,Daylight,Motorcycle,49,Male,105,No,2,5,Minor,Wednesday,December
+1160,2024-06-12,18:59,Bangalore,Rain,Snowy,Daylight,Car,50,Male,37,No,3,4,Serious,Wednesday,June
+1161,2024-10-01,08:18,Ahmedabad,Fog,Dry,Daylight,Bicycle,22,Male,35,Yes,3,4,Minor,Tuesday,October
+1162,2023-06-28,13:02,Chennai,Clear,Wet,Darkness,Bus,35,Male,21,No,3,3,Fatal,Wednesday,June
+1163,2023-07-01,04:13,Delhi,Rain,Snowy,Twilight,Bus,65,Male,32,No,2,2,Minor,Saturday,July
+1164,2024-10-25,00:16,Delhi,Windy,Dry,Daylight,Motorcycle,27,Male,64,No,1,1,Minor,Friday,October
+1165,2023-01-25,21:47,Lucknow,Clear,Dry,Daylight,Auto Rickshaw,53,Male,99,No,3,5,Minor,Wednesday,January
+1166,2023-06-29,05:12,Bangalore,Clear,Dry,Darkness,Truck,50,Male,91,No,2,1,Serious,Thursday,June
+1167,2024-12-10,10:55,Jaipur,Clear,Dry,Daylight,Bicycle,40,Male,62,No,2,3,Minor,Tuesday,December
+1168,2024-05-15,23:21,Pune,Clear,Wet,Twilight,Truck,57,Male,91,No,3,4,Fatal,Wednesday,May
+1169,2023-06-10,09:48,Mumbai,Clear,Dry,Darkness,Bus,22,Female,73,No,3,5,Minor,Saturday,June
+1170,2023-06-26,10:44,Jaipur,Fog,Dry,Darkness,Truck,51,Female,93,No,4,2,Minor,Monday,June
+1171,2023-10-12,04:25,Lucknow,Windy,Dry,Daylight,Car,41,Male,116,No,4,0,Serious,Thursday,October
+1172,2023-03-04,08:54,Mumbai,Clear,Dry,Daylight,Bicycle,34,Male,50,No,2,0,Serious,Saturday,March
+1173,2024-10-23,09:10,Bangalore,Clear,Dry,Darkness,Truck,48,Female,95,Yes,4,3,Minor,Wednesday,October
+1174,2024-10-27,06:07,Lucknow,Clear,Snowy,Twilight,Car,24,Male,28,No,4,2,Minor,Sunday,October
+1175,2023-06-05,02:25,Mumbai,Fog,Dry,Twilight,Motorcycle,34,Male,92,No,3,0,Serious,Monday,June
+1176,2024-04-13,01:33,Bangalore,Clear,Snowy,Daylight,Truck,45,Male,67,No,4,0,Serious,Saturday,April
+1177,2023-02-18,15:42,Hyderabad,Clear,Dry,Daylight,Bicycle,55,Male,37,No,2,5,Serious,Saturday,February
+1178,2023-03-25,20:12,Jaipur,Clear,Dry,Daylight,Car,39,Male,113,No,3,5,Minor,Saturday,March
+1179,2023-12-27,14:24,Jaipur,Clear,Wet,Darkness,Truck,32,Male,115,No,4,1,Minor,Wednesday,December
+1180,2024-11-19,21:29,Pune,Clear,Dry,Daylight,Motorcycle,54,Male,106,No,4,2,Minor,Tuesday,November
+1181,2023-05-28,04:26,Bangalore,Fog,Dry,Daylight,Truck,32,Male,30,No,4,0,Minor,Sunday,May
+1182,2024-09-21,21:29,Chennai,Rain,Dry,Daylight,Car,67,Male,81,No,1,5,Minor,Saturday,September
+1183,2023-12-08,22:23,Hyderabad,Rain,Dry,Daylight,Truck,67,Male,103,No,4,5,Minor,Friday,December
+1184,2024-04-20,15:20,Kolkata,Clear,Dry,Twilight,Bicycle,42,Male,38,No,4,5,Serious,Saturday,April
+1185,2023-03-04,01:01,Mumbai,Rain,Dry,Daylight,Bus,38,Male,119,No,2,1,Minor,Saturday,March
+1186,2024-12-01,21:49,Hyderabad,Rain,Dry,Daylight,Car,55,Female,109,No,4,2,Serious,Sunday,December
+1187,2023-12-26,22:34,Bangalore,Clear,Dry,Daylight,Car,19,Female,93,No,1,4,Serious,Tuesday,December
+1188,2024-07-14,07:56,Ahmedabad,Rain,Dry,Daylight,Car,44,Female,43,No,3,5,Minor,Sunday,July
+1189,2023-11-23,03:19,Mumbai,Clear,Dry,Daylight,Car,66,Male,32,No,4,2,Serious,Thursday,November
+1190,2023-05-21,12:59,Delhi,Fog,Dry,Daylight,Truck,49,Male,65,No,4,3,Minor,Sunday,May
+1191,2023-08-03,07:28,Jaipur,Clear,Dry,Darkness,Bicycle,38,Male,72,Yes,2,1,Minor,Thursday,August
+1192,2024-03-10,22:36,Bangalore,Windy,Icy,Daylight,Motorcycle,21,Male,117,No,4,4,Minor,Sunday,March
+1193,2024-12-23,08:04,Delhi,Clear,Dry,Daylight,Bicycle,61,Male,48,Yes,4,5,Fatal,Monday,December
+1194,2023-11-14,01:04,Pune,Fog,Wet,Daylight,Car,36,Male,55,No,4,5,Serious,Tuesday,November
+1195,2023-02-01,22:21,Lucknow,Rain,Dry,Darkness,Auto Rickshaw,19,Male,90,No,4,1,Serious,Wednesday,February
+1196,2024-10-31,21:52,Kolkata,Fog,Snowy,Daylight,Truck,43,Male,113,No,3,1,Minor,Thursday,October
+1197,2023-10-12,16:32,Kolkata,Clear,Dry,Darkness,Auto Rickshaw,51,Male,36,No,2,0,Minor,Thursday,October
+1198,2023-11-01,20:25,Delhi,Clear,Icy,Daylight,Truck,31,Male,67,Yes,3,5,Minor,Wednesday,November
+1199,2024-03-04,13:22,Jaipur,Fog,Wet,Darkness,Car,32,Male,96,No,1,2,Minor,Monday,March
+1200,2024-04-21,23:19,Pune,Clear,Dry,Daylight,Truck,37,Male,43,No,4,1,Minor,Sunday,April
+1201,2023-10-13,07:53,Ahmedabad,Clear,Snowy,Twilight,Car,51,Female,73,No,1,1,Minor,Friday,October
+1202,2023-05-24,09:10,Jaipur,Rain,Dry,Daylight,Bicycle,53,Male,114,No,3,3,Minor,Wednesday,May
+1203,2024-02-28,02:25,Hyderabad,Rain,Dry,Daylight,Bus,36,Male,110,No,1,3,Serious,Wednesday,February
+1204,2023-01-19,01:32,Kolkata,Clear,Wet,Darkness,Truck,26,Male,104,No,4,3,Minor,Thursday,January
+1205,2023-01-18,03:51,Hyderabad,Clear,Snowy,Daylight,Car,24,Female,20,No,1,1,Minor,Wednesday,January
+1206,2024-08-12,18:16,Mumbai,Clear,Dry,Twilight,Auto Rickshaw,47,Male,98,No,3,4,Serious,Monday,August
+1207,2024-01-06,03:15,Chennai,Fog,Dry,Daylight,Car,30,Male,86,No,4,2,Serious,Saturday,January
+1208,2023-06-24,16:25,Bangalore,Rain,Wet,Darkness,Auto Rickshaw,44,Female,25,No,2,1,Serious,Saturday,June
+1209,2023-07-13,23:58,Pune,Fog,Wet,Darkness,Truck,61,Male,97,No,3,0,Minor,Thursday,July
+1210,2024-05-16,11:54,Jaipur,Windy,Snowy,Twilight,Motorcycle,52,Male,74,Yes,4,5,Serious,Thursday,May
+1211,2023-04-23,03:23,Kolkata,Clear,Wet,Twilight,Auto Rickshaw,30,Male,57,No,2,4,Minor,Sunday,April
+1212,2023-04-24,11:07,Hyderabad,Clear,Dry,Darkness,Car,32,Male,52,Yes,1,4,Minor,Monday,April
+1213,2023-08-10,15:06,Lucknow,Clear,Snowy,Darkness,Truck,63,Male,27,Yes,1,2,Minor,Thursday,August
+1214,2024-11-08,22:48,Mumbai,Clear,Dry,Daylight,Car,26,Male,109,No,1,4,Fatal,Friday,November
+1215,2024-10-05,01:57,Bangalore,Snow,Dry,Daylight,Motorcycle,62,Male,98,Yes,4,2,Serious,Saturday,October
+1216,2023-09-21,00:15,Bangalore,Rain,Dry,Darkness,Bus,40,Male,97,No,1,4,Fatal,Thursday,September
+1217,2023-02-24,18:57,Jaipur,Clear,Dry,Twilight,Motorcycle,53,Male,39,Yes,1,5,Serious,Friday,February
+1218,2024-10-04,17:36,Pune,Clear,Dry,Darkness,Bicycle,57,Male,74,No,2,2,Minor,Friday,October
+1219,2024-04-02,19:59,Ahmedabad,Rain,Wet,Twilight,Truck,20,Male,67,Yes,2,3,Fatal,Tuesday,April
+1220,2023-06-11,17:50,Lucknow,Rain,Dry,Darkness,Motorcycle,51,Male,102,Yes,2,3,Minor,Sunday,June
+1221,2024-01-15,10:47,Jaipur,Clear,Dry,Daylight,Bus,36,Male,75,No,4,4,Serious,Monday,January
+1222,2023-03-28,21:16,Hyderabad,Windy,Wet,Daylight,Car,45,Male,116,No,3,4,Minor,Tuesday,March
+1223,2023-02-24,01:11,Chennai,Rain,Dry,Daylight,Truck,40,Male,119,No,1,2,Minor,Friday,February
+1224,2024-04-20,13:38,Delhi,Clear,Dry,Daylight,Auto Rickshaw,57,Male,107,No,1,2,Minor,Saturday,April
+1225,2023-06-27,10:51,Ahmedabad,Fog,Dry,Daylight,Motorcycle,66,Male,29,No,4,5,Minor,Tuesday,June
+1226,2024-01-26,15:58,Pune,Clear,Icy,Twilight,Bus,62,Female,71,Yes,1,1,Serious,Friday,January
+1227,2023-12-15,20:58,Mumbai,Snow,Dry,Darkness,Motorcycle,24,Male,69,No,4,3,Minor,Friday,December
+1228,2023-01-08,11:54,Ahmedabad,Windy,Dry,Daylight,Bicycle,58,Male,53,Yes,4,1,Minor,Sunday,January
+1229,2023-11-09,11:30,Kolkata,Rain,Dry,Daylight,Truck,29,Male,55,No,4,1,Minor,Thursday,November
+1230,2024-03-18,08:54,Pune,Fog,Dry,Daylight,Car,31,Male,80,Yes,3,0,Minor,Monday,March
+1231,2023-11-24,15:59,Chennai,Clear,Dry,Daylight,Bus,63,Male,119,No,4,2,Minor,Friday,November
+1232,2023-02-23,00:33,Kolkata,Snow,Dry,Daylight,Motorcycle,32,Male,35,No,3,0,Minor,Thursday,February
+1233,2023-08-27,17:18,Ahmedabad,Rain,Dry,Daylight,Truck,20,Male,98,No,3,0,Minor,Sunday,August
+1234,2023-08-17,05:18,Delhi,Rain,Icy,Daylight,Motorcycle,32,Male,37,No,1,1,Minor,Thursday,August
+1235,2024-08-01,10:36,Delhi,Snow,Dry,Daylight,Truck,68,Male,90,No,2,0,Serious,Thursday,August
+1236,2023-02-20,05:55,Chennai,Windy,Dry,Twilight,Bicycle,41,Male,66,No,3,5,Minor,Monday,February
+1237,2024-08-31,18:50,Bangalore,Fog,Dry,Daylight,Motorcycle,69,Male,105,No,3,2,Minor,Saturday,August
+1238,2024-08-26,19:09,Lucknow,Clear,Dry,Daylight,Bicycle,63,Male,51,No,2,1,Minor,Monday,August
+1239,2023-09-21,14:03,Mumbai,Windy,Wet,Daylight,Auto Rickshaw,25,Male,62,No,3,2,Minor,Thursday,September
+1240,2024-02-22,14:48,Bangalore,Rain,Dry,Daylight,Auto Rickshaw,22,Male,102,No,2,5,Serious,Thursday,February
+1241,2023-04-06,17:22,Delhi,Snow,Dry,Darkness,Bus,68,Male,59,No,1,4,Minor,Thursday,April
+1242,2023-03-29,02:14,Delhi,Rain,Wet,Darkness,Bicycle,21,Female,84,No,4,0,Minor,Wednesday,March
+1243,2023-03-19,04:05,Hyderabad,Clear,Dry,Daylight,Truck,31,Male,54,No,2,1,Minor,Sunday,March
+1244,2023-10-15,09:39,Kolkata,Clear,Dry,Darkness,Bus,33,Male,88,No,4,3,Serious,Sunday,October
+1245,2023-04-30,21:28,Ahmedabad,Rain,Dry,Daylight,Motorcycle,37,Male,69,No,2,2,Minor,Sunday,April
+1246,2024-05-05,06:43,Mumbai,Fog,Dry,Darkness,Motorcycle,41,Male,31,No,4,5,Minor,Sunday,May
+1247,2024-03-27,05:09,Chennai,Clear,Dry,Daylight,Truck,23,Male,95,No,1,0,Minor,Wednesday,March
+1248,2024-05-14,18:24,Ahmedabad,Rain,Dry,Daylight,Car,48,Male,104,No,3,2,Minor,Tuesday,May
+1249,2023-06-14,06:35,Hyderabad,Clear,Dry,Darkness,Car,23,Male,77,No,1,5,Minor,Wednesday,June
+1250,2023-07-01,16:39,Delhi,Fog,Snowy,Darkness,Motorcycle,52,Female,102,No,3,2,Minor,Saturday,July
+1251,2024-04-13,17:02,Chennai,Clear,Dry,Darkness,Truck,32,Male,82,No,4,4,Minor,Saturday,April
+1252,2023-01-07,05:14,Delhi,Clear,Dry,Daylight,Car,46,Female,92,Yes,4,5,Fatal,Saturday,January
+1253,2023-11-26,11:52,Mumbai,Clear,Dry,Daylight,Bicycle,20,Male,68,No,3,2,Fatal,Sunday,November
+1254,2024-11-03,11:11,Kolkata,Clear,Dry,Twilight,Motorcycle,28,Male,55,Yes,2,4,Fatal,Sunday,November
+1255,2023-05-31,05:01,Ahmedabad,Clear,Dry,Daylight,Auto Rickshaw,20,Male,73,No,1,4,Minor,Wednesday,May
+1256,2023-03-26,13:20,Ahmedabad,Clear,Snowy,Daylight,Bicycle,45,Male,66,No,2,4,Minor,Sunday,March
+1257,2023-05-27,03:25,Bangalore,Clear,Wet,Daylight,Truck,27,Male,51,No,4,0,Minor,Saturday,May
+1258,2024-09-15,09:15,Chennai,Snow,Icy,Daylight,Auto Rickshaw,67,Male,118,No,1,5,Minor,Sunday,September
+1259,2024-01-16,18:56,Lucknow,Fog,Snowy,Daylight,Bicycle,50,Female,114,Yes,1,2,Minor,Tuesday,January
+1260,2024-07-01,13:47,Hyderabad,Clear,Dry,Daylight,Car,65,Female,72,Yes,2,2,Minor,Monday,July
+1261,2023-10-12,08:23,Lucknow,Windy,Dry,Daylight,Car,33,Male,51,No,3,5,Serious,Thursday,October
+1262,2024-11-30,01:20,Bangalore,Clear,Dry,Twilight,Auto Rickshaw,27,Male,81,No,3,4,Minor,Saturday,November
+1263,2023-03-23,11:25,Mumbai,Rain,Dry,Daylight,Bus,50,Male,56,No,1,2,Serious,Thursday,March
+1264,2024-05-28,19:08,Hyderabad,Rain,Snowy,Daylight,Motorcycle,53,Male,115,No,3,2,Fatal,Tuesday,May
+1265,2024-12-09,23:38,Kolkata,Clear,Dry,Daylight,Auto Rickshaw,20,Male,57,No,4,4,Serious,Monday,December
+1266,2024-06-06,18:39,Lucknow,Clear,Snowy,Darkness,Truck,22,Female,49,No,2,3,Serious,Thursday,June
+1267,2024-01-21,02:30,Kolkata,Clear,Dry,Daylight,Motorcycle,29,Male,77,No,2,3,Serious,Sunday,January
+1268,2024-12-07,04:36,Lucknow,Clear,Snowy,Darkness,Bicycle,61,Male,51,No,2,4,Minor,Saturday,December
+1269,2024-04-15,06:37,Kolkata,Rain,Snowy,Daylight,Truck,30,Male,85,No,1,0,Serious,Monday,April
+1270,2023-04-29,18:57,Lucknow,Clear,Wet,Darkness,Truck,41,Male,70,No,1,2,Minor,Saturday,April
+1271,2024-01-31,05:42,Kolkata,Clear,Wet,Daylight,Car,61,Male,30,No,3,2,Fatal,Wednesday,January
+1272,2024-06-15,08:03,Bangalore,Clear,Dry,Daylight,Bicycle,49,Male,78,No,2,3,Serious,Saturday,June
+1273,2023-09-18,19:42,Pune,Clear,Wet,Darkness,Car,33,Female,39,No,4,4,Minor,Monday,September
+1274,2023-09-13,00:54,Hyderabad,Rain,Icy,Darkness,Car,49,Male,56,No,4,5,Minor,Wednesday,September
+1275,2023-08-14,22:27,Chennai,Clear,Wet,Daylight,Bus,62,Male,92,No,2,5,Minor,Monday,August
+1276,2023-02-22,10:46,Mumbai,Fog,Wet,Daylight,Car,54,Male,68,No,1,0,Minor,Wednesday,February
+1277,2024-05-14,22:45,Jaipur,Clear,Wet,Daylight,Motorcycle,53,Female,38,No,1,4,Minor,Tuesday,May
+1278,2024-05-20,05:37,Delhi,Clear,Wet,Darkness,Truck,38,Female,74,No,1,3,Minor,Monday,May
+1279,2023-12-30,02:12,Chennai,Rain,Dry,Daylight,Car,64,Male,59,No,4,3,Minor,Saturday,December
+1280,2023-10-07,13:54,Delhi,Clear,Wet,Daylight,Auto Rickshaw,29,Male,26,No,2,2,Minor,Saturday,October
+1281,2024-08-15,03:43,Hyderabad,Rain,Dry,Daylight,Motorcycle,68,Female,24,No,4,1,Serious,Thursday,August
+1282,2024-12-14,11:08,Chennai,Rain,Dry,Darkness,Bicycle,38,Male,61,No,2,0,Minor,Saturday,December
+1283,2023-06-07,21:59,Kolkata,Clear,Dry,Darkness,Truck,68,Male,107,No,4,0,Serious,Wednesday,June
+1284,2024-09-23,07:19,Kolkata,Clear,Dry,Darkness,Auto Rickshaw,38,Male,67,Yes,4,1,Minor,Monday,September
+1285,2023-02-28,03:17,Jaipur,Clear,Dry,Daylight,Auto Rickshaw,60,Male,26,No,3,5,Minor,Tuesday,February
+1286,2024-12-27,15:05,Delhi,Clear,Dry,Twilight,Bicycle,23,Female,30,No,4,5,Serious,Friday,December
+1287,2023-05-08,17:27,Mumbai,Clear,Dry,Darkness,Auto Rickshaw,26,Male,92,No,2,5,Serious,Monday,May
+1288,2024-12-21,21:33,Hyderabad,Clear,Dry,Darkness,Motorcycle,18,Male,68,No,4,3,Fatal,Saturday,December
+1289,2023-04-25,16:36,Kolkata,Clear,Dry,Daylight,Bicycle,29,Male,49,No,3,4,Minor,Tuesday,April
+1290,2023-07-28,09:20,Pune,Rain,Wet,Daylight,Auto Rickshaw,31,Male,60,Yes,3,0,Serious,Friday,July
+1291,2024-06-09,06:25,Bangalore,Rain,Icy,Darkness,Bicycle,23,Male,22,No,2,1,Serious,Sunday,June
+1292,2024-06-04,05:19,Bangalore,Rain,Wet,Daylight,Bicycle,18,Male,105,Yes,3,2,Minor,Tuesday,June
+1293,2024-07-05,11:54,Lucknow,Clear,Icy,Daylight,Car,39,Male,59,No,3,2,Minor,Friday,July
+1294,2023-08-25,10:44,Mumbai,Clear,Wet,Darkness,Car,51,Male,70,No,1,3,Serious,Friday,August
+1295,2023-10-08,11:29,Bangalore,Fog,Dry,Darkness,Car,28,Female,103,No,2,0,Serious,Sunday,October
+1296,2023-12-25,22:43,Lucknow,Rain,Wet,Twilight,Auto Rickshaw,20,Female,51,Yes,3,4,Serious,Monday,December
+1297,2023-07-20,21:25,Delhi,Fog,Wet,Darkness,Truck,59,Female,67,No,3,0,Serious,Thursday,July
+1298,2023-10-05,14:16,Kolkata,Clear,Dry,Daylight,Motorcycle,23,Male,90,No,3,5,Fatal,Thursday,October
+1299,2023-08-23,10:29,Kolkata,Rain,Dry,Daylight,Auto Rickshaw,23,Male,90,No,2,2,Minor,Wednesday,August
+1300,2024-05-08,14:54,Pune,Rain,Wet,Daylight,Car,37,Female,39,No,1,0,Minor,Wednesday,May
+1301,2023-01-04,03:40,Chennai,Clear,Dry,Daylight,Bicycle,38,Male,108,No,4,2,Minor,Wednesday,January
+1302,2024-10-27,09:47,Bangalore,Clear,Wet,Daylight,Auto Rickshaw,19,Male,54,No,1,1,Minor,Sunday,October
+1303,2024-03-17,10:05,Delhi,Rain,Dry,Daylight,Bicycle,43,Male,43,No,2,1,Serious,Sunday,March
+1304,2023-01-29,10:21,Ahmedabad,Clear,Dry,Daylight,Bicycle,48,Female,59,No,2,2,Serious,Sunday,January
+1305,2023-04-19,19:02,Bangalore,Clear,Dry,Darkness,Bicycle,43,Male,96,No,2,4,Minor,Wednesday,April
+1306,2024-09-01,13:58,Mumbai,Fog,Dry,Twilight,Bus,49,Male,71,No,4,4,Fatal,Sunday,September
+1307,2024-12-27,23:57,Chennai,Snow,Dry,Darkness,Truck,27,Male,58,No,2,0,Minor,Friday,December
+1308,2023-03-16,02:39,Bangalore,Clear,Wet,Darkness,Motorcycle,40,Male,87,Yes,1,2,Minor,Thursday,March
+1309,2023-05-26,05:15,Delhi,Clear,Wet,Darkness,Motorcycle,23,Female,80,No,3,3,Minor,Friday,May
+1310,2023-05-08,17:59,Bangalore,Clear,Snowy,Twilight,Car,40,Male,95,Yes,3,4,Serious,Monday,May
+1311,2023-02-11,01:52,Mumbai,Rain,Dry,Darkness,Bus,45,Male,100,No,2,4,Serious,Saturday,February
+1312,2023-12-22,06:24,Ahmedabad,Clear,Wet,Darkness,Auto Rickshaw,66,Female,84,No,2,5,Minor,Friday,December
+1313,2023-02-10,01:29,Hyderabad,Windy,Dry,Twilight,Auto Rickshaw,47,Male,81,No,4,1,Minor,Friday,February
+1314,2023-02-03,20:03,Jaipur,Clear,Dry,Twilight,Motorcycle,31,Male,100,No,3,4,Serious,Friday,February
+1315,2023-01-17,03:58,Ahmedabad,Clear,Dry,Daylight,Truck,54,Male,21,No,4,4,Minor,Tuesday,January
+1316,2024-11-07,18:16,Lucknow,Rain,Dry,Daylight,Bicycle,49,Male,25,No,4,5,Fatal,Thursday,November
+1317,2023-06-02,20:00,Bangalore,Fog,Dry,Daylight,Car,66,Female,94,No,4,4,Fatal,Friday,June
+1318,2024-01-13,21:26,Kolkata,Clear,Dry,Daylight,Truck,51,Male,62,No,4,5,Minor,Saturday,January
+1319,2024-08-10,22:45,Pune,Clear,Wet,Daylight,Motorcycle,58,Female,101,No,1,2,Minor,Saturday,August
+1320,2024-08-21,02:20,Kolkata,Windy,Wet,Daylight,Bus,61,Male,59,No,2,2,Minor,Wednesday,August
+1321,2024-09-20,21:45,Ahmedabad,Clear,Dry,Daylight,Car,68,Male,108,Yes,2,1,Minor,Friday,September
+1322,2023-12-08,22:49,Kolkata,Fog,Dry,Daylight,Motorcycle,39,Male,58,No,4,0,Fatal,Friday,December
+1323,2023-01-27,23:35,Delhi,Clear,Dry,Darkness,Auto Rickshaw,48,Male,47,No,4,5,Minor,Friday,January
+1324,2023-10-14,17:31,Kolkata,Fog,Dry,Daylight,Car,24,Male,99,No,1,4,Serious,Saturday,October
+1325,2024-10-07,05:14,Chennai,Rain,Wet,Darkness,Motorcycle,58,Male,82,No,4,0,Minor,Monday,October
+1326,2023-06-17,17:48,Hyderabad,Clear,Dry,Darkness,Auto Rickshaw,38,Male,83,No,1,2,Minor,Saturday,June
+1327,2024-09-01,00:56,Bangalore,Fog,Wet,Daylight,Auto Rickshaw,33,Male,31,No,1,4,Fatal,Sunday,September
+1328,2023-09-25,15:22,Kolkata,Clear,Snowy,Twilight,Bicycle,37,Male,60,No,4,0,Minor,Monday,September
+1329,2024-03-30,17:21,Mumbai,Clear,Dry,Daylight,Bus,60,Male,48,No,2,5,Minor,Saturday,March
+1330,2024-11-15,08:32,Hyderabad,Rain,Icy,Daylight,Bicycle,61,Male,42,Yes,1,5,Minor,Friday,November
+1331,2024-02-05,07:47,Hyderabad,Clear,Dry,Daylight,Motorcycle,64,Male,104,No,2,0,Minor,Monday,February
+1332,2024-04-20,17:50,Kolkata,Rain,Dry,Daylight,Truck,67,Female,99,No,2,5,Serious,Saturday,April
+1333,2024-12-02,11:06,Hyderabad,Clear,Dry,Daylight,Bicycle,36,Male,70,No,1,3,Serious,Monday,December
+1334,2024-09-25,22:20,Pune,Clear,Dry,Daylight,Truck,65,Male,64,No,3,2,Serious,Wednesday,September
+1335,2024-07-11,06:32,Kolkata,Clear,Dry,Daylight,Auto Rickshaw,49,Male,109,Yes,1,1,Serious,Thursday,July
+1336,2024-07-29,00:33,Delhi,Clear,Dry,Daylight,Motorcycle,32,Male,41,No,3,1,Minor,Monday,July
+1337,2023-05-10,09:39,Ahmedabad,Clear,Wet,Daylight,Bus,22,Female,29,No,1,3,Minor,Wednesday,May
+1338,2023-12-29,18:59,Chennai,Fog,Snowy,Darkness,Truck,28,Male,26,No,1,0,Minor,Friday,December
+1339,2024-12-05,19:38,Jaipur,Snow,Wet,Daylight,Motorcycle,32,Female,92,No,2,5,Minor,Thursday,December
+1340,2024-11-23,09:31,Lucknow,Fog,Dry,Daylight,Truck,46,Male,108,No,2,3,Minor,Saturday,November
+1341,2023-10-19,08:15,Hyderabad,Clear,Wet,Daylight,Bicycle,67,Female,34,No,4,3,Serious,Thursday,October
+1342,2024-01-06,20:09,Delhi,Clear,Wet,Daylight,Motorcycle,62,Male,96,Yes,2,5,Minor,Saturday,January
+1343,2023-01-29,01:54,Bangalore,Clear,Wet,Daylight,Bicycle,21,Male,65,No,2,2,Minor,Sunday,January
+1344,2023-05-29,13:32,Bangalore,Clear,Wet,Darkness,Car,66,Male,109,No,2,5,Minor,Monday,May
+1345,2023-10-23,19:48,Lucknow,Rain,Snowy,Daylight,Motorcycle,53,Male,104,No,2,5,Serious,Monday,October
+1346,2023-01-11,18:55,Chennai,Clear,Dry,Darkness,Truck,65,Male,106,No,4,4,Minor,Wednesday,January
+1347,2024-05-26,03:01,Hyderabad,Clear,Wet,Darkness,Car,40,Male,80,No,2,0,Serious,Sunday,May
+1348,2024-11-06,10:17,Pune,Snow,Dry,Daylight,Bicycle,32,Male,111,Yes,3,1,Minor,Wednesday,November
+1349,2023-04-23,12:53,Lucknow,Clear,Icy,Daylight,Bicycle,63,Male,80,No,3,1,Minor,Sunday,April
+1350,2023-07-06,17:11,Chennai,Clear,Dry,Twilight,Truck,61,Male,70,No,4,3,Serious,Thursday,July
+1351,2023-08-15,18:22,Hyderabad,Clear,Dry,Darkness,Car,20,Female,57,No,2,3,Minor,Tuesday,August
+1352,2023-11-06,00:10,Delhi,Clear,Dry,Daylight,Auto Rickshaw,49,Male,31,No,3,3,Minor,Monday,November
+1353,2023-04-08,12:31,Ahmedabad,Fog,Wet,Darkness,Bus,27,Male,107,No,1,0,Minor,Saturday,April
+1354,2023-02-24,10:19,Pune,Clear,Dry,Darkness,Truck,57,Female,96,No,3,3,Minor,Friday,February
+1355,2024-09-14,09:43,Jaipur,Clear,Dry,Daylight,Bicycle,55,Male,85,No,2,3,Serious,Saturday,September
+1356,2024-10-25,10:57,Bangalore,Clear,Icy,Darkness,Motorcycle,39,Male,73,Yes,3,4,Minor,Friday,October
+1357,2024-02-10,22:38,Mumbai,Clear,Snowy,Daylight,Car,31,Male,58,No,1,0,Minor,Saturday,February
+1358,2023-03-10,05:39,Delhi,Clear,Dry,Daylight,Auto Rickshaw,34,Female,95,No,3,2,Serious,Friday,March
+1359,2023-11-08,14:13,Bangalore,Fog,Dry,Twilight,Bus,38,Male,58,No,2,2,Minor,Wednesday,November
+1360,2023-10-16,21:32,Kolkata,Fog,Wet,Darkness,Motorcycle,68,Male,97,No,1,5,Minor,Monday,October
+1361,2024-07-01,23:35,Mumbai,Fog,Snowy,Daylight,Car,65,Male,49,No,4,4,Fatal,Monday,July
+1362,2023-05-28,01:29,Bangalore,Clear,Dry,Daylight,Auto Rickshaw,32,Male,67,Yes,1,1,Serious,Sunday,May
+1363,2024-04-11,09:42,Chennai,Fog,Wet,Darkness,Truck,32,Male,102,No,3,5,Fatal,Thursday,April
+1364,2023-09-01,17:31,Pune,Rain,Dry,Darkness,Auto Rickshaw,18,Male,50,No,4,2,Minor,Friday,September
+1365,2024-05-05,05:42,Bangalore,Clear,Wet,Darkness,Truck,41,Male,44,No,1,0,Minor,Sunday,May
+1366,2024-05-21,04:46,Jaipur,Rain,Wet,Twilight,Car,29,Female,87,No,1,1,Fatal,Tuesday,May
+1367,2023-12-31,10:11,Ahmedabad,Clear,Dry,Darkness,Auto Rickshaw,27,Male,70,Yes,1,3,Minor,Sunday,December
+1368,2024-04-26,13:12,Chennai,Clear,Dry,Daylight,Bus,63,Male,32,No,2,0,Fatal,Friday,April
+1369,2023-07-20,15:16,Delhi,Rain,Snowy,Daylight,Auto Rickshaw,59,Male,119,No,4,1,Minor,Thursday,July
+1370,2023-06-03,10:01,Delhi,Clear,Wet,Daylight,Car,59,Male,82,No,4,2,Minor,Saturday,June
+1371,2024-03-25,09:16,Delhi,Rain,Dry,Darkness,Motorcycle,69,Male,61,No,1,5,Minor,Monday,March
+1372,2024-05-15,01:49,Delhi,Clear,Wet,Darkness,Motorcycle,48,Male,73,No,4,3,Fatal,Wednesday,May
+1373,2023-03-14,19:29,Ahmedabad,Fog,Wet,Daylight,Auto Rickshaw,28,Male,86,No,3,3,Minor,Tuesday,March
+1374,2024-12-13,15:57,Bangalore,Windy,Dry,Daylight,Auto Rickshaw,33,Male,99,No,3,0,Minor,Friday,December
+1375,2023-10-23,16:07,Hyderabad,Fog,Wet,Daylight,Truck,26,Female,109,Yes,1,5,Minor,Monday,October
+1376,2023-01-17,21:21,Bangalore,Clear,Dry,Daylight,Car,64,Male,75,No,3,3,Minor,Tuesday,January
+1377,2024-10-02,11:56,Kolkata,Clear,Snowy,Daylight,Truck,31,Male,38,Yes,1,1,Fatal,Wednesday,October
+1378,2023-08-05,03:41,Pune,Clear,Dry,Daylight,Bus,36,Male,65,No,3,4,Minor,Saturday,August
+1379,2023-03-02,01:06,Mumbai,Clear,Dry,Daylight,Motorcycle,48,Male,34,Yes,1,2,Minor,Thursday,March
+1380,2024-09-07,19:47,Hyderabad,Clear,Dry,Daylight,Bicycle,26,Male,51,No,1,0,Minor,Saturday,September
+1381,2023-02-11,08:07,Hyderabad,Rain,Wet,Daylight,Bicycle,53,Female,68,Yes,4,5,Minor,Saturday,February
+1382,2023-01-25,04:09,Bangalore,Rain,Wet,Daylight,Car,56,Male,40,Yes,4,4,Minor,Wednesday,January
+1383,2023-02-08,00:55,Hyderabad,Windy,Snowy,Darkness,Car,43,Male,84,No,1,4,Serious,Wednesday,February
+1384,2023-05-11,00:12,Lucknow,Clear,Wet,Daylight,Bicycle,25,Male,89,No,4,0,Serious,Thursday,May
+1385,2024-05-12,11:28,Lucknow,Clear,Dry,Darkness,Car,41,Male,46,No,4,1,Serious,Sunday,May
+1386,2023-08-17,06:53,Kolkata,Clear,Icy,Darkness,Motorcycle,25,Male,42,No,2,5,Fatal,Thursday,August
+1387,2023-04-18,03:37,Mumbai,Snow,Dry,Daylight,Bus,36,Male,66,Yes,3,2,Minor,Tuesday,April
+1388,2023-06-21,06:37,Jaipur,Fog,Wet,Daylight,Bus,64,Male,114,No,4,0,Minor,Wednesday,June
+1389,2024-03-10,17:55,Ahmedabad,Fog,Dry,Twilight,Truck,65,Male,31,No,1,5,Minor,Sunday,March
+1390,2024-04-22,20:37,Bangalore,Snow,Wet,Darkness,Motorcycle,47,Male,104,No,2,4,Minor,Monday,April
+1391,2023-04-12,09:13,Ahmedabad,Rain,Wet,Twilight,Car,39,Male,85,No,2,4,Minor,Wednesday,April
+1392,2024-06-07,03:28,Jaipur,Clear,Wet,Darkness,Car,26,Male,24,No,4,0,Serious,Friday,June
+1393,2023-10-02,13:24,Bangalore,Clear,Dry,Daylight,Truck,61,Male,28,No,1,5,Serious,Monday,October
+1394,2024-09-04,22:08,Bangalore,Rain,Dry,Daylight,Truck,65,Male,39,No,1,4,Serious,Wednesday,September
+1395,2023-02-13,22:01,Mumbai,Clear,Dry,Daylight,Car,21,Male,101,No,1,0,Minor,Monday,February
+1396,2023-01-17,10:33,Ahmedabad,Clear,Wet,Daylight,Car,54,Female,82,No,1,0,Serious,Tuesday,January
+1397,2023-11-26,08:26,Lucknow,Snow,Dry,Daylight,Motorcycle,25,Male,105,No,1,2,Fatal,Sunday,November
+1398,2024-07-22,07:42,Delhi,Windy,Snowy,Darkness,Truck,18,Male,91,No,3,0,Minor,Monday,July
+1399,2024-05-11,11:39,Ahmedabad,Fog,Dry,Daylight,Motorcycle,45,Male,117,No,1,5,Minor,Saturday,May
+1400,2023-01-12,00:27,Pune,Fog,Dry,Daylight,Auto Rickshaw,23,Male,92,Yes,1,5,Minor,Thursday,January
+1401,2023-11-14,22:37,Pune,Rain,Wet,Darkness,Car,64,Male,90,No,3,4,Minor,Tuesday,November
+1402,2024-08-14,15:12,Bangalore,Clear,Dry,Darkness,Bicycle,53,Male,49,No,4,3,Minor,Wednesday,August
+1403,2023-08-04,13:28,Delhi,Clear,Icy,Daylight,Bicycle,28,Female,101,Yes,2,2,Minor,Friday,August
+1404,2023-12-05,17:04,Chennai,Rain,Wet,Darkness,Auto Rickshaw,22,Female,110,No,3,5,Minor,Tuesday,December
+1405,2024-10-22,21:33,Jaipur,Rain,Dry,Darkness,Car,67,Female,35,Yes,2,4,Minor,Tuesday,October
+1406,2023-03-22,20:31,Kolkata,Clear,Dry,Daylight,Truck,41,Male,104,No,2,4,Serious,Wednesday,March
+1407,2024-12-27,04:25,Delhi,Snow,Dry,Daylight,Bicycle,64,Female,24,No,3,2,Serious,Friday,December
+1408,2024-04-29,11:59,Kolkata,Clear,Dry,Daylight,Truck,35,Male,48,Yes,1,2,Serious,Monday,April
+1409,2024-01-09,04:46,Ahmedabad,Clear,Wet,Daylight,Bicycle,37,Male,66,Yes,2,4,Minor,Tuesday,January
+1410,2024-12-10,09:50,Ahmedabad,Rain,Dry,Daylight,Truck,45,Male,41,No,1,3,Minor,Tuesday,December
+1411,2023-07-19,09:48,Kolkata,Clear,Dry,Twilight,Bicycle,30,Male,97,No,4,1,Serious,Wednesday,July
+1412,2024-06-20,15:07,Jaipur,Clear,Dry,Darkness,Truck,22,Male,76,No,3,4,Serious,Thursday,June
+1413,2024-04-10,04:29,Delhi,Clear,Dry,Darkness,Auto Rickshaw,47,Male,102,No,2,2,Minor,Wednesday,April
+1414,2023-03-30,01:43,Chennai,Fog,Dry,Twilight,Motorcycle,18,Male,54,No,1,0,Minor,Thursday,March
+1415,2023-09-25,11:24,Bangalore,Clear,Snowy,Darkness,Truck,39,Female,107,Yes,2,0,Minor,Monday,September
+1416,2024-10-16,17:09,Mumbai,Rain,Wet,Daylight,Motorcycle,35,Male,79,No,4,2,Minor,Wednesday,October
+1417,2024-07-24,19:53,Ahmedabad,Rain,Wet,Daylight,Motorcycle,63,Male,89,No,4,2,Minor,Wednesday,July
+1418,2024-05-03,09:09,Pune,Clear,Wet,Darkness,Car,22,Male,79,No,2,1,Minor,Friday,May
+1419,2024-06-21,22:55,Jaipur,Windy,Dry,Daylight,Auto Rickshaw,48,Female,77,No,3,5,Fatal,Friday,June
+1420,2023-02-16,01:06,Mumbai,Clear,Snowy,Daylight,Motorcycle,23,Male,22,No,4,2,Serious,Thursday,February
+1421,2023-10-15,09:44,Chennai,Windy,Dry,Darkness,Bus,44,Male,53,No,1,0,Minor,Sunday,October
+1422,2023-01-16,02:19,Hyderabad,Rain,Dry,Twilight,Motorcycle,42,Female,64,No,4,3,Minor,Monday,January
+1423,2024-12-11,13:40,Bangalore,Windy,Dry,Daylight,Truck,46,Male,69,No,1,2,Minor,Wednesday,December
+1424,2024-02-05,04:14,Ahmedabad,Clear,Dry,Darkness,Motorcycle,45,Male,21,No,2,1,Minor,Monday,February
+1425,2023-03-27,10:56,Bangalore,Clear,Wet,Daylight,Truck,33,Male,34,No,1,3,Minor,Monday,March
+1426,2023-09-07,16:29,Mumbai,Clear,Dry,Darkness,Truck,29,Male,56,Yes,2,1,Serious,Thursday,September
+1427,2024-01-26,15:37,Bangalore,Clear,Wet,Daylight,Bus,37,Female,34,No,4,3,Minor,Friday,January
+1428,2023-12-01,04:19,Hyderabad,Rain,Dry,Darkness,Motorcycle,35,Male,79,No,3,2,Minor,Friday,December
+1429,2024-09-20,23:30,Mumbai,Clear,Dry,Daylight,Motorcycle,51,Female,115,Yes,4,0,Serious,Friday,September
+1430,2024-06-02,21:34,Ahmedabad,Rain,Wet,Darkness,Bicycle,40,Female,104,No,4,3,Minor,Sunday,June
+1431,2023-05-17,22:37,Delhi,Clear,Dry,Daylight,Bicycle,62,Male,83,No,4,4,Fatal,Wednesday,May
+1432,2024-11-18,10:00,Pune,Clear,Dry,Daylight,Car,44,Male,100,No,4,5,Serious,Monday,November
+1433,2024-05-12,05:55,Mumbai,Fog,Dry,Daylight,Truck,66,Female,117,No,3,1,Minor,Sunday,May
+1434,2024-12-27,00:26,Lucknow,Clear,Wet,Daylight,Bus,34,Male,115,No,4,3,Minor,Friday,December
+1435,2024-04-21,05:19,Hyderabad,Rain,Wet,Daylight,Bicycle,65,Male,71,Yes,1,1,Serious,Sunday,April
+1436,2024-08-16,07:07,Mumbai,Rain,Dry,Daylight,Motorcycle,38,Male,42,No,3,0,Minor,Friday,August
+1437,2023-08-11,08:30,Mumbai,Fog,Icy,Darkness,Car,67,Male,118,No,3,1,Minor,Friday,August
+1438,2024-01-07,11:58,Lucknow,Clear,Snowy,Darkness,Bus,57,Female,56,No,1,1,Minor,Sunday,January
+1439,2024-02-06,02:45,Ahmedabad,Rain,Wet,Daylight,Auto Rickshaw,48,Male,60,Yes,2,4,Serious,Tuesday,February
+1440,2024-03-18,21:51,Mumbai,Windy,Wet,Darkness,Motorcycle,20,Male,76,Yes,4,1,Serious,Monday,March
+1441,2024-05-04,07:21,Pune,Rain,Dry,Daylight,Motorcycle,34,Female,116,No,3,3,Serious,Saturday,May
+1442,2024-09-06,00:00,Bangalore,Clear,Wet,Daylight,Auto Rickshaw,67,Female,44,Yes,4,1,Minor,Friday,September
+1443,2023-09-30,10:16,Ahmedabad,Rain,Dry,Daylight,Truck,43,Male,56,No,4,2,Minor,Saturday,September
+1444,2024-06-09,19:30,Pune,Rain,Dry,Daylight,Truck,40,Female,59,No,1,1,Minor,Sunday,June
+1445,2023-06-08,02:48,Ahmedabad,Rain,Icy,Daylight,Bicycle,23,Male,104,No,1,2,Minor,Thursday,June
+1446,2023-06-01,22:39,Pune,Clear,Wet,Twilight,Bicycle,45,Male,65,No,1,5,Minor,Thursday,June
+1447,2024-09-11,18:55,Hyderabad,Clear,Dry,Daylight,Motorcycle,25,Female,79,No,4,1,Minor,Wednesday,September
+1448,2023-07-07,17:41,Pune,Fog,Dry,Daylight,Motorcycle,62,Male,117,No,3,5,Minor,Friday,July
+1449,2023-04-08,12:30,Kolkata,Clear,Wet,Daylight,Bicycle,25,Male,38,No,3,1,Serious,Saturday,April
+1450,2023-05-11,02:20,Pune,Rain,Dry,Darkness,Auto Rickshaw,36,Male,110,No,2,3,Fatal,Thursday,May
+1451,2023-06-20,15:00,Delhi,Clear,Dry,Darkness,Bicycle,55,Male,28,No,4,2,Minor,Tuesday,June
+1452,2023-07-02,16:13,Delhi,Rain,Dry,Darkness,Motorcycle,46,Female,88,No,2,5,Minor,Sunday,July
+1453,2023-12-30,04:06,Jaipur,Clear,Dry,Twilight,Bus,40,Male,24,No,2,5,Minor,Saturday,December
+1454,2023-02-08,20:00,Kolkata,Clear,Wet,Twilight,Motorcycle,64,Male,108,No,2,2,Minor,Wednesday,February
+1455,2024-06-10,03:27,Kolkata,Windy,Dry,Darkness,Bus,49,Male,45,No,2,4,Minor,Monday,June
+1456,2024-05-11,17:59,Bangalore,Fog,Wet,Daylight,Bus,27,Female,38,No,2,1,Minor,Saturday,May
+1457,2024-05-30,11:07,Kolkata,Rain,Dry,Darkness,Motorcycle,44,Male,49,No,4,1,Minor,Thursday,May
+1458,2023-12-15,08:32,Bangalore,Clear,Wet,Daylight,Car,66,Male,119,Yes,1,3,Minor,Friday,December
+1459,2024-02-01,06:13,Jaipur,Rain,Icy,Darkness,Bicycle,18,Male,67,No,2,4,Serious,Thursday,February
+1460,2024-12-22,03:02,Jaipur,Rain,Wet,Darkness,Truck,56,Male,35,No,3,4,Serious,Sunday,December
+1461,2023-06-10,03:23,Hyderabad,Rain,Snowy,Darkness,Motorcycle,46,Male,90,No,4,3,Minor,Saturday,June
+1462,2023-01-16,04:55,Delhi,Clear,Snowy,Daylight,Bus,62,Male,37,No,2,5,Serious,Monday,January
+1463,2024-05-07,15:36,Pune,Rain,Dry,Darkness,Motorcycle,20,Female,75,Yes,3,2,Minor,Tuesday,May
+1464,2024-03-01,00:21,Pune,Fog,Wet,Twilight,Bicycle,68,Male,40,No,2,5,Fatal,Friday,March
+1465,2023-04-18,12:48,Lucknow,Windy,Snowy,Daylight,Auto Rickshaw,64,Male,50,Yes,1,0,Serious,Tuesday,April
+1466,2024-03-25,06:54,Lucknow,Clear,Dry,Daylight,Bus,54,Male,20,No,4,3,Serious,Monday,March
+1467,2023-11-07,15:17,Chennai,Rain,Dry,Darkness,Truck,48,Male,22,No,1,2,Fatal,Tuesday,November
+1468,2023-06-19,03:10,Ahmedabad,Rain,Snowy,Twilight,Truck,28,Male,114,No,3,5,Serious,Monday,June
+1469,2024-06-29,02:28,Hyderabad,Clear,Wet,Daylight,Truck,39,Male,44,No,2,5,Serious,Saturday,June
+1470,2024-02-18,17:31,Chennai,Clear,Dry,Daylight,Auto Rickshaw,35,Male,27,No,1,4,Minor,Sunday,February
+1471,2023-09-08,00:41,Chennai,Clear,Dry,Daylight,Car,52,Male,84,No,1,3,Fatal,Friday,September
+1472,2023-05-21,06:29,Mumbai,Clear,Wet,Daylight,Bus,23,Male,81,No,2,0,Serious,Sunday,May
+1473,2023-10-01,14:09,Mumbai,Clear,Dry,Twilight,Auto Rickshaw,20,Male,26,No,4,1,Fatal,Sunday,October
+1474,2024-02-20,15:00,Chennai,Rain,Wet,Darkness,Bus,22,Male,26,No,3,3,Minor,Tuesday,February
+1475,2024-08-30,10:25,Kolkata,Rain,Wet,Darkness,Auto Rickshaw,26,Male,27,No,4,0,Minor,Friday,August
+1476,2023-02-08,02:38,Ahmedabad,Rain,Wet,Daylight,Auto Rickshaw,45,Male,38,No,3,0,Minor,Wednesday,February
+1477,2023-01-29,00:23,Hyderabad,Snow,Dry,Darkness,Car,36,Female,36,Yes,3,3,Serious,Sunday,January
+1478,2024-04-21,11:19,Chennai,Clear,Wet,Daylight,Bus,45,Male,30,Yes,1,2,Serious,Sunday,April
+1479,2023-11-14,14:20,Pune,Clear,Wet,Daylight,Auto Rickshaw,44,Male,68,No,2,3,Minor,Tuesday,November
+1480,2023-09-02,05:18,Ahmedabad,Rain,Wet,Daylight,Car,30,Female,30,No,4,5,Minor,Saturday,September
+1481,2024-11-27,20:00,Mumbai,Clear,Dry,Daylight,Motorcycle,55,Male,60,Yes,1,4,Serious,Wednesday,November
+1482,2023-09-29,03:18,Pune,Clear,Dry,Daylight,Bicycle,60,Female,81,No,1,5,Minor,Friday,September
+1483,2024-03-15,07:19,Mumbai,Clear,Icy,Daylight,Auto Rickshaw,38,Male,71,No,1,0,Serious,Friday,March
+1484,2023-08-27,21:46,Mumbai,Clear,Dry,Daylight,Truck,44,Male,85,No,4,0,Serious,Sunday,August
+1485,2024-01-12,07:14,Ahmedabad,Fog,Dry,Daylight,Car,63,Male,87,No,1,1,Minor,Friday,January
+1486,2023-09-23,23:13,Mumbai,Clear,Dry,Darkness,Car,23,Female,111,No,2,0,Minor,Saturday,September
+1487,2023-12-25,03:05,Jaipur,Clear,Wet,Daylight,Auto Rickshaw,55,Male,116,No,1,1,Serious,Monday,December
+1488,2023-12-06,12:39,Delhi,Clear,Dry,Twilight,Car,66,Male,94,No,1,0,Serious,Wednesday,December
+1489,2024-01-24,08:21,Jaipur,Rain,Dry,Daylight,Motorcycle,28,Male,86,No,3,0,Minor,Wednesday,January
+1490,2024-07-30,13:32,Delhi,Clear,Dry,Darkness,Car,64,Male,59,No,1,3,Minor,Tuesday,July
+1491,2024-11-19,20:51,Lucknow,Rain,Wet,Darkness,Bicycle,58,Male,24,Yes,4,3,Minor,Tuesday,November
+1492,2023-01-03,13:34,Lucknow,Clear,Dry,Twilight,Bicycle,34,Male,104,No,4,4,Minor,Tuesday,January
+1493,2024-03-04,13:13,Mumbai,Clear,Dry,Darkness,Truck,56,Male,41,No,2,5,Minor,Monday,March
+1494,2023-05-22,15:47,Hyderabad,Rain,Dry,Daylight,Motorcycle,24,Male,56,No,4,2,Serious,Monday,May
+1495,2024-01-11,12:21,Hyderabad,Clear,Snowy,Daylight,Bicycle,47,Male,30,No,4,4,Fatal,Thursday,January
+1496,2024-10-31,23:07,Delhi,Clear,Dry,Daylight,Auto Rickshaw,38,Male,63,No,1,0,Minor,Thursday,October
+1497,2023-11-20,11:59,Pune,Clear,Dry,Daylight,Bus,18,Male,105,No,2,4,Minor,Monday,November
+1498,2023-05-26,05:28,Ahmedabad,Snow,Dry,Daylight,Bus,42,Male,72,Yes,4,3,Serious,Friday,May
+1499,2023-10-20,17:34,Mumbai,Clear,Icy,Darkness,Bus,49,Female,96,No,2,5,Minor,Friday,October
+1500,2024-10-26,13:53,Ahmedabad,Rain,Wet,Daylight,Auto Rickshaw,25,Male,80,Yes,2,0,Serious,Saturday,October
+1501,2024-03-07,19:16,Jaipur,Clear,Icy,Darkness,Car,22,Male,86,Yes,3,0,Serious,Thursday,March
+1502,2024-12-05,07:55,Hyderabad,Clear,Wet,Twilight,Auto Rickshaw,47,Male,32,No,3,4,Serious,Thursday,December
+1503,2024-08-07,03:14,Kolkata,Clear,Dry,Darkness,Car,68,Male,111,Yes,1,5,Minor,Wednesday,August
+1504,2024-02-03,19:46,Jaipur,Snow,Wet,Darkness,Bus,25,Male,30,No,4,1,Fatal,Saturday,February
+1505,2023-12-10,02:27,Jaipur,Clear,Dry,Darkness,Truck,66,Male,30,No,1,2,Serious,Sunday,December
+1506,2023-05-20,23:13,Delhi,Clear,Dry,Daylight,Truck,36,Male,104,No,1,5,Minor,Saturday,May
+1507,2023-07-06,19:33,Bangalore,Clear,Dry,Daylight,Car,61,Female,104,Yes,2,4,Minor,Thursday,July
+1508,2023-03-02,05:37,Jaipur,Clear,Dry,Twilight,Bus,47,Female,26,No,2,4,Minor,Thursday,March
+1509,2024-01-15,11:11,Mumbai,Clear,Snowy,Twilight,Auto Rickshaw,32,Male,36,No,2,2,Serious,Monday,January
+1510,2024-12-10,02:48,Chennai,Rain,Dry,Darkness,Truck,53,Male,67,No,1,0,Minor,Tuesday,December
+1511,2024-03-15,20:09,Chennai,Clear,Snowy,Daylight,Car,61,Female,33,No,4,0,Minor,Friday,March
+1512,2023-11-15,22:30,Mumbai,Clear,Dry,Darkness,Auto Rickshaw,44,Male,82,No,1,1,Serious,Wednesday,November
+1513,2023-10-29,20:51,Bangalore,Rain,Dry,Daylight,Bus,30,Male,83,No,1,4,Minor,Sunday,October
+1514,2023-12-10,19:00,Bangalore,Clear,Snowy,Daylight,Motorcycle,31,Male,116,No,1,2,Minor,Sunday,December
+1515,2023-01-11,17:55,Delhi,Clear,Wet,Daylight,Bus,54,Male,94,Yes,3,4,Serious,Wednesday,January
+1516,2023-03-03,16:08,Hyderabad,Clear,Wet,Daylight,Bus,65,Male,96,No,3,3,Minor,Friday,March
+1517,2023-08-14,20:02,Ahmedabad,Rain,Dry,Daylight,Auto Rickshaw,47,Female,84,No,4,4,Minor,Monday,August
+1518,2023-06-02,01:22,Bangalore,Clear,Dry,Daylight,Auto Rickshaw,56,Female,53,No,3,4,Minor,Friday,June
+1519,2024-12-11,19:46,Kolkata,Clear,Wet,Daylight,Bicycle,64,Male,28,No,1,3,Minor,Wednesday,December
+1520,2024-07-17,10:53,Delhi,Clear,Wet,Daylight,Bicycle,30,Female,96,Yes,3,3,Serious,Wednesday,July
+1521,2024-07-24,16:09,Lucknow,Rain,Dry,Darkness,Auto Rickshaw,33,Male,56,No,3,2,Serious,Wednesday,July
+1522,2024-08-06,07:51,Pune,Clear,Icy,Darkness,Auto Rickshaw,61,Male,49,No,1,0,Minor,Tuesday,August
+1523,2024-10-21,07:37,Lucknow,Rain,Wet,Daylight,Motorcycle,24,Male,60,No,4,1,Minor,Monday,October
+1524,2024-07-28,10:23,Delhi,Fog,Snowy,Daylight,Motorcycle,65,Male,64,No,3,3,Minor,Sunday,July
+1525,2023-11-06,12:38,Jaipur,Rain,Wet,Darkness,Bus,44,Male,66,Yes,1,0,Minor,Monday,November
+1526,2023-08-31,22:21,Ahmedabad,Clear,Wet,Daylight,Truck,62,Male,26,No,1,2,Serious,Thursday,August
+1527,2024-05-07,10:32,Pune,Clear,Dry,Daylight,Motorcycle,52,Female,33,Yes,1,5,Minor,Tuesday,May
+1528,2024-01-01,15:44,Lucknow,Clear,Dry,Darkness,Bus,32,Female,67,No,2,4,Minor,Monday,January
+1529,2023-11-26,13:03,Pune,Clear,Snowy,Twilight,Car,45,Female,25,No,1,2,Minor,Sunday,November
+1530,2023-04-17,06:01,Kolkata,Clear,Dry,Daylight,Bicycle,52,Male,53,No,3,2,Minor,Monday,April
+1531,2023-08-14,01:11,Kolkata,Fog,Dry,Daylight,Truck,24,Male,99,Yes,3,3,Minor,Monday,August
+1532,2023-08-06,07:02,Kolkata,Clear,Dry,Daylight,Bus,67,Male,119,No,1,1,Minor,Sunday,August
+1533,2024-05-20,18:21,Delhi,Clear,Dry,Daylight,Auto Rickshaw,63,Female,65,No,2,3,Minor,Monday,May
+1534,2023-09-16,08:33,Ahmedabad,Rain,Snowy,Daylight,Car,67,Male,78,No,2,4,Minor,Saturday,September
+1535,2024-05-31,03:57,Delhi,Rain,Snowy,Daylight,Bicycle,68,Male,89,No,2,3,Minor,Friday,May
+1536,2023-02-23,02:25,Chennai,Clear,Dry,Daylight,Car,63,Male,27,No,3,4,Serious,Thursday,February
+1537,2023-02-16,04:23,Jaipur,Fog,Dry,Twilight,Bus,37,Female,43,Yes,2,3,Minor,Thursday,February
+1538,2024-12-27,17:45,Jaipur,Clear,Wet,Darkness,Motorcycle,49,Male,86,No,4,5,Minor,Friday,December
+1539,2024-11-19,00:43,Kolkata,Rain,Wet,Darkness,Bicycle,55,Male,23,No,4,1,Fatal,Tuesday,November
+1540,2024-06-04,16:17,Chennai,Fog,Icy,Darkness,Car,57,Male,115,Yes,2,5,Minor,Tuesday,June
+1541,2023-04-09,00:17,Bangalore,Rain,Dry,Daylight,Motorcycle,49,Female,20,No,4,0,Serious,Sunday,April
+1542,2023-01-20,13:55,Bangalore,Rain,Dry,Darkness,Truck,43,Male,53,No,1,1,Minor,Friday,January
+1543,2024-07-26,11:20,Kolkata,Clear,Dry,Daylight,Bus,56,Female,28,No,2,3,Minor,Friday,July
+1544,2024-05-04,10:25,Lucknow,Clear,Icy,Daylight,Bus,37,Female,82,Yes,2,2,Minor,Saturday,May
+1545,2024-02-23,16:04,Delhi,Rain,Wet,Darkness,Bicycle,35,Male,95,No,2,0,Minor,Friday,February
+1546,2024-11-20,22:40,Kolkata,Clear,Wet,Darkness,Car,67,Male,29,No,1,2,Serious,Wednesday,November
+1547,2023-03-03,16:23,Hyderabad,Fog,Dry,Darkness,Truck,32,Male,29,No,1,5,Minor,Friday,March
+1548,2023-05-25,22:04,Pune,Clear,Wet,Daylight,Auto Rickshaw,69,Male,69,No,2,1,Serious,Thursday,May
+1549,2023-08-04,08:44,Jaipur,Clear,Wet,Twilight,Bicycle,39,Male,63,Yes,3,0,Fatal,Friday,August
+1550,2023-01-03,12:52,Bangalore,Clear,Dry,Twilight,Auto Rickshaw,68,Male,67,No,3,5,Minor,Tuesday,January
+1551,2023-06-09,08:18,Mumbai,Clear,Dry,Daylight,Bicycle,39,Male,106,No,4,3,Minor,Friday,June
+1552,2023-04-30,23:52,Bangalore,Rain,Dry,Daylight,Car,38,Male,25,No,1,2,Serious,Sunday,April
+1553,2023-03-30,03:50,Jaipur,Rain,Dry,Daylight,Truck,19,Male,107,No,4,3,Minor,Thursday,March
+1554,2023-11-25,05:02,Pune,Rain,Dry,Twilight,Car,57,Male,43,No,4,4,Minor,Saturday,November
+1555,2024-08-02,23:36,Jaipur,Fog,Dry,Daylight,Bus,60,Female,104,No,2,0,Minor,Friday,August
+1556,2023-12-23,16:23,Mumbai,Fog,Dry,Daylight,Auto Rickshaw,35,Male,114,No,3,2,Minor,Saturday,December
+1557,2024-09-01,19:27,Kolkata,Fog,Dry,Daylight,Motorcycle,40,Male,77,No,4,1,Minor,Sunday,September
+1558,2023-09-24,07:44,Chennai,Clear,Dry,Daylight,Bus,30,Female,83,Yes,2,1,Minor,Sunday,September
+1559,2024-09-08,10:01,Mumbai,Rain,Snowy,Darkness,Bus,58,Male,113,No,1,1,Serious,Sunday,September
+1560,2023-11-19,07:38,Jaipur,Clear,Dry,Daylight,Auto Rickshaw,26,Male,75,No,4,5,Minor,Sunday,November
+1561,2024-09-26,18:41,Jaipur,Clear,Wet,Twilight,Bicycle,66,Male,117,No,3,1,Minor,Thursday,September
+1562,2024-06-24,19:17,Hyderabad,Rain,Dry,Darkness,Bus,24,Female,101,No,1,2,Fatal,Monday,June
+1563,2024-10-10,15:34,Hyderabad,Clear,Wet,Darkness,Truck,58,Male,31,No,2,5,Serious,Thursday,October
+1564,2023-07-14,11:22,Ahmedabad,Clear,Dry,Daylight,Bus,18,Female,54,No,1,4,Serious,Friday,July
+1565,2023-11-28,17:07,Hyderabad,Clear,Wet,Daylight,Truck,19,Female,90,No,4,1,Minor,Tuesday,November
+1566,2023-06-19,19:01,Delhi,Clear,Dry,Daylight,Car,21,Male,108,No,1,1,Minor,Monday,June
+1567,2024-06-04,09:41,Chennai,Snow,Wet,Daylight,Bicycle,31,Male,25,No,1,5,Minor,Tuesday,June
+1568,2024-04-07,20:27,Pune,Clear,Dry,Daylight,Truck,49,Male,84,No,1,1,Minor,Sunday,April
+1569,2023-02-09,05:45,Mumbai,Clear,Wet,Twilight,Bus,53,Male,99,No,3,4,Minor,Thursday,February
+1570,2024-06-20,08:31,Jaipur,Clear,Dry,Daylight,Bicycle,19,Male,79,No,4,5,Minor,Thursday,June
+1571,2023-09-18,05:18,Ahmedabad,Clear,Dry,Daylight,Bicycle,57,Male,87,No,2,5,Serious,Monday,September
+1572,2024-01-30,04:57,Ahmedabad,Snow,Dry,Daylight,Truck,67,Male,48,No,3,0,Serious,Tuesday,January
+1573,2023-08-14,23:23,Pune,Clear,Wet,Daylight,Truck,68,Female,57,No,4,5,Minor,Monday,August
+1574,2023-05-04,23:44,Chennai,Rain,Icy,Twilight,Motorcycle,31,Male,111,No,2,1,Minor,Thursday,May
+1575,2023-02-07,17:51,Mumbai,Rain,Wet,Daylight,Motorcycle,37,Male,41,No,2,5,Minor,Tuesday,February
+1576,2023-11-24,07:17,Bangalore,Snow,Dry,Daylight,Bicycle,42,Male,27,No,2,1,Minor,Friday,November
+1577,2023-09-08,13:06,Hyderabad,Rain,Dry,Darkness,Auto Rickshaw,59,Male,82,No,4,1,Serious,Friday,September
+1578,2023-06-25,06:30,Kolkata,Fog,Snowy,Daylight,Auto Rickshaw,66,Female,115,No,2,5,Minor,Sunday,June
+1579,2024-08-24,19:01,Ahmedabad,Clear,Dry,Daylight,Motorcycle,25,Male,116,No,2,0,Minor,Saturday,August
+1580,2024-03-29,00:48,Hyderabad,Clear,Wet,Daylight,Bus,45,Male,32,No,3,1,Serious,Friday,March
+1581,2023-02-06,15:03,Hyderabad,Clear,Snowy,Daylight,Car,63,Male,46,No,2,0,Minor,Monday,February
+1582,2023-11-12,11:49,Delhi,Fog,Snowy,Daylight,Bicycle,38,Male,37,No,1,0,Minor,Sunday,November
+1583,2024-11-18,21:31,Chennai,Clear,Dry,Daylight,Car,40,Male,37,No,3,5,Minor,Monday,November
+1584,2024-08-15,10:40,Kolkata,Clear,Dry,Darkness,Motorcycle,49,Male,96,No,3,3,Minor,Thursday,August
+1585,2023-04-24,02:46,Bangalore,Clear,Dry,Daylight,Truck,25,Female,105,No,4,3,Serious,Monday,April
+1586,2023-02-09,17:55,Jaipur,Clear,Wet,Darkness,Bicycle,48,Female,81,No,2,1,Fatal,Thursday,February
+1587,2023-10-28,04:12,Delhi,Clear,Dry,Darkness,Motorcycle,54,Male,33,No,1,2,Minor,Saturday,October
+1588,2023-08-12,09:13,Hyderabad,Windy,Dry,Daylight,Bus,33,Male,30,No,1,3,Minor,Saturday,August
+1589,2023-11-14,11:49,Hyderabad,Clear,Dry,Daylight,Bicycle,57,Male,105,No,2,5,Serious,Tuesday,November
+1590,2023-12-15,10:06,Lucknow,Rain,Dry,Daylight,Bicycle,59,Male,119,No,2,5,Serious,Friday,December
+1591,2023-04-25,05:55,Kolkata,Rain,Wet,Darkness,Auto Rickshaw,44,Male,36,No,4,3,Minor,Tuesday,April
+1592,2024-11-28,03:08,Kolkata,Clear,Wet,Darkness,Truck,57,Male,70,No,1,2,Minor,Thursday,November
+1593,2023-11-19,13:23,Lucknow,Clear,Dry,Darkness,Bicycle,58,Male,115,Yes,3,4,Minor,Sunday,November
+1594,2024-07-21,03:43,Kolkata,Clear,Dry,Daylight,Truck,35,Male,33,No,4,1,Serious,Sunday,July
+1595,2023-02-09,02:11,Hyderabad,Clear,Snowy,Twilight,Motorcycle,52,Male,76,Yes,4,4,Serious,Thursday,February
+1596,2023-02-09,05:33,Ahmedabad,Rain,Dry,Daylight,Bus,66,Male,112,No,3,4,Serious,Thursday,February
+1597,2023-10-16,19:41,Mumbai,Clear,Wet,Daylight,Bus,69,Male,25,No,4,0,Minor,Monday,October
+1598,2023-09-19,18:59,Hyderabad,Clear,Snowy,Daylight,Bicycle,32,Male,76,No,2,0,Serious,Tuesday,September
+1599,2023-08-04,15:32,Delhi,Rain,Dry,Daylight,Bicycle,44,Male,23,No,3,1,Minor,Friday,August
+1600,2023-05-27,09:36,Chennai,Snow,Dry,Daylight,Motorcycle,34,Female,30,No,3,2,Minor,Saturday,May
+1601,2023-12-02,02:11,Lucknow,Fog,Snowy,Darkness,Auto Rickshaw,57,Male,93,No,1,0,Serious,Saturday,December
+1602,2023-06-17,07:04,Bangalore,Fog,Dry,Darkness,Auto Rickshaw,19,Female,111,Yes,3,3,Minor,Saturday,June
+1603,2023-04-02,13:26,Jaipur,Fog,Dry,Darkness,Auto Rickshaw,66,Male,30,Yes,4,1,Minor,Sunday,April
+1604,2023-12-19,02:20,Bangalore,Clear,Dry,Daylight,Truck,67,Male,118,No,1,5,Minor,Tuesday,December
+1605,2024-07-24,12:59,Hyderabad,Fog,Dry,Darkness,Auto Rickshaw,48,Male,98,Yes,4,4,Minor,Wednesday,July
+1606,2024-07-24,11:58,Delhi,Clear,Wet,Daylight,Bus,54,Male,27,No,2,1,Fatal,Wednesday,July
+1607,2024-11-11,05:12,Hyderabad,Rain,Snowy,Daylight,Truck,58,Female,103,No,2,5,Serious,Monday,November
+1608,2023-12-29,03:57,Chennai,Rain,Wet,Daylight,Motorcycle,58,Male,78,No,1,5,Minor,Friday,December
+1609,2024-07-10,14:36,Ahmedabad,Clear,Dry,Daylight,Bus,51,Male,40,No,1,0,Minor,Wednesday,July
+1610,2023-12-11,12:23,Jaipur,Fog,Dry,Daylight,Bus,51,Male,84,No,4,5,Serious,Monday,December
+1611,2024-11-23,22:32,Chennai,Snow,Wet,Daylight,Car,68,Male,112,Yes,2,2,Minor,Saturday,November
+1612,2023-06-19,09:50,Lucknow,Clear,Dry,Daylight,Motorcycle,20,Male,43,No,1,5,Minor,Monday,June
+1613,2023-12-22,06:03,Lucknow,Fog,Wet,Twilight,Motorcycle,34,Male,49,Yes,2,5,Serious,Friday,December
+1614,2023-07-10,14:25,Hyderabad,Clear,Dry,Daylight,Car,31,Female,118,No,2,4,Minor,Monday,July
+1615,2024-10-28,23:45,Delhi,Rain,Wet,Twilight,Truck,31,Male,116,No,2,2,Fatal,Monday,October
+1616,2024-02-26,03:18,Chennai,Clear,Dry,Darkness,Auto Rickshaw,63,Male,103,Yes,4,1,Minor,Monday,February
+1617,2024-11-30,19:51,Pune,Rain,Dry,Daylight,Auto Rickshaw,55,Male,76,No,4,2,Minor,Saturday,November
+1618,2023-01-07,19:14,Delhi,Snow,Dry,Darkness,Auto Rickshaw,52,Female,99,Yes,2,2,Serious,Saturday,January
+1619,2023-05-13,14:06,Ahmedabad,Fog,Dry,Daylight,Auto Rickshaw,18,Female,92,No,2,1,Minor,Saturday,May
+1620,2024-07-10,16:40,Lucknow,Fog,Dry,Darkness,Auto Rickshaw,65,Male,114,No,2,4,Minor,Wednesday,July
+1621,2023-01-31,10:13,Hyderabad,Clear,Wet,Daylight,Car,46,Male,36,No,3,5,Minor,Tuesday,January
+1622,2024-06-18,02:43,Kolkata,Snow,Wet,Twilight,Motorcycle,21,Male,78,No,3,2,Serious,Tuesday,June
+1623,2024-03-01,13:08,Lucknow,Clear,Wet,Darkness,Truck,50,Male,50,No,4,2,Minor,Friday,March
+1624,2024-01-29,14:29,Jaipur,Fog,Icy,Darkness,Bus,34,Female,83,No,2,1,Minor,Monday,January
+1625,2024-11-02,17:02,Mumbai,Clear,Dry,Darkness,Auto Rickshaw,45,Male,67,No,3,3,Minor,Saturday,November
+1626,2023-12-29,10:26,Kolkata,Clear,Dry,Daylight,Car,67,Male,42,Yes,1,2,Minor,Friday,December
+1627,2024-03-12,09:58,Hyderabad,Rain,Dry,Daylight,Truck,43,Male,89,Yes,1,0,Fatal,Tuesday,March
+1628,2024-10-31,09:23,Pune,Clear,Wet,Daylight,Truck,25,Male,49,No,2,5,Serious,Thursday,October
+1629,2024-07-04,00:42,Kolkata,Clear,Dry,Daylight,Truck,51,Female,74,No,3,5,Minor,Thursday,July
+1630,2023-03-23,01:56,Jaipur,Clear,Wet,Daylight,Car,35,Male,26,No,1,4,Serious,Thursday,March
+1631,2023-12-22,08:40,Delhi,Clear,Dry,Darkness,Bus,48,Male,94,No,4,2,Minor,Friday,December
+1632,2023-09-15,02:19,Pune,Clear,Snowy,Daylight,Auto Rickshaw,44,Female,117,No,1,1,Minor,Friday,September
+1633,2024-12-18,07:52,Lucknow,Clear,Snowy,Twilight,Truck,33,Male,31,Yes,4,0,Minor,Wednesday,December
+1634,2024-08-11,07:55,Pune,Clear,Dry,Darkness,Car,27,Male,79,No,1,1,Minor,Sunday,August
+1635,2024-06-07,14:05,Chennai,Clear,Dry,Daylight,Motorcycle,57,Male,71,No,1,2,Minor,Friday,June
+1636,2023-10-22,10:26,Jaipur,Rain,Wet,Twilight,Car,29,Male,46,No,3,0,Minor,Sunday,October
+1637,2023-08-12,23:09,Kolkata,Clear,Dry,Daylight,Car,39,Male,31,No,1,4,Fatal,Saturday,August
+1638,2024-06-08,18:55,Chennai,Snow,Dry,Darkness,Car,33,Male,32,No,1,4,Serious,Saturday,June
+1639,2023-02-15,03:05,Pune,Fog,Wet,Daylight,Truck,29,Male,91,No,4,4,Serious,Wednesday,February
+1640,2024-10-28,11:56,Chennai,Clear,Dry,Daylight,Car,28,Male,99,No,4,3,Minor,Monday,October
+1641,2023-04-23,12:47,Bangalore,Fog,Wet,Daylight,Motorcycle,37,Male,81,Yes,1,1,Minor,Sunday,April
+1642,2023-08-21,09:21,Jaipur,Fog,Wet,Daylight,Truck,68,Male,48,Yes,2,2,Serious,Monday,August
+1643,2023-01-17,04:16,Ahmedabad,Windy,Dry,Daylight,Motorcycle,18,Male,54,No,1,0,Minor,Tuesday,January
+1644,2023-12-26,08:42,Delhi,Rain,Dry,Daylight,Bicycle,44,Female,79,No,1,5,Serious,Tuesday,December
+1645,2023-08-11,01:21,Pune,Clear,Dry,Daylight,Car,20,Male,48,Yes,3,5,Minor,Friday,August
+1646,2024-11-30,10:17,Jaipur,Rain,Wet,Twilight,Auto Rickshaw,29,Male,50,No,1,1,Fatal,Saturday,November
+1647,2024-03-23,03:07,Ahmedabad,Rain,Dry,Daylight,Auto Rickshaw,47,Female,96,No,1,2,Minor,Saturday,March
+1648,2023-12-31,17:46,Ahmedabad,Rain,Snowy,Daylight,Truck,26,Male,95,Yes,4,3,Minor,Sunday,December
+1649,2024-11-05,19:25,Hyderabad,Clear,Dry,Darkness,Auto Rickshaw,54,Male,80,No,4,2,Minor,Tuesday,November
+1650,2023-11-22,21:12,Chennai,Fog,Dry,Darkness,Truck,18,Male,21,No,4,1,Serious,Wednesday,November
+1651,2024-04-11,22:26,Ahmedabad,Windy,Dry,Twilight,Car,59,Male,52,No,4,2,Minor,Thursday,April
+1652,2024-02-18,16:18,Bangalore,Clear,Dry,Daylight,Bus,66,Male,91,No,1,5,Serious,Sunday,February
+1653,2024-03-30,00:32,Jaipur,Clear,Dry,Daylight,Bus,21,Female,81,No,2,5,Minor,Saturday,March
+1654,2024-08-08,11:56,Mumbai,Clear,Dry,Daylight,Motorcycle,32,Male,78,No,3,0,Minor,Thursday,August
+1655,2023-08-21,22:49,Mumbai,Fog,Dry,Daylight,Car,68,Male,59,No,3,3,Minor,Monday,August
+1656,2023-08-12,03:57,Pune,Rain,Dry,Darkness,Auto Rickshaw,44,Male,68,No,2,5,Minor,Saturday,August
+1657,2024-02-16,21:20,Lucknow,Rain,Dry,Daylight,Car,25,Male,51,No,2,0,Minor,Friday,February
+1658,2024-07-25,00:09,Chennai,Clear,Wet,Twilight,Bicycle,40,Female,57,No,3,3,Minor,Thursday,July
+1659,2023-12-01,06:27,Lucknow,Rain,Dry,Daylight,Bus,32,Male,111,No,1,5,Serious,Friday,December
+1660,2023-08-10,15:13,Ahmedabad,Clear,Dry,Twilight,Auto Rickshaw,44,Male,98,Yes,3,3,Minor,Thursday,August
+1661,2023-02-06,12:36,Jaipur,Clear,Wet,Daylight,Bus,48,Male,106,No,2,2,Serious,Monday,February
+1662,2023-10-05,18:54,Pune,Fog,Dry,Darkness,Car,56,Male,107,No,1,0,Serious,Thursday,October
+1663,2023-07-15,02:15,Kolkata,Windy,Wet,Twilight,Auto Rickshaw,64,Male,32,No,3,3,Minor,Saturday,July
+1664,2024-04-28,21:38,Ahmedabad,Snow,Dry,Twilight,Motorcycle,25,Male,104,No,1,3,Minor,Sunday,April
+1665,2023-08-30,01:47,Chennai,Snow,Dry,Daylight,Car,47,Female,73,No,1,2,Fatal,Wednesday,August
+1666,2023-11-20,04:26,Mumbai,Clear,Snowy,Daylight,Motorcycle,59,Male,95,No,2,5,Minor,Monday,November
+1667,2023-07-11,14:53,Hyderabad,Clear,Dry,Darkness,Auto Rickshaw,35,Male,32,No,4,5,Serious,Tuesday,July
+1668,2023-01-17,00:21,Jaipur,Rain,Wet,Daylight,Bus,21,Male,58,No,3,1,Minor,Tuesday,January
+1669,2024-06-07,04:21,Delhi,Snow,Dry,Daylight,Bicycle,64,Male,42,No,2,1,Minor,Friday,June
+1670,2024-02-05,02:15,Lucknow,Clear,Wet,Daylight,Truck,60,Male,111,Yes,3,5,Minor,Monday,February
+1671,2024-12-05,22:06,Pune,Clear,Snowy,Daylight,Bus,39,Male,33,Yes,4,4,Minor,Thursday,December
+1672,2023-01-22,21:43,Lucknow,Clear,Dry,Daylight,Motorcycle,20,Male,36,No,4,4,Serious,Sunday,January
+1673,2024-04-18,19:03,Jaipur,Rain,Wet,Daylight,Car,32,Male,43,No,4,3,Minor,Thursday,April
+1674,2023-04-30,15:05,Lucknow,Clear,Dry,Daylight,Auto Rickshaw,52,Male,77,No,4,5,Serious,Sunday,April
+1675,2023-07-29,14:25,Jaipur,Clear,Wet,Daylight,Bus,64,Female,82,No,3,1,Serious,Saturday,July
+1676,2023-11-02,17:34,Lucknow,Clear,Dry,Daylight,Bicycle,55,Male,53,No,1,3,Minor,Thursday,November
+1677,2023-09-27,06:19,Bangalore,Clear,Snowy,Daylight,Auto Rickshaw,50,Male,70,No,1,0,Fatal,Wednesday,September
+1678,2024-12-04,13:07,Kolkata,Fog,Dry,Daylight,Motorcycle,31,Male,105,No,4,1,Minor,Wednesday,December
+1679,2024-11-17,04:02,Ahmedabad,Clear,Dry,Twilight,Auto Rickshaw,65,Male,29,Yes,4,1,Minor,Sunday,November
+1680,2023-10-12,07:33,Ahmedabad,Rain,Snowy,Twilight,Auto Rickshaw,18,Male,91,No,1,1,Serious,Thursday,October
+1681,2024-12-16,01:58,Chennai,Rain,Wet,Twilight,Car,66,Male,40,No,2,4,Minor,Monday,December
+1682,2024-11-06,10:22,Delhi,Fog,Dry,Darkness,Truck,43,Male,56,No,4,2,Minor,Wednesday,November
+1683,2023-08-15,13:01,Delhi,Clear,Dry,Daylight,Motorcycle,25,Male,26,No,1,2,Minor,Tuesday,August
+1684,2024-01-16,07:03,Chennai,Windy,Dry,Darkness,Car,67,Male,109,Yes,2,4,Minor,Tuesday,January
+1685,2024-04-04,16:15,Hyderabad,Rain,Dry,Daylight,Truck,33,Male,32,No,1,5,Serious,Thursday,April
+1686,2023-01-07,23:26,Ahmedabad,Windy,Dry,Darkness,Car,55,Male,99,No,2,5,Minor,Saturday,January
+1687,2023-01-29,07:54,Hyderabad,Snow,Wet,Daylight,Truck,27,Female,49,No,3,4,Minor,Sunday,January
+1688,2023-02-02,19:51,Jaipur,Clear,Dry,Darkness,Truck,59,Male,50,No,2,4,Minor,Thursday,February
+1689,2024-10-07,09:42,Jaipur,Clear,Wet,Daylight,Truck,54,Female,24,No,4,5,Serious,Monday,October
+1690,2023-03-20,07:56,Mumbai,Clear,Wet,Daylight,Car,43,Female,51,No,2,2,Fatal,Monday,March
+1691,2024-04-03,04:19,Lucknow,Rain,Dry,Darkness,Auto Rickshaw,45,Female,35,Yes,2,3,Minor,Wednesday,April
+1692,2024-07-23,21:20,Delhi,Clear,Dry,Daylight,Truck,29,Male,92,No,4,4,Minor,Tuesday,July
+1693,2024-06-21,12:06,Mumbai,Clear,Dry,Daylight,Auto Rickshaw,37,Female,41,No,3,3,Minor,Friday,June
+1694,2024-04-26,16:21,Kolkata,Clear,Dry,Daylight,Motorcycle,66,Male,83,No,2,3,Minor,Friday,April
+1695,2024-03-05,02:20,Chennai,Clear,Wet,Daylight,Bicycle,31,Male,63,No,3,0,Minor,Tuesday,March
+1696,2023-10-12,19:00,Chennai,Clear,Dry,Daylight,Auto Rickshaw,63,Male,59,No,1,2,Minor,Thursday,October
+1697,2024-05-30,04:21,Jaipur,Clear,Wet,Twilight,Bicycle,52,Male,56,No,1,3,Fatal,Thursday,May
+1698,2023-04-09,05:53,Ahmedabad,Clear,Dry,Daylight,Truck,46,Male,97,Yes,4,2,Minor,Sunday,April
+1699,2024-02-01,14:15,Hyderabad,Clear,Dry,Daylight,Bicycle,29,Male,35,No,3,2,Fatal,Thursday,February
+1700,2024-05-03,03:09,Delhi,Clear,Dry,Daylight,Bicycle,69,Male,62,Yes,4,0,Serious,Friday,May
+1701,2023-02-08,17:09,Mumbai,Clear,Dry,Darkness,Truck,35,Male,103,Yes,4,5,Minor,Wednesday,February
+1702,2023-09-28,04:46,Hyderabad,Fog,Dry,Darkness,Auto Rickshaw,61,Male,82,No,2,2,Serious,Thursday,September
+1703,2023-06-06,02:29,Mumbai,Rain,Dry,Darkness,Truck,19,Male,34,Yes,1,3,Minor,Tuesday,June
+1704,2023-03-16,07:44,Lucknow,Clear,Snowy,Darkness,Motorcycle,19,Female,63,No,4,5,Serious,Thursday,March
+1705,2023-05-10,02:45,Kolkata,Clear,Wet,Twilight,Bus,34,Male,109,No,2,5,Serious,Wednesday,May
+1706,2024-11-17,20:45,Kolkata,Fog,Dry,Darkness,Car,27,Male,28,No,2,1,Minor,Sunday,November
+1707,2023-03-25,13:10,Hyderabad,Fog,Dry,Darkness,Truck,35,Female,84,No,3,3,Minor,Saturday,March
+1708,2023-01-22,04:43,Hyderabad,Fog,Dry,Daylight,Truck,39,Male,118,No,1,3,Minor,Sunday,January
+1709,2024-04-03,13:17,Hyderabad,Rain,Dry,Darkness,Bicycle,36,Male,63,No,3,2,Minor,Wednesday,April
+1710,2024-06-22,00:00,Mumbai,Clear,Dry,Daylight,Motorcycle,18,Female,39,No,3,3,Fatal,Saturday,June
+1711,2024-12-07,23:40,Lucknow,Clear,Dry,Darkness,Bicycle,41,Female,89,Yes,4,1,Minor,Saturday,December
+1712,2024-01-17,23:04,Bangalore,Clear,Dry,Darkness,Auto Rickshaw,53,Male,93,No,3,2,Serious,Wednesday,January
+1713,2024-03-15,01:00,Hyderabad,Snow,Dry,Darkness,Truck,42,Male,52,No,4,4,Minor,Friday,March
+1714,2024-08-26,20:28,Ahmedabad,Rain,Dry,Darkness,Truck,53,Female,99,No,3,3,Minor,Monday,August
+1715,2023-01-21,02:45,Delhi,Rain,Dry,Daylight,Bicycle,48,Male,119,No,2,3,Minor,Saturday,January
+1716,2023-10-30,02:46,Delhi,Clear,Wet,Daylight,Truck,48,Male,25,No,1,0,Minor,Monday,October
+1717,2023-03-25,12:22,Mumbai,Fog,Dry,Daylight,Auto Rickshaw,19,Male,102,No,1,4,Serious,Saturday,March
+1718,2024-10-20,17:34,Hyderabad,Clear,Dry,Twilight,Bus,36,Male,50,No,1,4,Minor,Sunday,October
+1719,2024-03-28,15:10,Jaipur,Clear,Dry,Darkness,Car,29,Male,85,No,2,1,Serious,Thursday,March
+1720,2024-01-22,02:19,Chennai,Clear,Snowy,Darkness,Car,27,Female,37,No,2,4,Serious,Monday,January
+1721,2024-05-21,11:10,Bangalore,Rain,Snowy,Darkness,Car,48,Male,47,No,3,0,Minor,Tuesday,May
+1722,2023-09-14,01:06,Ahmedabad,Clear,Wet,Darkness,Bus,62,Male,87,Yes,3,1,Serious,Thursday,September
+1723,2024-07-23,03:14,Lucknow,Fog,Dry,Twilight,Truck,39,Male,84,No,3,4,Serious,Tuesday,July
+1724,2024-06-10,15:35,Jaipur,Clear,Dry,Darkness,Bicycle,40,Male,99,No,3,1,Minor,Monday,June
+1725,2023-06-11,20:02,Kolkata,Rain,Wet,Darkness,Motorcycle,69,Male,64,Yes,1,4,Minor,Sunday,June
+1726,2023-06-12,05:14,Jaipur,Rain,Dry,Darkness,Truck,40,Female,77,No,3,4,Serious,Monday,June
+1727,2024-06-07,06:55,Mumbai,Clear,Dry,Daylight,Bus,32,Female,66,No,2,5,Minor,Friday,June
+1728,2023-09-28,11:42,Bangalore,Fog,Snowy,Darkness,Auto Rickshaw,43,Male,85,No,2,4,Minor,Thursday,September
+1729,2024-05-06,05:42,Pune,Fog,Dry,Daylight,Bus,20,Male,71,Yes,2,3,Minor,Monday,May
+1730,2023-07-27,23:05,Pune,Rain,Dry,Daylight,Car,40,Male,55,No,4,4,Minor,Thursday,July
+1731,2024-06-22,02:32,Hyderabad,Fog,Dry,Darkness,Truck,37,Female,20,No,4,3,Minor,Saturday,June
+1732,2024-08-06,18:14,Hyderabad,Rain,Dry,Daylight,Car,62,Male,58,No,4,2,Minor,Tuesday,August
+1733,2023-03-01,23:02,Mumbai,Clear,Dry,Twilight,Motorcycle,57,Female,106,No,3,5,Minor,Wednesday,March
+1734,2024-03-05,04:07,Lucknow,Rain,Wet,Daylight,Auto Rickshaw,56,Male,109,No,1,0,Serious,Tuesday,March
+1735,2024-10-18,18:28,Hyderabad,Clear,Wet,Daylight,Car,25,Male,94,No,1,1,Minor,Friday,October
+1736,2024-08-27,10:12,Chennai,Clear,Dry,Daylight,Motorcycle,35,Male,20,No,3,1,Minor,Tuesday,August
+1737,2023-11-05,18:41,Bangalore,Clear,Snowy,Daylight,Bus,58,Male,94,Yes,3,2,Minor,Sunday,November
+1738,2024-06-03,13:16,Mumbai,Rain,Dry,Daylight,Car,23,Female,107,No,4,4,Fatal,Monday,June
+1739,2024-08-13,16:09,Delhi,Rain,Dry,Daylight,Car,44,Male,93,Yes,2,0,Minor,Tuesday,August
+1740,2023-01-27,05:40,Kolkata,Clear,Wet,Daylight,Bicycle,53,Male,33,No,2,2,Minor,Friday,January
+1741,2024-11-16,10:07,Mumbai,Rain,Wet,Daylight,Auto Rickshaw,32,Male,97,No,4,2,Minor,Saturday,November
+1742,2024-07-15,05:24,Mumbai,Snow,Wet,Daylight,Auto Rickshaw,54,Male,90,No,4,1,Minor,Monday,July
+1743,2023-07-18,02:35,Pune,Clear,Snowy,Darkness,Bus,22,Male,42,No,1,3,Minor,Tuesday,July
+1744,2024-01-22,00:01,Ahmedabad,Clear,Wet,Daylight,Bicycle,56,Male,62,No,4,3,Serious,Monday,January
+1745,2023-12-15,19:34,Lucknow,Fog,Snowy,Darkness,Motorcycle,26,Male,41,No,2,4,Minor,Friday,December
+1746,2024-11-23,12:27,Ahmedabad,Clear,Dry,Darkness,Motorcycle,24,Male,79,Yes,2,4,Minor,Saturday,November
+1747,2024-06-19,19:39,Chennai,Rain,Wet,Daylight,Bus,58,Male,119,Yes,3,2,Serious,Wednesday,June
+1748,2024-01-13,16:30,Delhi,Clear,Icy,Twilight,Auto Rickshaw,37,Male,46,No,1,4,Serious,Saturday,January
+1749,2024-07-11,01:55,Pune,Clear,Wet,Darkness,Motorcycle,27,Male,75,No,3,3,Minor,Thursday,July
+1750,2024-06-10,07:58,Delhi,Rain,Dry,Darkness,Bus,43,Male,21,No,1,0,Minor,Monday,June
+1751,2023-06-02,12:31,Chennai,Rain,Dry,Daylight,Motorcycle,21,Male,58,No,3,1,Minor,Friday,June
+1752,2023-07-25,12:36,Ahmedabad,Fog,Dry,Darkness,Truck,55,Male,70,No,1,3,Fatal,Tuesday,July
+1753,2024-03-30,07:28,Mumbai,Fog,Dry,Darkness,Car,41,Male,38,No,4,5,Fatal,Saturday,March
+1754,2023-09-30,18:38,Hyderabad,Fog,Icy,Daylight,Auto Rickshaw,31,Male,81,No,2,4,Serious,Saturday,September
+1755,2023-08-24,19:20,Hyderabad,Rain,Dry,Daylight,Truck,58,Male,90,No,4,1,Minor,Thursday,August
+1756,2024-06-04,22:09,Jaipur,Clear,Dry,Daylight,Bus,18,Male,95,No,1,5,Minor,Tuesday,June
+1757,2024-11-08,02:07,Kolkata,Rain,Snowy,Darkness,Bus,34,Male,86,No,1,1,Minor,Friday,November
+1758,2024-12-26,03:57,Lucknow,Clear,Dry,Daylight,Truck,62,Female,82,No,3,2,Minor,Thursday,December
+1759,2024-05-15,03:36,Chennai,Fog,Dry,Darkness,Car,41,Male,24,No,1,4,Fatal,Wednesday,May
+1760,2023-04-27,07:12,Kolkata,Clear,Dry,Daylight,Car,44,Male,91,No,4,2,Serious,Thursday,April
+1761,2024-01-21,07:30,Lucknow,Rain,Wet,Darkness,Bicycle,24,Male,97,No,1,1,Serious,Sunday,January
+1762,2023-12-10,06:47,Kolkata,Clear,Dry,Daylight,Motorcycle,26,Male,80,No,1,2,Serious,Sunday,December
+1763,2024-08-06,10:12,Ahmedabad,Fog,Icy,Daylight,Bicycle,60,Male,119,No,3,4,Fatal,Tuesday,August
+1764,2024-01-30,02:49,Lucknow,Fog,Dry,Daylight,Car,52,Female,90,Yes,1,3,Minor,Tuesday,January
+1765,2023-03-05,22:18,Ahmedabad,Clear,Dry,Daylight,Truck,29,Male,26,No,3,0,Minor,Sunday,March
+1766,2024-12-17,18:03,Mumbai,Fog,Dry,Daylight,Motorcycle,38,Male,69,No,2,5,Minor,Tuesday,December
+1767,2024-12-21,11:54,Pune,Clear,Wet,Daylight,Truck,20,Male,65,Yes,3,3,Minor,Saturday,December
+1768,2023-03-13,01:37,Ahmedabad,Rain,Dry,Daylight,Bicycle,32,Male,115,No,1,1,Minor,Monday,March
+1769,2023-10-01,21:44,Hyderabad,Fog,Dry,Twilight,Bus,38,Male,91,Yes,2,3,Minor,Sunday,October
+1770,2023-11-16,04:09,Kolkata,Clear,Dry,Darkness,Truck,27,Female,95,No,1,2,Serious,Thursday,November
+1771,2023-12-04,00:49,Jaipur,Windy,Wet,Daylight,Bicycle,50,Female,93,No,3,4,Minor,Monday,December
+1772,2024-01-01,01:07,Bangalore,Clear,Dry,Daylight,Bicycle,63,Male,33,No,4,3,Serious,Monday,January
+1773,2024-05-09,21:36,Lucknow,Clear,Wet,Daylight,Bicycle,69,Female,92,No,2,3,Serious,Thursday,May
+1774,2024-08-29,10:53,Chennai,Snow,Wet,Darkness,Bus,23,Male,113,No,4,4,Serious,Thursday,August
+1775,2023-06-15,13:30,Jaipur,Clear,Dry,Daylight,Bus,19,Male,88,No,4,2,Minor,Thursday,June
+1776,2024-06-27,18:14,Hyderabad,Windy,Dry,Daylight,Bus,46,Male,84,No,2,0,Minor,Thursday,June
+1777,2023-01-11,18:01,Ahmedabad,Windy,Dry,Daylight,Motorcycle,57,Male,84,No,4,3,Minor,Wednesday,January
+1778,2023-10-28,02:17,Pune,Clear,Dry,Darkness,Bus,50,Female,76,No,4,5,Minor,Saturday,October
+1779,2024-12-29,09:14,Mumbai,Rain,Dry,Daylight,Bus,21,Female,81,No,4,1,Minor,Sunday,December
+1780,2023-04-12,04:49,Bangalore,Clear,Dry,Darkness,Bus,21,Female,39,No,4,2,Minor,Wednesday,April
+1781,2024-02-29,01:45,Delhi,Clear,Dry,Daylight,Truck,46,Male,94,Yes,2,2,Minor,Thursday,February
+1782,2024-01-27,07:56,Jaipur,Clear,Dry,Daylight,Bus,54,Male,45,No,1,3,Minor,Saturday,January
+1783,2023-08-02,03:50,Pune,Clear,Dry,Daylight,Motorcycle,37,Male,63,No,4,5,Serious,Wednesday,August
+1784,2024-11-21,15:22,Delhi,Clear,Dry,Daylight,Bicycle,58,Male,86,Yes,2,4,Serious,Thursday,November
+1785,2023-03-29,20:59,Bangalore,Clear,Wet,Daylight,Truck,40,Male,89,No,2,3,Minor,Wednesday,March
+1786,2024-07-06,02:58,Chennai,Windy,Snowy,Daylight,Car,62,Male,81,No,2,3,Serious,Saturday,July
+1787,2024-02-05,22:43,Chennai,Fog,Snowy,Daylight,Bus,35,Female,64,No,2,4,Minor,Monday,February
+1788,2024-08-10,10:42,Kolkata,Rain,Dry,Daylight,Bicycle,66,Female,30,Yes,3,1,Minor,Saturday,August
+1789,2023-02-15,09:04,Bangalore,Rain,Dry,Daylight,Bicycle,42,Male,91,No,1,4,Minor,Wednesday,February
+1790,2024-11-02,16:12,Bangalore,Fog,Dry,Twilight,Truck,18,Male,112,No,1,3,Serious,Saturday,November
+1791,2024-04-07,02:06,Delhi,Clear,Dry,Daylight,Car,32,Male,93,No,4,0,Minor,Sunday,April
+1792,2024-08-14,06:22,Pune,Rain,Dry,Darkness,Auto Rickshaw,51,Male,53,No,2,4,Minor,Wednesday,August
+1793,2023-11-06,19:33,Lucknow,Windy,Wet,Daylight,Motorcycle,65,Male,107,No,3,1,Minor,Monday,November
+1794,2023-03-27,10:03,Delhi,Clear,Dry,Daylight,Auto Rickshaw,37,Male,65,No,2,4,Minor,Monday,March
+1795,2023-04-02,15:47,Mumbai,Rain,Dry,Daylight,Bicycle,54,Male,100,No,4,4,Minor,Sunday,April
+1796,2024-10-21,08:30,Chennai,Fog,Icy,Daylight,Auto Rickshaw,44,Male,51,No,1,2,Minor,Monday,October
+1797,2024-11-03,19:10,Chennai,Snow,Dry,Daylight,Bicycle,39,Male,94,No,4,2,Serious,Sunday,November
+1798,2024-12-14,16:32,Kolkata,Rain,Dry,Daylight,Auto Rickshaw,68,Female,117,No,4,3,Minor,Saturday,December
+1799,2023-08-30,16:58,Mumbai,Clear,Dry,Darkness,Bicycle,22,Male,107,Yes,4,3,Serious,Wednesday,August
+1800,2023-01-02,07:51,Chennai,Clear,Dry,Daylight,Bicycle,51,Female,24,No,4,4,Serious,Monday,January
+1801,2023-08-13,11:00,Delhi,Clear,Wet,Daylight,Truck,56,Male,82,Yes,4,0,Serious,Sunday,August
+1802,2024-08-11,20:07,Mumbai,Fog,Dry,Daylight,Car,20,Male,48,Yes,4,5,Minor,Sunday,August
+1803,2023-04-26,03:45,Delhi,Clear,Dry,Daylight,Bicycle,34,Male,67,No,4,3,Serious,Wednesday,April
+1804,2024-10-27,03:35,Lucknow,Fog,Wet,Darkness,Motorcycle,41,Male,117,No,1,4,Serious,Sunday,October
+1805,2023-04-13,00:22,Lucknow,Clear,Wet,Daylight,Motorcycle,41,Male,35,No,1,4,Minor,Thursday,April
+1806,2023-07-13,21:15,Chennai,Clear,Icy,Daylight,Bus,20,Male,44,No,2,5,Minor,Thursday,July
+1807,2023-06-15,07:02,Chennai,Clear,Wet,Daylight,Bicycle,62,Male,91,No,2,4,Serious,Thursday,June
+1808,2023-03-31,07:43,Pune,Rain,Dry,Daylight,Bicycle,24,Male,48,Yes,3,5,Minor,Friday,March
+1809,2024-11-16,09:58,Lucknow,Clear,Dry,Darkness,Bicycle,42,Female,71,No,3,5,Minor,Saturday,November
+1810,2023-05-02,04:51,Jaipur,Clear,Dry,Darkness,Auto Rickshaw,20,Male,65,Yes,1,4,Fatal,Tuesday,May
+1811,2023-05-23,18:41,Jaipur,Clear,Dry,Daylight,Bicycle,32,Female,44,No,1,4,Minor,Tuesday,May
+1812,2023-04-16,11:08,Kolkata,Clear,Wet,Daylight,Bicycle,46,Male,42,Yes,3,2,Minor,Sunday,April
+1813,2024-03-03,03:01,Lucknow,Clear,Wet,Darkness,Motorcycle,67,Female,53,No,1,5,Minor,Sunday,March
+1814,2023-11-01,13:44,Delhi,Fog,Dry,Daylight,Car,46,Female,86,No,3,1,Minor,Wednesday,November
+1815,2023-11-13,08:53,Delhi,Rain,Dry,Daylight,Car,27,Male,113,No,2,5,Minor,Monday,November
+1816,2024-09-26,09:33,Hyderabad,Clear,Dry,Darkness,Bus,49,Male,53,Yes,1,1,Fatal,Thursday,September
+1817,2023-01-09,22:25,Mumbai,Fog,Snowy,Daylight,Motorcycle,40,Male,51,No,1,4,Minor,Monday,January
+1818,2023-03-14,22:39,Ahmedabad,Windy,Dry,Daylight,Bicycle,56,Male,48,No,3,3,Fatal,Tuesday,March
+1819,2023-12-25,18:35,Jaipur,Rain,Wet,Daylight,Car,26,Male,28,No,4,0,Minor,Monday,December
+1820,2023-08-11,11:21,Chennai,Rain,Wet,Darkness,Truck,54,Male,85,No,4,4,Serious,Friday,August
+1821,2024-02-20,22:51,Kolkata,Fog,Snowy,Daylight,Truck,69,Female,76,No,2,0,Minor,Tuesday,February
+1822,2024-07-06,15:54,Ahmedabad,Windy,Wet,Twilight,Truck,57,Female,58,No,1,2,Serious,Saturday,July
+1823,2024-01-05,10:03,Bangalore,Fog,Wet,Darkness,Bicycle,31,Male,26,No,1,1,Minor,Friday,January
+1824,2024-12-16,07:36,Kolkata,Clear,Dry,Daylight,Bicycle,21,Male,88,No,3,2,Minor,Monday,December
+1825,2023-09-21,16:48,Bangalore,Rain,Dry,Daylight,Bus,37,Male,27,No,4,3,Minor,Thursday,September
+1826,2024-11-20,01:14,Lucknow,Rain,Dry,Daylight,Bus,45,Male,115,No,4,3,Minor,Wednesday,November
+1827,2023-11-14,08:07,Bangalore,Clear,Dry,Daylight,Bus,31,Male,37,No,2,5,Minor,Tuesday,November
+1828,2023-03-25,15:23,Bangalore,Clear,Icy,Darkness,Auto Rickshaw,61,Male,101,No,4,4,Fatal,Saturday,March
+1829,2023-11-14,09:34,Pune,Fog,Dry,Daylight,Truck,51,Female,68,Yes,4,5,Serious,Tuesday,November
+1830,2023-04-21,11:18,Pune,Rain,Snowy,Daylight,Bicycle,30,Male,35,No,4,3,Minor,Friday,April
+1831,2023-09-08,20:10,Pune,Clear,Dry,Darkness,Truck,48,Male,40,No,3,3,Minor,Friday,September
+1832,2024-01-18,14:23,Lucknow,Rain,Dry,Daylight,Bus,50,Male,29,No,4,5,Fatal,Thursday,January
+1833,2023-01-07,06:46,Ahmedabad,Clear,Snowy,Darkness,Bicycle,69,Male,23,Yes,2,2,Fatal,Saturday,January
+1834,2024-04-03,20:13,Kolkata,Clear,Dry,Darkness,Motorcycle,56,Male,63,No,4,0,Serious,Wednesday,April
+1835,2023-03-25,04:17,Kolkata,Fog,Dry,Daylight,Car,45,Male,27,No,2,1,Minor,Saturday,March
+1836,2023-07-27,23:25,Chennai,Clear,Dry,Daylight,Car,42,Male,74,No,3,3,Serious,Thursday,July
+1837,2024-01-25,02:42,Pune,Clear,Wet,Darkness,Bus,49,Male,38,No,3,5,Minor,Thursday,January
+1838,2023-11-10,00:45,Lucknow,Windy,Dry,Darkness,Truck,26,Male,83,No,2,3,Fatal,Friday,November
+1839,2023-01-22,12:21,Chennai,Clear,Dry,Daylight,Motorcycle,45,Male,59,No,3,2,Serious,Sunday,January
+1840,2024-02-14,14:50,Mumbai,Clear,Dry,Daylight,Bicycle,48,Male,70,No,1,1,Serious,Wednesday,February
+1841,2024-05-29,17:47,Chennai,Windy,Wet,Daylight,Truck,34,Male,28,No,1,2,Minor,Wednesday,May
+1842,2023-05-07,12:48,Ahmedabad,Rain,Wet,Daylight,Bus,40,Male,49,No,1,0,Minor,Sunday,May
+1843,2024-11-30,21:33,Jaipur,Rain,Dry,Daylight,Truck,30,Female,75,No,1,2,Serious,Saturday,November
+1844,2023-01-14,09:19,Bangalore,Fog,Dry,Daylight,Bus,27,Male,100,Yes,1,1,Minor,Saturday,January
+1845,2023-01-12,15:42,Pune,Clear,Wet,Daylight,Auto Rickshaw,33,Female,63,No,3,1,Serious,Thursday,January
+1846,2023-03-28,13:54,Jaipur,Rain,Dry,Daylight,Car,23,Male,78,No,2,3,Minor,Tuesday,March
+1847,2024-06-07,09:45,Chennai,Rain,Dry,Twilight,Car,65,Male,34,No,3,0,Minor,Friday,June
+1848,2024-06-20,00:55,Lucknow,Fog,Dry,Darkness,Truck,28,Male,87,No,4,4,Serious,Thursday,June
+1849,2023-10-28,00:07,Bangalore,Rain,Snowy,Daylight,Motorcycle,69,Male,89,No,1,3,Minor,Saturday,October
+1850,2023-08-31,10:06,Kolkata,Rain,Dry,Daylight,Bicycle,20,Male,80,Yes,1,5,Minor,Thursday,August
+1851,2023-05-02,15:49,Delhi,Clear,Dry,Daylight,Bus,45,Male,99,No,3,2,Serious,Tuesday,May
+1852,2023-05-27,06:42,Bangalore,Clear,Wet,Daylight,Bicycle,58,Male,109,Yes,4,2,Minor,Saturday,May
+1853,2024-07-20,14:03,Ahmedabad,Fog,Wet,Twilight,Car,32,Male,42,Yes,3,1,Serious,Saturday,July
+1854,2023-12-22,06:21,Ahmedabad,Rain,Dry,Daylight,Motorcycle,30,Male,96,No,2,5,Minor,Friday,December
+1855,2024-11-15,13:02,Chennai,Rain,Dry,Twilight,Motorcycle,59,Male,66,No,1,1,Serious,Friday,November
+1856,2024-09-22,16:53,Mumbai,Clear,Wet,Daylight,Bicycle,69,Male,36,Yes,3,5,Minor,Sunday,September
+1857,2023-11-05,04:04,Ahmedabad,Rain,Icy,Darkness,Car,62,Male,76,No,2,1,Serious,Sunday,November
+1858,2024-11-25,22:09,Ahmedabad,Rain,Wet,Daylight,Bicycle,34,Male,73,No,1,4,Fatal,Monday,November
+1859,2023-10-15,13:18,Lucknow,Fog,Dry,Daylight,Truck,24,Male,110,No,1,4,Serious,Sunday,October
+1860,2023-11-03,14:55,Chennai,Rain,Dry,Daylight,Motorcycle,45,Male,71,No,1,3,Serious,Friday,November
+1861,2024-08-16,11:08,Bangalore,Snow,Snowy,Darkness,Motorcycle,55,Male,41,No,4,4,Minor,Friday,August
+1862,2024-12-23,11:05,Mumbai,Fog,Wet,Darkness,Truck,30,Male,102,No,3,5,Serious,Monday,December
+1863,2024-10-23,13:18,Jaipur,Rain,Dry,Darkness,Car,34,Male,58,No,1,1,Minor,Wednesday,October
+1864,2024-07-02,20:43,Delhi,Rain,Dry,Darkness,Motorcycle,32,Male,118,No,1,5,Serious,Tuesday,July
+1865,2023-12-18,20:46,Pune,Snow,Wet,Darkness,Auto Rickshaw,53,Male,32,No,2,3,Minor,Monday,December
+1866,2023-11-08,22:42,Kolkata,Rain,Dry,Daylight,Auto Rickshaw,45,Male,97,No,3,3,Minor,Wednesday,November
+1867,2023-02-28,03:23,Ahmedabad,Fog,Dry,Daylight,Auto Rickshaw,32,Female,114,No,2,0,Minor,Tuesday,February
+1868,2024-10-04,11:39,Chennai,Rain,Dry,Darkness,Bus,63,Male,85,No,3,4,Minor,Friday,October
+1869,2024-12-14,19:44,Pune,Rain,Dry,Darkness,Bus,28,Male,71,No,1,2,Minor,Saturday,December
+1870,2023-02-04,02:29,Kolkata,Clear,Dry,Darkness,Car,48,Male,33,No,4,2,Minor,Saturday,February
+1871,2024-03-20,00:23,Kolkata,Clear,Wet,Daylight,Truck,21,Male,92,No,2,0,Serious,Wednesday,March
+1872,2023-04-03,12:09,Jaipur,Windy,Dry,Daylight,Bicycle,52,Male,93,No,4,1,Minor,Monday,April
+1873,2023-07-26,13:27,Jaipur,Rain,Dry,Twilight,Car,51,Male,82,No,4,0,Minor,Wednesday,July
+1874,2023-12-19,04:18,Jaipur,Rain,Dry,Daylight,Bicycle,69,Male,90,No,4,1,Fatal,Tuesday,December
+1875,2023-11-28,19:29,Hyderabad,Snow,Dry,Daylight,Car,44,Male,47,No,3,4,Minor,Tuesday,November
+1876,2024-12-25,15:55,Hyderabad,Rain,Dry,Darkness,Bus,27,Male,108,No,3,4,Serious,Wednesday,December
+1877,2023-06-08,20:29,Kolkata,Rain,Dry,Twilight,Auto Rickshaw,47,Male,65,Yes,4,3,Minor,Thursday,June
+1878,2023-01-24,11:04,Jaipur,Fog,Wet,Daylight,Truck,62,Male,47,Yes,1,3,Minor,Tuesday,January
+1879,2024-02-08,09:57,Lucknow,Rain,Dry,Darkness,Bus,37,Male,21,No,1,3,Minor,Thursday,February
+1880,2024-05-30,23:44,Ahmedabad,Clear,Dry,Twilight,Truck,46,Male,36,No,4,3,Minor,Thursday,May
+1881,2023-12-30,14:43,Pune,Clear,Dry,Twilight,Bicycle,46,Male,78,No,2,2,Minor,Saturday,December
+1882,2024-01-17,20:21,Pune,Clear,Dry,Twilight,Car,40,Female,71,Yes,2,3,Minor,Wednesday,January
+1883,2024-06-15,17:20,Hyderabad,Clear,Snowy,Daylight,Motorcycle,67,Male,23,No,3,3,Minor,Saturday,June
+1884,2023-06-01,13:08,Kolkata,Rain,Dry,Daylight,Motorcycle,38,Male,96,No,2,3,Serious,Thursday,June
+1885,2024-07-15,20:04,Chennai,Clear,Snowy,Daylight,Truck,65,Male,101,No,1,1,Minor,Monday,July
+1886,2024-11-19,07:56,Bangalore,Clear,Dry,Daylight,Auto Rickshaw,60,Male,22,No,4,5,Minor,Tuesday,November
+1887,2024-08-30,04:49,Bangalore,Clear,Wet,Daylight,Auto Rickshaw,27,Male,56,No,2,3,Serious,Friday,August
+1888,2024-09-08,04:51,Hyderabad,Clear,Dry,Daylight,Truck,58,Male,116,No,4,0,Serious,Sunday,September
+1889,2024-02-24,13:21,Chennai,Rain,Wet,Daylight,Bus,29,Male,43,No,2,3,Minor,Saturday,February
+1890,2023-09-07,02:04,Hyderabad,Fog,Dry,Daylight,Motorcycle,47,Male,91,No,3,3,Minor,Thursday,September
+1891,2023-04-27,18:31,Bangalore,Rain,Dry,Daylight,Bus,68,Male,54,No,1,2,Minor,Thursday,April
+1892,2024-05-26,18:51,Chennai,Clear,Wet,Darkness,Bicycle,50,Male,21,No,3,5,Serious,Sunday,May
+1893,2024-07-31,06:57,Jaipur,Clear,Wet,Daylight,Motorcycle,35,Male,52,No,4,3,Serious,Wednesday,July
+1894,2023-12-01,13:24,Kolkata,Clear,Dry,Daylight,Bicycle,31,Male,95,No,1,5,Minor,Friday,December
+1895,2024-02-22,07:12,Pune,Rain,Dry,Daylight,Car,39,Male,105,No,1,1,Serious,Thursday,February
+1896,2023-10-22,14:38,Lucknow,Clear,Dry,Daylight,Bus,38,Male,96,No,3,4,Serious,Sunday,October
+1897,2024-01-06,21:17,Mumbai,Rain,Wet,Twilight,Truck,18,Male,29,No,2,5,Fatal,Saturday,January
+1898,2023-07-05,08:38,Kolkata,Clear,Dry,Daylight,Motorcycle,66,Male,100,Yes,3,5,Fatal,Wednesday,July
+1899,2023-09-03,23:56,Jaipur,Fog,Dry,Daylight,Bus,60,Male,81,No,4,3,Serious,Sunday,September
+1900,2024-09-28,05:47,Bangalore,Clear,Wet,Daylight,Truck,69,Male,62,Yes,2,3,Fatal,Saturday,September
+1901,2023-09-25,00:00,Jaipur,Clear,Snowy,Daylight,Car,32,Male,88,No,3,3,Serious,Monday,September
+1902,2024-10-04,10:45,Hyderabad,Fog,Wet,Daylight,Motorcycle,53,Male,78,No,3,2,Minor,Friday,October
+1903,2023-08-25,17:50,Chennai,Clear,Wet,Daylight,Bicycle,64,Male,28,Yes,2,4,Fatal,Friday,August
+1904,2024-06-13,12:04,Pune,Clear,Wet,Daylight,Car,39,Male,96,No,2,2,Minor,Thursday,June
+1905,2024-07-05,16:51,Ahmedabad,Rain,Dry,Darkness,Auto Rickshaw,49,Male,79,No,2,2,Minor,Friday,July
+1906,2023-01-21,09:16,Hyderabad,Rain,Dry,Darkness,Truck,63,Male,82,No,3,2,Minor,Saturday,January
+1907,2024-06-03,04:42,Kolkata,Rain,Wet,Daylight,Motorcycle,50,Female,71,No,2,1,Serious,Monday,June
+1908,2023-04-10,21:52,Hyderabad,Clear,Dry,Daylight,Motorcycle,58,Male,42,No,2,4,Minor,Monday,April
+1909,2024-04-22,10:22,Kolkata,Clear,Snowy,Daylight,Car,56,Male,49,No,2,1,Serious,Monday,April
+1910,2024-08-21,09:14,Ahmedabad,Clear,Dry,Daylight,Motorcycle,40,Male,62,No,1,1,Fatal,Wednesday,August
+1911,2023-10-25,11:36,Delhi,Clear,Dry,Daylight,Truck,60,Male,87,Yes,4,4,Minor,Wednesday,October
+1912,2024-06-09,13:59,Pune,Fog,Snowy,Darkness,Car,19,Female,40,No,2,1,Minor,Sunday,June
+1913,2023-11-30,07:07,Lucknow,Rain,Wet,Daylight,Bicycle,19,Male,62,Yes,4,4,Minor,Thursday,November
+1914,2023-01-02,07:12,Lucknow,Clear,Dry,Darkness,Car,55,Male,92,No,2,5,Minor,Monday,January
+1915,2024-01-10,01:19,Mumbai,Rain,Wet,Daylight,Car,68,Male,26,No,2,5,Minor,Wednesday,January
+1916,2023-10-20,17:26,Jaipur,Clear,Wet,Twilight,Bicycle,46,Male,35,No,1,3,Serious,Friday,October
+1917,2024-07-06,10:05,Delhi,Fog,Dry,Darkness,Auto Rickshaw,69,Female,42,No,1,2,Serious,Saturday,July
+1918,2023-11-14,19:40,Lucknow,Clear,Dry,Darkness,Truck,63,Female,77,No,2,5,Minor,Tuesday,November
+1919,2024-05-16,17:34,Hyderabad,Clear,Wet,Daylight,Auto Rickshaw,20,Male,106,No,2,5,Minor,Thursday,May
+1920,2024-01-16,18:11,Jaipur,Rain,Snowy,Darkness,Auto Rickshaw,56,Male,50,No,2,1,Fatal,Tuesday,January
+1921,2024-09-14,16:15,Delhi,Rain,Dry,Darkness,Auto Rickshaw,24,Male,88,No,4,4,Minor,Saturday,September
+1922,2023-01-14,07:06,Chennai,Rain,Snowy,Darkness,Bus,53,Male,25,No,2,0,Fatal,Saturday,January
+1923,2024-05-18,23:17,Chennai,Clear,Snowy,Daylight,Auto Rickshaw,46,Male,84,No,4,1,Minor,Saturday,May
+1924,2023-08-19,15:27,Jaipur,Clear,Dry,Darkness,Bus,54,Male,78,No,1,1,Minor,Saturday,August
+1925,2023-03-25,07:38,Kolkata,Clear,Wet,Daylight,Bicycle,66,Female,47,No,4,4,Minor,Saturday,March
+1926,2023-05-10,14:12,Kolkata,Clear,Dry,Daylight,Truck,53,Male,37,No,2,0,Fatal,Wednesday,May
+1927,2023-05-25,23:17,Hyderabad,Fog,Dry,Darkness,Auto Rickshaw,40,Male,107,No,1,0,Minor,Thursday,May
+1928,2023-01-28,22:07,Delhi,Clear,Wet,Daylight,Motorcycle,62,Male,96,No,3,3,Minor,Saturday,January
+1929,2023-03-07,16:45,Delhi,Clear,Snowy,Daylight,Bicycle,33,Female,116,No,1,1,Fatal,Tuesday,March
+1930,2023-06-12,16:13,Jaipur,Rain,Wet,Daylight,Bus,65,Male,29,No,3,2,Serious,Monday,June
+1931,2023-08-17,06:57,Bangalore,Clear,Dry,Darkness,Truck,48,Male,26,No,4,5,Minor,Thursday,August
+1932,2023-09-18,21:13,Chennai,Rain,Dry,Daylight,Car,51,Male,56,No,1,1,Minor,Monday,September
+1933,2024-03-24,23:15,Delhi,Fog,Dry,Daylight,Truck,67,Female,115,Yes,1,2,Serious,Sunday,March
+1934,2024-02-28,13:51,Jaipur,Clear,Dry,Daylight,Truck,18,Female,64,No,1,2,Minor,Wednesday,February
+1935,2024-04-04,14:25,Ahmedabad,Snow,Dry,Darkness,Auto Rickshaw,35,Male,105,No,4,4,Minor,Thursday,April
+1936,2024-11-06,19:18,Mumbai,Rain,Dry,Daylight,Auto Rickshaw,57,Male,35,No,2,1,Fatal,Wednesday,November
+1937,2023-10-28,16:54,Ahmedabad,Clear,Dry,Darkness,Bus,60,Male,107,No,4,4,Minor,Saturday,October
+1938,2023-10-30,03:21,Pune,Clear,Wet,Daylight,Bus,32,Male,33,No,1,3,Fatal,Monday,October
+1939,2023-10-14,06:26,Hyderabad,Clear,Dry,Darkness,Auto Rickshaw,65,Male,30,No,2,2,Fatal,Saturday,October
+1940,2024-01-30,08:27,Delhi,Rain,Dry,Twilight,Auto Rickshaw,66,Male,102,No,1,0,Serious,Tuesday,January
+1941,2023-01-10,23:15,Pune,Fog,Dry,Daylight,Motorcycle,34,Male,106,No,1,2,Minor,Tuesday,January
+1942,2024-12-07,02:15,Lucknow,Fog,Dry,Daylight,Motorcycle,61,Female,53,Yes,3,3,Minor,Saturday,December
+1943,2024-09-21,22:49,Pune,Windy,Dry,Darkness,Bicycle,27,Male,79,No,1,2,Serious,Saturday,September
+1944,2023-09-27,17:21,Jaipur,Fog,Dry,Daylight,Auto Rickshaw,37,Male,32,No,4,4,Minor,Wednesday,September
+1945,2024-08-14,22:10,Delhi,Rain,Snowy,Daylight,Car,23,Male,58,No,4,1,Minor,Wednesday,August
+1946,2024-08-27,01:19,Mumbai,Clear,Dry,Darkness,Motorcycle,25,Female,63,Yes,4,0,Serious,Tuesday,August
+1947,2023-12-27,00:33,Jaipur,Rain,Wet,Twilight,Bus,62,Male,47,Yes,2,4,Minor,Wednesday,December
+1948,2023-09-14,12:27,Jaipur,Clear,Icy,Daylight,Truck,51,Male,59,Yes,3,5,Minor,Thursday,September
+1949,2023-05-13,13:24,Hyderabad,Rain,Wet,Daylight,Bicycle,49,Male,35,Yes,3,1,Minor,Saturday,May
+1950,2023-10-03,02:42,Hyderabad,Clear,Dry,Daylight,Motorcycle,68,Male,69,No,1,0,Minor,Tuesday,October
+1951,2024-11-13,17:26,Chennai,Clear,Snowy,Daylight,Truck,59,Male,47,No,1,3,Serious,Wednesday,November
+1952,2024-05-27,02:27,Chennai,Clear,Dry,Darkness,Truck,21,Female,87,No,3,2,Minor,Monday,May
+1953,2023-11-09,10:11,Kolkata,Clear,Dry,Darkness,Motorcycle,61,Female,111,No,2,0,Serious,Thursday,November
+1954,2024-07-29,13:08,Bangalore,Rain,Snowy,Darkness,Car,67,Female,79,No,4,5,Minor,Monday,July
+1955,2023-10-11,14:24,Delhi,Clear,Wet,Daylight,Car,56,Male,31,No,1,3,Minor,Wednesday,October
+1956,2023-05-01,07:06,Delhi,Rain,Dry,Daylight,Bicycle,37,Female,35,No,3,1,Fatal,Monday,May
+1957,2023-04-17,03:33,Pune,Clear,Dry,Daylight,Car,41,Female,72,No,2,0,Minor,Monday,April
+1958,2024-11-17,20:45,Delhi,Rain,Dry,Daylight,Bicycle,41,Female,73,No,4,3,Minor,Sunday,November
+1959,2023-07-23,05:27,Delhi,Clear,Dry,Darkness,Bus,43,Male,68,No,1,1,Minor,Sunday,July
+1960,2023-06-14,15:54,Bangalore,Clear,Dry,Daylight,Motorcycle,42,Male,55,Yes,4,4,Serious,Wednesday,June
+1961,2023-11-01,06:30,Lucknow,Rain,Icy,Darkness,Truck,53,Male,81,No,4,2,Minor,Wednesday,November
+1962,2024-05-11,23:34,Chennai,Clear,Snowy,Darkness,Bicycle,24,Female,103,No,3,3,Minor,Saturday,May
+1963,2024-09-23,04:02,Chennai,Clear,Snowy,Twilight,Car,27,Male,45,No,3,4,Serious,Monday,September
+1964,2024-07-09,15:16,Mumbai,Clear,Dry,Darkness,Bicycle,64,Male,75,No,4,5,Fatal,Tuesday,July
+1965,2023-06-05,23:56,Delhi,Clear,Wet,Darkness,Auto Rickshaw,29,Female,109,No,4,5,Minor,Monday,June
+1966,2024-01-02,19:51,Bangalore,Rain,Snowy,Daylight,Bicycle,18,Male,41,Yes,1,1,Fatal,Tuesday,January
+1967,2024-12-19,20:29,Chennai,Clear,Snowy,Daylight,Car,69,Male,92,No,2,0,Serious,Thursday,December
+1968,2024-09-11,05:01,Bangalore,Rain,Dry,Daylight,Auto Rickshaw,67,Female,88,Yes,2,2,Minor,Wednesday,September
+1969,2023-09-08,13:30,Ahmedabad,Fog,Dry,Daylight,Auto Rickshaw,42,Female,100,No,4,1,Minor,Friday,September
+1970,2023-11-30,23:48,Lucknow,Clear,Dry,Darkness,Car,33,Male,68,No,3,3,Minor,Thursday,November
+1971,2024-10-03,13:07,Delhi,Windy,Dry,Darkness,Auto Rickshaw,22,Female,117,No,2,2,Serious,Thursday,October
+1972,2024-05-25,12:46,Mumbai,Rain,Wet,Daylight,Motorcycle,36,Male,21,No,4,4,Minor,Saturday,May
+1973,2023-10-20,06:57,Pune,Rain,Wet,Daylight,Truck,21,Male,72,No,3,2,Minor,Friday,October
+1974,2023-01-20,01:07,Chennai,Rain,Dry,Daylight,Motorcycle,23,Male,26,Yes,1,4,Serious,Friday,January
+1975,2023-10-09,12:38,Ahmedabad,Rain,Dry,Darkness,Motorcycle,43,Male,119,No,2,1,Minor,Monday,October
+1976,2023-01-01,12:27,Bangalore,Rain,Dry,Darkness,Car,66,Male,96,Yes,1,0,Minor,Sunday,January
+1977,2023-04-29,21:39,Hyderabad,Clear,Dry,Darkness,Car,56,Male,39,No,3,5,Minor,Saturday,April
+1978,2023-02-04,10:03,Jaipur,Clear,Dry,Daylight,Truck,56,Female,113,Yes,4,2,Minor,Saturday,February
+1979,2023-07-17,13:39,Delhi,Clear,Wet,Daylight,Bicycle,26,Male,49,Yes,1,0,Serious,Monday,July
+1980,2024-04-29,08:16,Delhi,Clear,Dry,Darkness,Motorcycle,62,Female,94,No,4,0,Minor,Monday,April
+1981,2023-02-28,11:50,Ahmedabad,Clear,Wet,Darkness,Auto Rickshaw,69,Male,114,No,2,5,Minor,Tuesday,February
+1982,2023-06-10,09:54,Bangalore,Clear,Dry,Daylight,Truck,31,Male,86,Yes,1,2,Minor,Saturday,June
+1983,2024-11-21,05:41,Kolkata,Clear,Dry,Darkness,Motorcycle,65,Female,78,No,2,2,Minor,Thursday,November
+1984,2023-07-25,07:52,Delhi,Rain,Dry,Daylight,Bicycle,26,Female,85,No,2,0,Fatal,Tuesday,July
+1985,2023-01-12,18:32,Kolkata,Fog,Snowy,Darkness,Auto Rickshaw,32,Male,22,No,2,3,Fatal,Thursday,January
+1986,2024-05-04,12:09,Hyderabad,Snow,Dry,Darkness,Motorcycle,54,Male,75,Yes,2,3,Fatal,Saturday,May
+1987,2023-10-03,12:30,Ahmedabad,Clear,Wet,Darkness,Bus,67,Male,98,No,2,2,Minor,Tuesday,October
+1988,2024-11-23,22:36,Bangalore,Rain,Dry,Daylight,Truck,37,Male,36,No,3,0,Serious,Saturday,November
+1989,2023-08-30,23:43,Bangalore,Fog,Snowy,Daylight,Car,25,Female,71,Yes,1,0,Minor,Wednesday,August
+1990,2023-08-04,09:06,Lucknow,Clear,Wet,Darkness,Motorcycle,49,Male,26,No,4,1,Serious,Friday,August
+1991,2023-09-08,20:57,Jaipur,Clear,Dry,Darkness,Auto Rickshaw,64,Male,24,No,4,0,Minor,Friday,September
+1992,2023-05-06,22:34,Chennai,Snow,Wet,Daylight,Auto Rickshaw,38,Male,117,No,3,5,Serious,Saturday,May
+1993,2023-08-05,05:26,Chennai,Rain,Dry,Darkness,Truck,58,Male,116,No,4,3,Minor,Saturday,August
+1994,2023-11-02,02:19,Pune,Clear,Snowy,Daylight,Truck,36,Male,73,No,4,1,Minor,Thursday,November
+1995,2023-07-04,20:39,Mumbai,Clear,Dry,Twilight,Auto Rickshaw,46,Male,80,No,4,5,Minor,Tuesday,July
+1996,2023-02-08,13:08,Ahmedabad,Clear,Dry,Darkness,Auto Rickshaw,48,Male,35,No,1,3,Minor,Wednesday,February
+1997,2023-08-11,08:36,Hyderabad,Fog,Wet,Daylight,Auto Rickshaw,23,Male,86,No,4,5,Serious,Friday,August
+1998,2023-07-03,06:43,Bangalore,Rain,Wet,Daylight,Motorcycle,21,Male,78,No,1,4,Serious,Monday,July
+1999,2024-05-09,21:38,Jaipur,Clear,Dry,Daylight,Auto Rickshaw,60,Male,66,No,4,2,Minor,Thursday,May
+2000,2024-03-02,18:31,Kolkata,Clear,Wet,Daylight,Car,46,Female,67,No,4,4,Minor,Saturday,March
